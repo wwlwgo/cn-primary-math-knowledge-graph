@@ -6,7 +6,7 @@
 
 ## 项目状态
 
-项目处于 `0.x` 建设阶段。当前仓库已完成北师大版一上、一下、二上、二下与三上纵向候选骨架：91 个 `reviewed` 节点、19 条 `soft` 依赖。它们仍是待教育复核的 `candidate` 数据，尚未发布 GitHub Release；审计见 [纵向候选骨架审计](docs/review/VERTICAL_CANDIDATE_AUDIT.md)。
+项目处于 `0.x` 建设阶段。当前公开候选版本为 `candidate-0.2.0-vertical`，包含 91 个 `reviewed` 节点和 19 条 `soft` 依赖。该候选层的主要私有核验来源之一是北师大版小学数学教材一上、一下、二上、二下与三上；仓库不包含教材原件、原文、OCR 或逐页复刻，也不代表北师大版官方数据。审计见 [纵向候选骨架审计](docs/review/VERTICAL_CANDIDATE_AUDIT.md)。
 
 ## 设计原则
 
@@ -50,7 +50,7 @@ python3 scripts/query_dataset.py grade G2
 
 ## 首个里程碑
 
-当前候选发布准备版本为 `candidate-0.2.0-vertical`：它覆盖北师大版一上、一下、二上、二下与三上，具有可追溯来源并通过自动校验，但仍待独立教育复核；其发布不依赖专家校审。首个 `expert-verified` 版本在此基础上逐批升级，全部 `hard` 边须完成双人领域审核。后续将以人教版等教材和合法引用的教辅材料进行交叉检验。
+当前公开候选版本为 `candidate-0.2.0-vertical`：它使用北师大版一上、一下、二上、二下与三上的私有教材定位作为主要核验输入，具有可追溯来源并通过自动校验，但仍待独立教育复核。该版本已发布，且不依赖专家校审。首个 `expert-verified` 版本在此基础上逐批升级，全部 `hard` 边须完成双人领域审核。后续将以人教版等教材和合法引用的教辅材料进行交叉检验。
 
 课程标准的规范性发布来源为教育部 `教材〔2022〕2号`，见中国政府网的[发布通知](https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm)。项目内的稳定标识及来源记录见 [课标登记册](docs/STANDARDS_REGISTRY.md)。
 
