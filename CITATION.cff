@@ -7,3 +7,5 @@ version: "0.2.0-candidate.vertical"
 license: "ODbL-1.0"
 authors:
   - name: "中国小学数学知识图谱贡献者"
+repository-code: "https://github.com/wwlwgo/cn-primary-math-knowledge-graph"
+url: "https://github.com/wwlwgo/cn-primary-math-knowledge-graph"
