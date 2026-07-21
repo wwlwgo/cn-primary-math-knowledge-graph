@@ -2,7 +2,7 @@
 
 ## Candidate Data Release
 
-This release contains a machine-validated candidate knowledge graph for BNU Press primary mathematics: Grade 1 fall/spring, Grade 2 fall/spring, and Grade 3 fall.
+This release contains a machine-validated candidate knowledge graph for Chinese primary mathematics, built from private textbook verification materials covering Grade 1 fall/spring, Grade 2 fall/spring, and Grade 3 fall.
 
 - 91 reviewed learning-goal nodes
 - 19 soft, non-necessary dependency hypotheses
