@@ -7,7 +7,9 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-EXCLUDED_DIRS = {".git", "教材", "__pycache__"}
+# Private textbook inputs are intentionally present in a maintainer worktree
+# but must be excluded from the public release-tree scan.
+EXCLUDED_DIRS = {".git", "教材", "人教版", "__pycache__"}
 FORBIDDEN_SUFFIXES = {".pdf", ".epub", ".mobi"}
 FORBIDDEN_PATH_PARTS = {"ocr", "private"}
 
