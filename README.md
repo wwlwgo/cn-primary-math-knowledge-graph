@@ -66,7 +66,7 @@ python3 scripts/query_dataset.py grade G2
 
 ## 许可
 
-代码采用 [MIT License](LICENSE)。公开数据将采用数据库与自有文字分层许可，第三方课程标准保留上游条款；详见 [数据许可策略](DATA_LICENSE.md) 和 [来源声明](PROVENANCE.md)。教材原文、扫描页和未经授权的 OCR 文本不进入本仓库。
+代码采用 [MIT License](LICENSE)。公开数据将采用数据库与自有文字分层许可，第三方课程标准保留上游条款；详见 [数据许可策略](DATA_LICENSE.md)、[来源声明](PROVENANCE.md) 和 [版权风险审计](docs/IP_RISK_AUDIT.md)。教材原文、扫描页和未经授权的 OCR 文本不进入本仓库。
 
 本项目借鉴了 [Marble Skill Taxonomy](https://github.com/withmarbleapp/os-taxonomy) 的数据发布与校验治理方式，但不复制其数据或内容；审读结论见 [参考项目审读记录](docs/REFERENCE_REVIEW_MARBLE.md)。
 
