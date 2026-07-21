@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cn-primary-math-kg.org/schemas/source.schema.json",
+  "title": "Knowledge Graph Source Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["kind", "citation", "locator"],
+  "properties": {
+    "kind": {"enum": ["curriculum_standard", "textbook", "teacher_guide", "expert_review", "research"]},
+    "citation": {"type": "string", "minLength": 5, "maxLength": 300},
+    "locator": {"type": "string", "minLength": 1, "maxLength": 120},
+    "edition": {"type": "string", "maxLength": 100},
+    "url": {"type": "string", "format": "uri"}
+  }
+}

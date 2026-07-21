@@ -1,0 +1,563 @@
+[
+  {
+    "id": "cn-math-2022:document",
+    "title": "义务教育数学课程标准（2022年版）",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "effectiveFrom": "2022年秋季学期",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "附件5；页面注明以2022年5月9日版本为准",
+    "status": "authoritative-document"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra",
+    "title": "小学部分：数与代数",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第16-17页，表2",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/geometry",
+    "title": "小学部分：图形与几何",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第16-17页，表2",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/statistics-probability",
+    "title": "小学部分：统计与概率",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第16-17页，表2",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/integrated-practice",
+    "title": "小学部分：综合与实践",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第16-17页，表2",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-1",
+    "title": "第一学段：万以内数、数位与算盘表数",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第18页，第一学段内容要求，数与运算（1）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-2",
+    "title": "第一学段：万以内数的比较与相等、不等关系",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第18页，第一学段内容要求，数与运算（2）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3",
+    "title": "第一学段：四则运算意义与运算关系",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第18页，第一学段内容要求，数与运算（3）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4",
+    "title": "第一学段：整数加减法的算理与算法",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第18页，第一学段内容要求，数与运算（4）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-5",
+    "title": "第一学段：简单整数乘除法的算理与算法",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第18页，第一学段内容要求，数与运算（5）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-6",
+    "title": "第一学段：生活问题中的数与运算应用",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第18页，第一学段内容要求，数与运算（6）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1",
+    "title": "第一学段：生活情境中的数与运算解决问题",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第19页，第一学段内容要求，数量关系（1）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-2",
+    "title": "第一学段：简单情境变化规律的数或符号表达",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第19页，第一学段内容要求，数量关系（2）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement",
+    "title": "第一学段（1-2年级）：图形的认识与测量",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第17页，表2",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1",
+    "title": "第一学段：简单立体与平面图形的辨认、分类和拼组",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第28页，第一学段内容要求，图形的认识与测量（1）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-2",
+    "title": "第一学段：长度单位、估测与测量",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第28页，第一学段内容要求，图形的认识与测量（2）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3",
+    "title": "第一学段：图形认识与测量中的空间观念和量感",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第28页，第一学段内容要求，图形的认识与测量（3）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/statistics-probability/stage-1/data-classification",
+    "title": "第一学段（1-2年级）：数据分类",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第17页，表2",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/statistics-probability/stage-1/data-classification/content-1",
+    "title": "第一学段：按标准分类并描述分类过程",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第37页，第一学段内容要求，数据分类（1）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/integrated-practice/stage-1/thematic-activities",
+    "title": "第一学段（1-2年级）：综合与实践主题活动",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第43页，第一学段内容要求",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/integrated-practice/stage-1/thematic-activities/content-1",
+    "title": "第一学段：联系生活的数学主题活动",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第43-44页，第一学段内容要求",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-2/number-and-operations",
+    "title": "第二学段（3-4年级）：数与运算",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第16页，表2",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-1",
+    "title": "第二学段：万以内数与多位数乘除法",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第20页，第二学段内容要求，数与运算（1）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-2",
+    "title": "第二学段：初步认识分数和小数及其加减法",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第21页，第二学段内容要求，数与运算（2）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-3",
+    "title": "第二学段：整数四则混合运算",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第21页，第二学段内容要求，数与运算（3）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-4",
+    "title": "第二学段：运算律与字母表示运算律",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第21页，第二学段内容要求，数与运算（4）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-5",
+    "title": "第二学段：用数描述生活情境特征",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第21页，第二学段内容要求，数与运算（5）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-2/quantitative-relations",
+    "title": "第二学段（3-4年级）：数量关系",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第16页，表2",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-2/quantitative-relations/content-1",
+    "title": "第二学段：实际问题中的运算与估算",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第21页，第二学段内容要求，数量关系（1）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-2/quantitative-relations/content-2",
+    "title": "第二学段：借助计算器与探索简单规律",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第21页，第二学段内容要求，数量关系（2）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-2/quantitative-relations/content-3",
+    "title": "第二学段：常见数量关系及其应用",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第21页，第二学段内容要求，数量关系（3）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-2/quantitative-relations/content-4",
+    "title": "第二学段：等量与等量关系",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第21页，第二学段内容要求，数量关系（4）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-2/quantitative-relations/content-5",
+    "title": "第二学段：生活问题的解释与简单规律探索",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第21页，第二学段内容要求，数量关系（5）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-3/number-and-operations",
+    "title": "第三学段（5-6年级）：数与运算",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第16页，表2",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-3/number-and-operations/content-1",
+    "title": "第三学段：倍数、因数与质数合数",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第23页，第三学段内容要求，数与运算（1）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-3/number-and-operations/content-2",
+    "title": "第三学段：小数和分数的意义、比较与转化",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第23-24页，第三学段内容要求，数与运算（2）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-3/number-and-operations/content-3",
+    "title": "第三学段：整数除法与分数关系",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第24页，第三学段内容要求，数与运算（3）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-3/number-and-operations/content-4",
+    "title": "第三学段：小数、分数四则运算和混合运算",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第24页，第三学段内容要求，数与运算（4）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-3/quantitative-relations",
+    "title": "第三学段（5-6年级）：数量关系",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第16页，表2",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-3/quantitative-relations/content-1",
+    "title": "第三学段：等式基本性质",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第24页，第三学段内容要求，数量关系（1）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-3/quantitative-relations/content-2",
+    "title": "第三学段：实际问题中的估算方法",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第24页，第三学段内容要求，数量关系（2）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-3/quantitative-relations/content-3",
+    "title": "第三学段：用字母表示数量关系、性质和规律",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第24页，第三学段内容要求，数量关系（3）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-3/quantitative-relations/content-4",
+    "title": "第三学段：比、比例与按比例分配",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第24页，第三学段内容要求，数量关系（4）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-3/quantitative-relations/content-5",
+    "title": "第三学段：成正比例的量与变化趋势",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第24页，第三学段内容要求，数量关系（5）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/number-algebra/stage-3/quantitative-relations/content-6",
+    "title": "第三学段：常见数量关系的应用与结果解释",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第24页，第三学段内容要求，数量关系（6）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/statistics-probability/stage-2/data-collection-organization-expression",
+    "title": "第二学段（3-4年级）：数据的收集、整理与表达",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第17页表2、第38页第二学段内容要求",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/statistics-probability/stage-2/data-collection-organization-expression/content-requirements",
+    "title": "第二学段：数据收集、整理、条形图与平均数应用",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第38页，第二学段内容要求，数据的收集、整理与表达（1-6）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/statistics-probability/stage-3/data-collection-organization-expression",
+    "title": "第三学段（5-6年级）：数据的收集、整理与表达",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第17页表2、第39-40页第三学段内容要求",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/statistics-probability/stage-3/data-collection-organization-expression/content-requirements",
+    "title": "第三学段：统计图表、数据判断与百分数应用",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第39-40页，第三学段内容要求，数据的收集、整理与表达（1-5）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/statistics-probability/stage-3/random-phenomena-likelihood",
+    "title": "第三学段（5-6年级）：随机现象发生的可能性",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第40页，第三学段内容要求，随机现象发生的可能性（1-2）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/geometry/stage-2/shape-recognition-and-measurement/content-requirements",
+    "title": "第二学段：图形认识、测量、分类与周长面积",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第29-31页，第二学段内容要求，图形的认识与测量（1-7）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/geometry/stage-2/position-and-motion/content-requirements",
+    "title": "第二学段：平移、旋转与轴对称",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第30页，第二学段内容要求，图形的位置与运动（1-2）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/geometry/stage-3/shape-recognition-and-measurement/content-requirements",
+    "title": "第三学段：三角形、圆、面积、体积与空间表征",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第32-33页，第三学段内容要求，图形的认识与测量（1-7）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/geometry/stage-3/position-and-motion/content-requirements",
+    "title": "第三学段：位置描述、坐标、比例尺与图形运动",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第33页，第三学段内容要求，图形的位置与运动（1-5）",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/integrated-practice/stage-2/thematic-activities/content-requirements",
+    "title": "第二学段：跨学科数学主题活动",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》第46页起，第二学段综合与实践内容要求与学业要求",
+    "status": "indexed-section"
+  },
+  {
+    "id": "cn-math-2022:primary/integrated-practice/stage-3/thematic-activities-and-project-learning/content-requirements",
+    "title": "第三学段：主题活动与项目学习",
+    "authority": "教育部",
+    "documentNumber": "教材〔2022〕2号",
+    "issuedAt": "2022-03-25",
+    "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm",
+    "sourceLocator": "《义务教育数学课程标准（2022年版）》综合与实践部分，第三学段内容要求与学业要求",
+    "status": "indexed-section"
+  }
+]

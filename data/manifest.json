@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "0.1.0",
+  "datasetVersion": "0.2.0-candidate.vertical",
+  "status": "candidate-release-prepared",
+  "databaseLicense": "ODbL-1.0",
+  "authoredTextLicense": "CC-BY-SA-4.0",
+  "thirdPartyStandards": "Retain upstream terms; do not relicense or redistribute verbatim text without permission.",
+  "topicsFile": "topics.json",
+  "dependenciesFile": "dependencies.json",
+  "standardsFile": "standards.json",
+  "counts": {
+    "topics": 91,
+    "dependencies": 19,
+    "standards": 56
+  },
+  "sourcePolicy": "docs/SOURCE_POLICY.md",
+  "files": {
+    "topics.json": {
+      "sha256": "b00a884a1cba6d480167dc9ad9d9710f680b800688959401863478b465482786"
+    },
+    "dependencies.json": {
+      "sha256": "4159e545b7e46cc872df0a816eabfce74cc73e5e6cad2fbfef6c531283ac27e4"
+    },
+    "standards.json": {
+      "sha256": "dec8ce3063768f4f2ffdb9943803415046a09ebb95854b12198873e11b19c099"
+    }
+  }
+}

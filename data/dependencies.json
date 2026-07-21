@@ -1,0 +1,56 @@
+[
+  {
+    "topicId": "cn_math_g2_compare_opposite_changes_before_calculation",
+    "prerequisiteId": "cn_math_g2_mixed_add_subtract_change",
+    "strength": "soft",
+    "reason": "能表示连续增减会帮助学生把增加量和减少量放在同一数量关系中比较，但也可通过图示或直接计算后判断。",
+    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第6-7页"}],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "topicId": "cn_math_g2_locate_number_on_approximate_number_line",
+    "prerequisiteId": "cn_math_g2_compare_order_numbers_within_ten_thousand",
+    "strength": "soft",
+    "reason": "比较数的大小有助于判断目标数位于两个刻度之间的位置，但学生也可借助刻度和估算策略直接定位。",
+    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第43-44、50页"}],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "topicId": "cn_math_g2_predict_faces_when_cuboid_rolls",
+    "prerequisiteId": "cn_math_g2_identify_faces_of_simple_solids",
+    "strength": "soft",
+    "reason": "辨认简单立体的面有助于用语言描述相邻面关系，但学生可通过直接操作纸盒预测滚动结果。",
+    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第13-15页"}],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "topicId": "cn_math_g2_construct_parallelogram_from_parts",
+    "prerequisiteId": "cn_math_g2_identify_parallelogram_by_features",
+    "strength": "soft",
+    "reason": "辨认平行四边形特征有助于检查拼搭结果，但学生可以先通过操作尝试拼搭再归纳其特征。",
+    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第52-55页"}],
+    "reviewStatus": "reviewed"
+  },
+  {
+    "topicId": "cn_math_g2_model_three_digit_add_subtract_word_problem",
+    "prerequisiteId": "cn_math_g2_column_addition_with_regrouping",
+    "strength": "soft",
+    "reason": "进位竖式提供三位数情境计算的一种常用途径，但从情境选择运算也可使用分解、估算或其他算法。",
+    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第62-74页"}],
+    "reviewStatus": "reviewed"
+  },
+  {"topicId":"cn_math_g2_sum_three_two_digit_numbers","prerequisiteId":"cn_math_g1_add_subtract_two_digit_numbers_without_regrouping","strength":"soft","reason":"两位数按位分解计算有助于组织三个两位数的分步求和，但学生也可借助图示、凑整或其他算法完成。","sources":[{"kind":"textbook","citation":"北师大版一年级下册与二年级下册教材映射","locator":"一年级下册第62-75页；二年级下册第2-3页"}],"reviewStatus":"reviewed"},
+  {"topicId":"cn_math_g2_remainder_division_as_groups_and_leftover","prerequisiteId":"cn_math_g1_count_and_represent_numbers_within_twenty","strength":"soft","reason":"20以内计数和数量表征有助于用实物解释分组和剩余，但有余数除法也可通过更大数量的操作材料学习。","sources":[{"kind":"textbook","citation":"北师大版一年级下册与二年级下册教材映射","locator":"一年级下册第2-17页；二年级下册第16-17页"}],"reviewStatus":"reviewed"},
+  {"topicId":"cn_math_g2_identify_faces_of_simple_solids","prerequisiteId":"cn_math_g1_identify_simple_solids_by_observable_features","strength":"soft","reason":"先辨认简单立体有助于讨论其面与平面图形的关系，但学生可通过直接操作实物建立面关系。","sources":[{"kind":"textbook","citation":"北师大版一年级上册与二年级下册教材映射","locator":"一年级上册第72-77页；二年级下册第10-13页"}],"reviewStatus":"reviewed"},
+  {"topicId":"cn_math_g2_add_subtract_hundreds_tens_by_place_value","prerequisiteId":"cn_math_g1_add_subtract_tens_within_hundred","strength":"soft","reason":"整十数加减的十进制组成有助于迁移到整百整十加减，但可借助计数器等新表征直接学习更大范围计算。","sources":[{"kind":"textbook","citation":"北师大版一年级下册与二年级下册教材映射","locator":"一年级下册第62-75页；二年级下册第62-63页"}],"reviewStatus":"reviewed"},
+  {"topicId":"cn_math_g2_classify_by_explicit_criterion","prerequisiteId":"cn_math_g1_classify_objects_by_explicit_feature","strength":"soft","reason":"一年级按明确特征分类有助于二年级的分类记录，但二年级活动可通过新材料直接建立分类标准。","sources":[{"kind":"textbook","citation":"北师大版一年级上册与二年级下册教材映射","locator":"一年级上册第43-47页；二年级下册第79-82页"}],"reviewStatus":"reviewed"},
+  {"topicId":"cn_math_g2_remainder_division_as_groups_and_leftover","prerequisiteId":"cn_math_g2_represent_equal_sharing_and_grouping_division","strength":"soft","reason":"平均分和按组分的表征有助于解释余数的来源，但学生也可直接使用操作材料学习有余数分组。","sources":[{"kind":"textbook","citation":"北师大版二年级上册与下册教材映射","locator":"二年级上册第56-71页；二年级下册第16-17页"}],"reviewStatus":"reviewed"},
+  {"topicId":"cn_math_g2_calculate_division_with_remainder","prerequisiteId":"cn_math_g2_interpret_division_using_multiplication_relation","strength":"soft","reason":"整除时的乘除关系有助于寻找有余数除法的商，但也可通过逐次分组或数数策略完成。","sources":[{"kind":"textbook","citation":"北师大版二年级上册与下册教材映射","locator":"二年级上册第56-71页；二年级下册第16-21页"}],"reviewStatus":"reviewed"},
+  {"topicId":"cn_math_g2_column_addition_with_regrouping","prerequisiteId":"cn_math_g2_add_two_digit_numbers_with_regrouping","strength":"soft","reason":"两位数进位加法提供数位进位经验，但三位数计算可通过新的计数器或分解表征直接学习。","sources":[{"kind":"textbook","citation":"北师大版二年级上册与下册教材映射","locator":"二年级上册第2-17页；二年级下册第66-67页"}],"reviewStatus":"reviewed"},
+  {"topicId":"cn_math_g2_column_subtraction_with_regrouping","prerequisiteId":"cn_math_g2_subtract_two_digit_numbers_with_regrouping","strength":"soft","reason":"两位数退位经验有助于理解三位数退位，但学生可借助位值材料建立新范围算法。","sources":[{"kind":"textbook","citation":"北师大版二年级上册与下册教材映射","locator":"二年级上册第2-17页；二年级下册第68-74页"}],"reviewStatus":"reviewed"},
+  {"topicId":"cn_math_g3_model_mixed_operations_from_context","prerequisiteId":"cn_math_g2_model_multiplication_division_word_problems","strength":"soft","reason":"二上乘除法情境建模有助于三上拆解多种运算关系，但学生也可先以分步图示建立混合情境。","sources":[{"kind":"textbook","citation":"北师大版二年级上册与三年级上册教材映射","locator":"二年级上册第87-93页；三年级上册第2-12页"}],"reviewStatus":"reviewed"},
+  {"topicId":"cn_math_g3_convert_metric_length_units","prerequisiteId":"cn_math_g2_measure_length_with_standard_unit","strength":"soft","reason":"使用厘米和米测量的经验有助于扩展到毫米和分米，但单位换算可通过刻度材料直接学习。","sources":[{"kind":"textbook","citation":"北师大版二年级上册与三年级上册教材映射","locator":"二年级上册第20-29页；三年级上册第13-23页"}],"reviewStatus":"reviewed"},
+  {"topicId":"cn_math_g3_add_three_digit_numbers_with_regrouping","prerequisiteId":"cn_math_g2_column_addition_with_regrouping","strength":"soft","reason":"二下三位数进位加法提供直接经验，但三上可通过不同范围和策略继续建构计算能力。","sources":[{"kind":"textbook","citation":"北师大版二年级下册与三年级上册教材映射","locator":"二年级下册第66-67页；三年级上册第28-40页"}],"reviewStatus":"reviewed"},
+  {"topicId":"cn_math_g3_subtract_three_digit_numbers_with_regrouping","prerequisiteId":"cn_math_g2_column_subtraction_with_regrouping","strength":"soft","reason":"二下三位数退位减法提供直接经验，但三上可通过新的数量范围和分解策略继续建构。","sources":[{"kind":"textbook","citation":"北师大版二年级下册与三年级上册教材映射","locator":"二年级下册第68-74页；三年级上册第28-40页"}],"reviewStatus":"reviewed"},
+  {"topicId":"cn_math_g3_model_multiplication_division_applications","prerequisiteId":"cn_math_g2_model_multiplication_division_word_problems","strength":"soft","reason":"单步乘除法建模有助于三上多步应用，但多步问题可以通过画图和分步表征直接进入。","sources":[{"kind":"textbook","citation":"北师大版二年级上册与三年级上册教材映射","locator":"二年级上册第87-93页；三年级上册第64-74页"}],"reviewStatus":"reviewed"}
+]
