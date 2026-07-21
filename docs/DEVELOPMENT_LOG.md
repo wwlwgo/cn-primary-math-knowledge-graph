@@ -56,6 +56,22 @@
 - 风险或踩坑：目录级主题不能替代逐节点页码观察；未定位数量较多，不解释为能力不存在，也不修改现有候选节点。
 - 后续行动：处理人教版三年级上册，并在最终汇总中核对各批统计与候选总数。
 
+### 阶段 5 批次 5：人教版三年级上册跨版本对照
+
+- 输入/背景：处理私有文件 `人教版/人教版数学3上-新版.pdf`（109 页），核验目录和混合运算主题起始页。
+- 决策或发现：对 12 个三年级上册候选建立记录；6 个标为 `supports`，1 个标为 `different-granularity`，5 个标为 `not-located`，没有冲突或依赖升级。
+- 验证：新增 `docs/review/CROSS_EDITION_PEP_G3_FALL.md`；更新跨版本证据登记册；下一步进行全局统计、版权扫描和最终校验。
+- 风险或踩坑：三年级上册目录与现有纵向候选范围并不完全同构；多位数乘法对多步应用只提供部分支持，不能直接合并粒度。
+- 后续行动：汇总五批证据，核对统计一致性，完成阶段 5 本地提交；不创建 Release 或远程推送。
+
+### 阶段 5 横向扩展全局汇总
+
+- 输入/背景：五册人教版私有教材均已完成批次级目录/关键页对照。
+- 决策或发现：新增 `docs/review/CROSS_EDITION_SUMMARY.md`；91 个候选累计得到 55 个 `supports`、3 个 `different-granularity`、33 个 `not-located` 和 0 个 `conflicts`。未新增、删除或升级任何依赖边。
+- 验证：`python3 scripts/update_manifest.py`、`python3 scripts/validate_dataset.py` 和 `python3 scripts/check_release_tree.py` 均通过；Git 跟踪树未包含私有教材、OCR、题目、答案或 token。
+- 风险或踩坑：目录级对照不能替代逐页教育审核；`not-located` 不是反证，`different-granularity` 不能自动合并；当前没有证据支持 `hard` 或 `approved`。
+- 后续行动：保持当前候选层级，先处理关键页抽样和社区复核；本阶段不创建 Release、不打 tag、不远程推送。
+
 ### 人教版电子教材版权风险审计
 
 - 输入/背景：维护者指出人教教材官方页面存在“只能用于个人学习参考、不能用于商业目的”的用途限制；项目公开数据拟采用 ODbL/CC BY-SA，均允许商业再利用。
