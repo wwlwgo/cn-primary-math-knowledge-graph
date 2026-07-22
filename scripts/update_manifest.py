@@ -10,7 +10,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
-FILES = ("topics.json", "dependencies.json", "standards.json", "capability_anchors.json")
+FILES = (
+    "topics.json", "dependencies.json", "standards.json", "capability_anchors.json",
+    "cross_edition_anchor_evidence.json", "cross_edition_node_evidence.json",
+)
 
 
 def load(name: str):

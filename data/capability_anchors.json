@@ -112,6 +112,14 @@
     "scope": "curriculum-capability"
   },
   {
+    "id": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_2",
+    "name": "第二学段：初步认识分数和小数及其加减法",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-2"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
     "id": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_3",
     "name": "第二学段：整数四则混合运算",
     "standards": [

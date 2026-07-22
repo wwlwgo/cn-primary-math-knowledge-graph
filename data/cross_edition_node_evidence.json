@@ -1,0 +1,666 @@
+[
+  {
+    "topicId": "cn_math_g2_sum_three_two_digit_numbers",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_subtract_two_parts_from_total",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_mixed_add_subtract_change",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_construct_prism_or_cylinder_from_paper",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_identify_faces_of_simple_solids",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_recognize_solids_from_views",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_unfold_and_reconstruct_cuboid",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_predict_faces_when_cuboid_rolls",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_remainder_division_as_groups_and_leftover",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_5",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_calculate_division_with_remainder",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_5",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_remainder_less_than_divisor",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_5",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_find_largest_multiplier_under_limit",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_5",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_round_up_quotient_for_minimum_groups",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_quantitative_relations_content_1",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_round_down_quotient_for_maximum_groups",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_quantitative_relations_content_1",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_interpret_remainder_by_context",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_6",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_count_to_ten_thousand_by_units",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_1",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_place_value_within_ten_thousand",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_1",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_read_write_numbers_within_ten_thousand",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_1",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_compare_order_numbers_within_ten_thousand",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_2",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_locate_number_on_approximate_number_line",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_2",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_estimate_large_collections_using_benchmark",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_6",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_identify_parallelogram_by_features",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_construct_parallelogram_from_parts",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_recognize_parallelogram_invariance_under_shear",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_compose_target_shapes_with_tangram",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_decompose_tangram_by_adjacency_and_size",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_add_subtract_hundreds_tens_by_place_value",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_align_place_values_in_column_addition_subtraction",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_column_addition_with_regrouping",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_column_subtraction_with_regrouping",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_model_three_digit_add_subtract_word_problem",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_quantitative_relations_content_1",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_convert_time_units_for_duration",
+    "capabilityAnchor": "cn_math_anchor_primary_integrated_practice_stage_1_thematic_activities_content_1",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_record_and_compare_event_durations",
+    "capabilityAnchor": "cn_math_anchor_primary_integrated_practice_stage_1_thematic_activities_content_1",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_classify_by_explicit_criterion",
+    "capabilityAnchor": "cn_math_anchor_primary_statistics_probability_stage_1_data_classification_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_refine_classification_by_second_criterion",
+    "capabilityAnchor": "cn_math_anchor_primary_statistics_probability_stage_1_data_classification_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_select_body_measure_for_length_estimation",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_2",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_measure_consistently_with_nonstandard_unit",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_2",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g1_count_and_represent_quantities_within_ten",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_1",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_compare_quantities_within_ten",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_2",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_compose_decompose_numbers_within_five",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_model_addition_as_combining_within_five",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_model_subtraction_as_removal_within_five",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_calculate_add_subtract_within_five",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_compose_decompose_numbers_within_ten",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_calculate_add_subtract_within_ten",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_classify_objects_by_explicit_feature",
+    "capabilityAnchor": "cn_math_anchor_primary_statistics_probability_stage_1_data_classification_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g1_identify_simple_solids_by_observable_features",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_count_and_represent_numbers_within_twenty",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_1",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_compose_decompose_numbers_for_make_ten",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g1_calculate_addition_within_twenty_by_make_ten",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g1_construct_plane_shapes_by_trace_or_compose",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_model_subtraction_within_twenty",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_calculate_subtraction_within_twenty_by_decomposition",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_count_by_ones_tens_and_fives_within_hundred",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_1",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_read_write_compare_numbers_within_hundred",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_1",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_locate_numbers_on_hundred_number_line",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_2",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_add_subtract_tens_within_hundred",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_add_subtract_two_digit_numbers_without_regrouping",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g1_identify_and_compose_basic_plane_shapes",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_add_two_digit_numbers_with_regrouping",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_subtract_two_digit_numbers_with_regrouping",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_measure_length_with_standard_unit",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_2",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_represent_equal_groups",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_interpret_multiplication_as_equal_groups",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_use_multiplication_facts_within_nine",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_5",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_represent_equal_sharing_and_grouping_division",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_interpret_division_using_multiplication_relation",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_5",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_model_multiplication_division_word_problems",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_6",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_estimate_length_using_benchmark",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_2",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g2_identify_reflection_symmetry_by_folding",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g2_describe_simple_position_and_route",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_3",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g3_model_mixed_operations_from_context",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_3",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g3_select_operation_order_in_mixed_expression",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_3",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g3_convert_metric_length_units",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_2_shape_recognition_and_measurement_content_requirements",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g3_measure_and_estimate_length_with_precision",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_2_shape_recognition_and_measurement_content_requirements",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g3_add_three_digit_numbers_with_regrouping",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g3_subtract_three_digit_numbers_with_regrouping",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g3_identify_angle_by_vertex_and_rays",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_2_shape_recognition_and_measurement_content_requirements",
+    "editionA": "located",
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
+  },
+  {
+    "topicId": "cn_math_g3_model_multiplication_division_applications",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "editionA": "located",
+    "editionB": "likely-located-needs-page-check",
+    "comparison": "one-sided-needs-review",
+    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+  },
+  {
+    "topicId": "cn_math_g3_interpret_decimal_as_yuan_jiao_fen",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_2",
+    "editionA": "located",
+    "editionB": "not-located-in-scope",
+    "comparison": "one-sided-needs-review",
+    "note": "当前五册范围尚未确认第二版本节点证据。"
+  },
+  {
+    "topicId": "cn_math_g3_read_write_compare_simple_decimals",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_2",
+    "editionA": "located",
+    "editionB": "not-located-in-scope",
+    "comparison": "one-sided-needs-review",
+    "note": "当前五册范围尚未确认第二版本节点证据。"
+  },
+  {
+    "topicId": "cn_math_g3_collect_record_and_classify_data",
+    "capabilityAnchor": "cn_math_anchor_primary_statistics_probability_stage_2_data_collection_organization_expression_content_requirements",
+    "editionA": "located",
+    "editionB": "not-located-in-scope",
+    "comparison": "one-sided-needs-review",
+    "note": "当前五册范围尚未确认第二版本节点证据。"
+  },
+  {
+    "topicId": "cn_math_g3_interpret_calendar_dates_and_intervals",
+    "capabilityAnchor": "cn_math_anchor_primary_integrated_practice_stage_2_thematic_activities_content_requirements",
+    "editionA": "located",
+    "editionB": "not-located-in-scope",
+    "comparison": "one-sided-needs-review",
+    "note": "当前五册范围尚未确认第二版本节点证据。"
+  }
+]

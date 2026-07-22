@@ -2369,7 +2369,7 @@
     ],
     "assessmentPrompt": "阅读含加法和乘法的情境，列式并解释每一步表示什么。",
     "standards": [
-      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-1",
+      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-3",
       "cn-math-2022:primary/number-algebra/stage-2/quantitative-relations/content-1"
     ],
     "sources": [
@@ -2380,7 +2380,7 @@
       }
     ],
     "reviewStatus": "reviewed",
-    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_3",
     "modelLayer": "diagnostic"
   },
   {
@@ -2399,7 +2399,7 @@
     ],
     "assessmentPrompt": "计算一道混合算式，标出每一步顺序并说明理由。",
     "standards": [
-      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-1"
+      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-3"
     ],
     "sources": [
       {
@@ -2409,7 +2409,7 @@
       }
     ],
     "reviewStatus": "reviewed",
-    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_3",
     "modelLayer": "diagnostic"
   },
   {
@@ -2603,7 +2603,7 @@
     ],
     "assessmentPrompt": "把一笔元角分金额写成小数，并说明小数点后每一位表示什么。",
     "standards": [
-      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-3"
+      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-2"
     ],
     "sources": [
       {
@@ -2613,7 +2613,7 @@
       }
     ],
     "reviewStatus": "reviewed",
-    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_3",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_2",
     "modelLayer": "diagnostic"
   },
   {
@@ -2632,7 +2632,7 @@
     ],
     "assessmentPrompt": "读写两个简单小数并比较大小，说明小数点后数字的作用。",
     "standards": [
-      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-3"
+      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-2"
     ],
     "sources": [
       {
@@ -2642,7 +2642,7 @@
       }
     ],
     "reviewStatus": "reviewed",
-    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_3",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_2",
     "modelLayer": "diagnostic"
   },
   {
