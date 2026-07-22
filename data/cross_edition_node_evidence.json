@@ -3,25 +3,31 @@
     "topicId": "cn_math_g2_sum_three_two_digit_numbers",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "万以内加减计算范围支持分步求和，教材实现不同。",
+    "editionBLocator": "G2 spring 63-82",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_subtract_two_parts_from_total",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "加减数量关系范围支持从总量去除多个部分的建模。",
+    "editionBLocator": "G2 spring 63-82",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_mixed_add_subtract_change",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "加减法应用范围支持连续变化表征，教材实现不同。",
+    "editionBLocator": "G2 spring 63-82",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_construct_prism_or_cylinder_from_paper",
@@ -287,17 +293,21 @@
     "topicId": "cn_math_g2_classify_by_explicit_criterion",
     "capabilityAnchor": "cn_math_anchor_primary_statistics_probability_stage_1_data_classification_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "分类与整理范围直接支持明确标准分类。",
+    "editionBLocator": "G2 fall 1-9",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_refine_classification_by_second_criterion",
     "capabilityAnchor": "cn_math_anchor_primary_statistics_probability_stage_1_data_classification_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "分类与整理范围支持按第二标准细分。",
+    "editionBLocator": "G2 fall 1-9",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_select_body_measure_for_length_estimation",
@@ -387,9 +397,11 @@
     "topicId": "cn_math_g1_classify_objects_by_explicit_feature",
     "capabilityAnchor": "cn_math_anchor_primary_statistics_probability_stage_1_data_classification_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "跨册分类与整理范围支持按明确特征分类。",
+    "editionBLocator": "G2 fall 1-9",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g1_identify_simple_solids_by_observable_features",
@@ -421,9 +433,11 @@
     "topicId": "cn_math_g1_calculate_addition_within_twenty_by_make_ten",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "20以内进位计算范围支持该程序目标。",
+    "editionBLocator": "G1 fall 88-102",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g1_construct_plane_shapes_by_trace_or_compose",
@@ -501,17 +515,21 @@
     "topicId": "cn_math_g2_add_two_digit_numbers_with_regrouping",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "100以内笔算加减范围支持进位加法节点。",
+    "editionBLocator": "G1 spring 56-68",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_subtract_two_digit_numbers_with_regrouping",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "100以内笔算加减范围支持退位减法节点。",
+    "editionBLocator": "G1 spring 56-68",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_measure_length_with_standard_unit",
@@ -631,17 +649,21 @@
     "topicId": "cn_math_g3_add_three_digit_numbers_with_regrouping",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "万以内加减法范围支持三位数进位计算。",
+    "editionBLocator": "G2 spring 63-82",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g3_subtract_three_digit_numbers_with_regrouping",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "万以内加减法范围支持三位数退位计算。",
+    "editionBLocator": "G2 spring 63-82",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g3_identify_angle_by_vertex_and_rays",
