@@ -38,6 +38,7 @@ def validate_manifest_files(manifest: object, errors: list[str]) -> None:
     expected_files = {
         "topics.json", "dependencies.json", "standards.json", "capability_anchors.json",
         "cross_edition_anchor_evidence.json", "cross_edition_node_evidence.json",
+        "review_queue.json",
     }
     if not isinstance(files, dict) or set(files) != expected_files:
         errors.append("data/manifest.json: files 必须列出 topics.json、dependencies.json、standards.json")

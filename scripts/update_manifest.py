@@ -13,6 +13,7 @@ DATA = ROOT / "data"
 FILES = (
     "topics.json", "dependencies.json", "standards.json", "capability_anchors.json",
     "cross_edition_anchor_evidence.json", "cross_edition_node_evidence.json",
+    "review_queue.json",
 )
 
 

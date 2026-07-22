@@ -12,3 +12,5 @@ python3 scripts/validate_dataset.py
 ```
 
 候选数据可通过 Issue 或 PR 公开复核，但须标明不确定性与支持/冲突来源。涉及拟升级为 `hard` 的边、节点合并或标准标识规则的改动需要数学教育审核；所有进入 `expert-verified` 范围的 `hard` 边须完成双人独立复核。建议将候选数据与已批准数据分开提交，避免未审核推断被误表述为专家确认结论。
+
+阶段 5.3 的待复核项目见 `data/review_queue.json` 和 `docs/review/PHASE_5_3_PAGE_REVIEW_QUEUE.md`。提交前还应阅读 `docs/review/PHASE_5_3_COMMUNITY_PROTOCOL.md`；复核只能提供独立判断和最小定位信息，不能上传教材、教辅或试题内容。

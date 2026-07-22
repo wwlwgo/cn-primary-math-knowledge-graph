@@ -33,6 +33,9 @@
     },
     "cross_edition_node_evidence.json": {
       "sha256": "d600b7a11fedb9e7ff7b57c20ba13e3179bfb94c848f9ec718a69cfef9dc2655"
+    },
+    "review_queue.json": {
+      "sha256": "2a3fd740bf01286b8ccf7df8dc93a0a1ffb93cc0ef0c4589f17a09142632717c"
     }
   }
 }
