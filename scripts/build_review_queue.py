@@ -16,15 +16,19 @@ DOCS = ROOT / "docs/review"
 def main() -> None:
     nodes = json.loads((DATA / "cross_edition_node_evidence.json").read_text(encoding="utf-8"))
     topics = {item["id"]: item for item in json.loads((DATA / "topics.json").read_text(encoding="utf-8"))}
+    existing_path = DATA / "review_queue.json"
+    existing = {}
+    if existing_path.exists():
+        existing = {item["topicId"]: item for item in json.loads(existing_path.read_text(encoding="utf-8"))}
     queue = []
     for item in nodes:
         status = item["editionB"]
-        if status == "located":
+        if status == "located" and "editionBLocator" not in item:
             continue
         topic = topics[item["topicId"]]
         review_type = "page-confirmation" if status == "likely-located-needs-page-check" else "scope-expansion"
         priority = "high" if topic["domain"] == "图形与几何" or topic["type"] in {"CONCEPTUAL", "REPRESENTATIONAL"} else "normal"
-        queue.append({
+        generated = {
             "topicId": topic["id"],
             "capabilityAnchor": topic["capabilityAnchor"],
             "reviewType": review_type,
@@ -32,7 +36,12 @@ def main() -> None:
             "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？" if review_type == "page-confirmation" else "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
             "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
             "status": "open",
-        })
+        }
+        # Preserve completed resolutions when rebuilding the deterministic queue.
+        prior = existing.get(topic["id"])
+        if prior and prior.get("status") != "open":
+            generated.update({key: value for key, value in prior.items() if key not in {"reviewType", "priority", "question", "allowedEvidence"}})
+        queue.append(generated)
     (DATA / "review_queue.json").write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     by_anchor = defaultdict(list)
     for item in queue:

@@ -75,18 +75,26 @@ def main() -> None:
         for line in path.read_text(encoding="utf-8").splitlines():
             if "| supports" in line or "| `supports`" in line:
                 direct_support_ids.update(re.findall(r"`(cn_math_[a-z0-9_]+)`", line))
+    existing_node_path = DATA / "cross_edition_node_evidence.json"
+    existing_nodes = {}
+    if existing_node_path.exists():
+        existing_nodes = {item["topicId"]: item for item in json.loads(existing_node_path.read_text(encoding="utf-8"))}
     node_records = []
     for topic in diagnostic:
         direct = topic["id"] in direct_support_ids
         anchor_located = topic["capabilityAnchor"] in both_anchors
-        node_records.append({
+        generated = {
             "topicId": topic["id"],
             "capabilityAnchor": topic["capabilityAnchor"],
             "editionA": "located",
             "editionB": "located" if direct else ("likely-located-needs-page-check" if anchor_located else "not-located-in-scope"),
             "comparison": "both-supported" if direct else "one-sided-needs-review",
             "note": "已有直接节点证据。" if direct else "锚点已定位但该节点尚缺第二版本的页级确认。" if anchor_located else "当前五册范围尚未确认第二版本节点证据。",
-        })
+        }
+        prior = existing_nodes.get(topic["id"])
+        if prior and ("editionBLocator" in prior or prior.get("editionB") not in {"likely-located-needs-page-check", "not-located-in-scope"}):
+            generated.update(prior)
+        node_records.append(generated)
     (DATA / "cross_edition_node_evidence.json").write_text(
         json.dumps(node_records, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )

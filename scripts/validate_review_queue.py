@@ -14,7 +14,7 @@ DATA = ROOT / "data"
 def main() -> int:
     nodes = json.loads((DATA / "cross_edition_node_evidence.json").read_text(encoding="utf-8"))
     queue = json.loads((DATA / "review_queue.json").read_text(encoding="utf-8"))
-    expected = {item["topicId"] for item in nodes if item["editionB"] != "located"}
+    expected = {item["topicId"] for item in nodes if item["editionB"] != "located" or "editionBLocator" in item}
     actual = [item.get("topicId") for item in queue]
     errors = []
     if len(actual) != len(set(actual)):
@@ -26,8 +26,10 @@ def main() -> int:
             errors.append(f"{item.get('topicId')}: reviewType 无效")
         if item.get("priority") not in {"high", "normal"}:
             errors.append(f"{item.get('topicId')}: priority 无效")
-        if item.get("status") != "open":
-            errors.append(f"{item.get('topicId')}: 初始状态必须为 open")
+        if item.get("status") not in {"open", "resolved", "needs-additional-input", "community-review-needed"}:
+            errors.append(f"{item.get('topicId')}: status 无效")
+        if item.get("status") != "open" and (not isinstance(item.get("resolution"), str) or not item["resolution"].strip()):
+            errors.append(f"{item.get('topicId')}: 已处理项目必须有 resolution")
     if errors:
         for error in errors:
             print(f"ERROR: {error}")

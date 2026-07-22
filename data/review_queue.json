@@ -29,92 +29,122 @@
   {
     "topicId": "cn_math_g2_construct_prism_or_cylinder_from_paper",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "page-confirmation",
+    "reviewType": "scope-expansion",
     "priority": "high",
-    "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "resolved",
+    "resolution": "五册已核验图形范围未确认以纸张构造指定立体的独立目标。",
+    "editionBLocator": "G1 fall 67-72; G1 spring 1-7; G3 fall 1-5",
+    "communityState": "community-review-needed"
   },
   {
     "topicId": "cn_math_g2_identify_faces_of_simple_solids",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "page-confirmation",
+    "reviewType": "scope-expansion",
     "priority": "high",
-    "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "resolved",
+    "resolution": "平面与立体表面关系的呈现支持该节点。",
+    "editionBLocator": "G1 spring 1-7",
+    "communityState": "closed-with-maintainer-evidence"
   },
   {
     "topicId": "cn_math_g2_recognize_solids_from_views",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "page-confirmation",
+    "reviewType": "scope-expansion",
     "priority": "high",
-    "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "resolved",
+    "resolution": "不同视角观察简单物体的呈现直接支持该节点。",
+    "editionBLocator": "G3 fall 1-5",
+    "communityState": "closed-with-maintainer-evidence"
   },
   {
     "topicId": "cn_math_g2_unfold_and_reconstruct_cuboid",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "page-confirmation",
+    "reviewType": "scope-expansion",
     "priority": "high",
-    "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "resolved",
+    "resolution": "未确认展开与还原长方体的独立呈现。",
+    "editionBLocator": "G1 fall 67-72; G3 fall 1-5",
+    "communityState": "community-review-needed"
   },
   {
     "topicId": "cn_math_g2_predict_faces_when_cuboid_rolls",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "page-confirmation",
+    "reviewType": "scope-expansion",
     "priority": "high",
-    "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "resolved",
+    "resolution": "未确认滚动预测的独立呈现。",
+    "editionBLocator": "G1 fall 67-72; G3 fall 1-5",
+    "communityState": "community-review-needed"
   },
   {
     "topicId": "cn_math_g2_identify_parallelogram_by_features",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "page-confirmation",
+    "reviewType": "scope-expansion",
     "priority": "high",
-    "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "resolved",
+    "resolution": "平面图形辨认范围支持按可见特征识别该图形。",
+    "editionBLocator": "G1 spring 1-7",
+    "communityState": "closed-with-maintainer-evidence"
   },
   {
     "topicId": "cn_math_g2_construct_parallelogram_from_parts",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "page-confirmation",
+    "reviewType": "scope-expansion",
     "priority": "high",
-    "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "resolved",
+    "resolution": "平面图形操作与构造范围支持该节点，但实现路径不同。",
+    "editionBLocator": "G1 spring 1-7",
+    "communityState": "closed-with-maintainer-evidence"
   },
   {
     "topicId": "cn_math_g2_recognize_parallelogram_invariance_under_shear",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "page-confirmation",
+    "reviewType": "scope-expansion",
     "priority": "high",
-    "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "resolved",
+    "resolution": "未确认通过拉动保持特征的独立呈现。",
+    "editionBLocator": "G1 spring 1-7",
+    "communityState": "community-review-needed"
   },
   {
     "topicId": "cn_math_g2_compose_target_shapes_with_tangram",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "page-confirmation",
+    "reviewType": "scope-expansion",
     "priority": "high",
-    "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "resolved",
+    "resolution": "未确认特定拼图材料的独立呈现。",
+    "editionBLocator": "G1 spring 1-7; G2 fall 1-9",
+    "communityState": "community-review-needed"
   },
   {
     "topicId": "cn_math_g2_decompose_tangram_by_adjacency_and_size",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "page-confirmation",
+    "reviewType": "scope-expansion",
     "priority": "high",
-    "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "resolved",
+    "resolution": "未确认按相邻和大小分析特定拼图的独立呈现。",
+    "editionBLocator": "G1 spring 1-7; G2 fall 1-9",
+    "communityState": "community-review-needed"
   },
   {
     "topicId": "cn_math_g2_classify_by_explicit_criterion",
@@ -137,20 +167,26 @@
   {
     "topicId": "cn_math_g2_select_body_measure_for_length_estimation",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_2",
-    "reviewType": "page-confirmation",
+    "reviewType": "scope-expansion",
     "priority": "high",
-    "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "resolved",
+    "resolution": "身体尺度作为长度估测基准的呈现支持该节点。",
+    "editionBLocator": "G2 fall 55-72",
+    "communityState": "closed-with-maintainer-evidence"
   },
   {
     "topicId": "cn_math_g2_measure_consistently_with_nonstandard_unit",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_2",
-    "reviewType": "page-confirmation",
+    "reviewType": "scope-expansion",
     "priority": "high",
-    "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "resolved",
+    "resolution": "测量活动支持以一致单位比较长度的节点。",
+    "editionBLocator": "G2 fall 55-72",
+    "communityState": "closed-with-maintainer-evidence"
   },
   {
     "topicId": "cn_math_g1_classify_objects_by_explicit_feature",
@@ -164,11 +200,14 @@
   {
     "topicId": "cn_math_g1_compose_decompose_numbers_for_make_ten",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
-    "reviewType": "page-confirmation",
+    "reviewType": "scope-expansion",
     "priority": "high",
-    "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "resolved",
+    "resolution": "20以内进位计算范围支持十的组成分解策略。",
+    "editionBLocator": "G1 fall 88-102",
+    "communityState": "closed-with-maintainer-evidence"
   },
   {
     "topicId": "cn_math_g1_calculate_addition_within_twenty_by_make_ten",
@@ -200,11 +239,14 @@
   {
     "topicId": "cn_math_g2_identify_reflection_symmetry_by_folding",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "page-confirmation",
+    "reviewType": "scope-expansion",
     "priority": "high",
-    "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "resolved",
+    "resolution": "当前五册未确认折叠辨认轴对称的独立呈现。",
+    "editionBLocator": "G1 spring 1-7; G3 fall 61-72",
+    "communityState": "community-review-needed"
   },
   {
     "topicId": "cn_math_g3_add_three_digit_numbers_with_regrouping",
@@ -227,11 +269,14 @@
   {
     "topicId": "cn_math_g3_model_multiplication_division_applications",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
-    "reviewType": "page-confirmation",
+    "reviewType": "scope-expansion",
     "priority": "high",
-    "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "resolved",
+    "resolution": "多位数乘一位数的应用范围支持乘除法建模，但粒度不同。",
+    "editionBLocator": "G3 fall 39-56",
+    "communityState": "closed-with-maintainer-evidence"
   },
   {
     "topicId": "cn_math_g3_interpret_decimal_as_yuan_jiao_fen",
@@ -240,7 +285,10 @@
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "needs-additional-input",
+    "resolution": "当前五册未包含可确认的小数/货币解释范围；需要后续册次或公开资源。",
+    "editionBLocator": "G1 fall-G3 fall final scope check",
+    "communityState": "closed-with-maintainer-evidence"
   },
   {
     "topicId": "cn_math_g3_read_write_compare_simple_decimals",
@@ -267,6 +315,9 @@
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "needs-additional-input",
+    "resolution": "当前五册未包含可确认的日历间隔范围；需要后续册次或公开资源。",
+    "editionBLocator": "G1 fall-G3 fall final scope check",
+    "communityState": "closed-with-maintainer-evidence"
   }
 ]

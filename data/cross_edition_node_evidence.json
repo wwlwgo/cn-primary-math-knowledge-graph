@@ -27,41 +27,51 @@
     "topicId": "cn_math_g2_construct_prism_or_cylinder_from_paper",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
+    "editionB": "not-located-in-scope",
     "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "note": "五册已核验图形范围未确认以纸张构造指定立体的独立目标。",
+    "editionBLocator": "G1 fall 67-72; G1 spring 1-7; G3 fall 1-5",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_identify_faces_of_simple_solids",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "平面与立体表面关系的呈现支持该节点。",
+    "editionBLocator": "G1 spring 1-7",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_recognize_solids_from_views",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "不同视角观察简单物体的呈现直接支持该节点。",
+    "editionBLocator": "G3 fall 1-5",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_unfold_and_reconstruct_cuboid",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
+    "editionB": "not-located-in-scope",
     "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "note": "未确认展开与还原长方体的独立呈现。",
+    "editionBLocator": "G1 fall 67-72; G3 fall 1-5",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_predict_faces_when_cuboid_rolls",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
+    "editionB": "not-located-in-scope",
     "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "note": "未确认滚动预测的独立呈现。",
+    "editionBLocator": "G1 fall 67-72; G3 fall 1-5",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_remainder_division_as_groups_and_leftover",
@@ -171,41 +181,51 @@
     "topicId": "cn_math_g2_identify_parallelogram_by_features",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "平面图形辨认范围支持按可见特征识别该图形。",
+    "editionBLocator": "G1 spring 1-7",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_construct_parallelogram_from_parts",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "平面图形操作与构造范围支持该节点，但实现路径不同。",
+    "editionBLocator": "G1 spring 1-7",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_recognize_parallelogram_invariance_under_shear",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
+    "editionB": "not-located-in-scope",
     "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "note": "未确认通过拉动保持特征的独立呈现。",
+    "editionBLocator": "G1 spring 1-7",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_compose_target_shapes_with_tangram",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
+    "editionB": "not-located-in-scope",
     "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "note": "未确认特定拼图材料的独立呈现。",
+    "editionBLocator": "G1 spring 1-7; G2 fall 1-9",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_decompose_tangram_by_adjacency_and_size",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
+    "editionB": "not-located-in-scope",
     "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "note": "未确认按相邻和大小分析特定拼图的独立呈现。",
+    "editionBLocator": "G1 spring 1-7; G2 fall 1-9",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_add_subtract_hundreds_tens_by_place_value",
@@ -283,17 +303,21 @@
     "topicId": "cn_math_g2_select_body_measure_for_length_estimation",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_2",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "身体尺度作为长度估测基准的呈现支持该节点。",
+    "editionBLocator": "G2 fall 55-72",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_measure_consistently_with_nonstandard_unit",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_2",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "测量活动支持以一致单位比较长度的节点。",
+    "editionBLocator": "G2 fall 55-72",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g1_count_and_represent_quantities_within_ten",
@@ -387,9 +411,11 @@
     "topicId": "cn_math_g1_compose_decompose_numbers_for_make_ten",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "20以内进位计算范围支持十的组成分解策略。",
+    "editionBLocator": "G1 fall 88-102",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g1_calculate_addition_within_twenty_by_make_ten",
@@ -555,9 +581,11 @@
     "topicId": "cn_math_g2_identify_reflection_symmetry_by_folding",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
+    "editionB": "not-located-in-scope",
     "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "note": "当前五册未确认折叠辨认轴对称的独立呈现。",
+    "editionBLocator": "G1 spring 1-7; G3 fall 61-72",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g2_describe_simple_position_and_route",
@@ -627,17 +655,21 @@
     "topicId": "cn_math_g3_model_multiplication_division_applications",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
     "editionA": "located",
-    "editionB": "likely-located-needs-page-check",
-    "comparison": "one-sided-needs-review",
-    "note": "锚点已定位但该节点尚缺第二版本的页级确认。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "多位数乘一位数的应用范围支持乘除法建模，但粒度不同。",
+    "editionBLocator": "G3 fall 39-56",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g3_interpret_decimal_as_yuan_jiao_fen",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_2",
     "editionA": "located",
-    "editionB": "not-located-in-scope",
+    "editionB": "needs-additional-input",
     "comparison": "one-sided-needs-review",
-    "note": "当前五册范围尚未确认第二版本节点证据。"
+    "note": "当前五册未包含可确认的小数/货币解释范围；需要后续册次或公开资源。",
+    "editionBLocator": "G1 fall-G3 fall final scope check",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   },
   {
     "topicId": "cn_math_g3_read_write_compare_simple_decimals",
@@ -659,8 +691,10 @@
     "topicId": "cn_math_g3_interpret_calendar_dates_and_intervals",
     "capabilityAnchor": "cn_math_anchor_primary_integrated_practice_stage_2_thematic_activities_content_requirements",
     "editionA": "located",
-    "editionB": "not-located-in-scope",
+    "editionB": "needs-additional-input",
     "comparison": "one-sided-needs-review",
-    "note": "当前五册范围尚未确认第二版本节点证据。"
+    "note": "当前五册未包含可确认的日历间隔范围；需要后续册次或公开资源。",
+    "editionBLocator": "G1 fall-G3 fall final scope check",
+    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
   }
 ]
