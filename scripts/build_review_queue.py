@@ -26,7 +26,7 @@ def main() -> None:
         if status == "located" and "editionBLocator" not in item:
             continue
         topic = topics[item["topicId"]]
-        review_type = "page-confirmation" if status == "likely-located-needs-page-check" else "scope-expansion"
+        review_type = "scope-expansion" if status == "needs-additional-input" else "page-confirmation"
         priority = "high" if topic["domain"] == "图形与几何" or topic["type"] in {"CONCEPTUAL", "REPRESENTATIONAL"} else "normal"
         generated = {
             "topicId": topic["id"],
@@ -40,7 +40,8 @@ def main() -> None:
         # Preserve completed resolutions when rebuilding the deterministic queue.
         prior = existing.get(topic["id"])
         if prior and prior.get("status") != "open":
-            generated.update({key: value for key, value in prior.items() if key not in {"reviewType", "priority", "question", "allowedEvidence"}})
+            generated.update(prior)
+            generated["reviewType"] = "scope-expansion" if status == "needs-additional-input" else "page-confirmation"
         queue.append(generated)
     (DATA / "review_queue.json").write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     by_anchor = defaultdict(list)

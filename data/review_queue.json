@@ -2,7 +2,7 @@
   {
     "topicId": "cn_math_g2_sum_three_two_digit_numbers",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "normal",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -14,7 +14,7 @@
   {
     "topicId": "cn_math_g2_subtract_two_parts_from_total",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "normal",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -26,7 +26,7 @@
   {
     "topicId": "cn_math_g2_mixed_add_subtract_change",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "normal",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -38,7 +38,7 @@
   {
     "topicId": "cn_math_g2_construct_prism_or_cylinder_from_paper",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -50,7 +50,7 @@
   {
     "topicId": "cn_math_g2_identify_faces_of_simple_solids",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -62,7 +62,7 @@
   {
     "topicId": "cn_math_g2_recognize_solids_from_views",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -74,7 +74,7 @@
   {
     "topicId": "cn_math_g2_unfold_and_reconstruct_cuboid",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -86,7 +86,7 @@
   {
     "topicId": "cn_math_g2_predict_faces_when_cuboid_rolls",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -98,7 +98,7 @@
   {
     "topicId": "cn_math_g2_identify_parallelogram_by_features",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -110,7 +110,7 @@
   {
     "topicId": "cn_math_g2_construct_parallelogram_from_parts",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -122,7 +122,7 @@
   {
     "topicId": "cn_math_g2_recognize_parallelogram_invariance_under_shear",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -134,7 +134,7 @@
   {
     "topicId": "cn_math_g2_compose_target_shapes_with_tangram",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -146,7 +146,7 @@
   {
     "topicId": "cn_math_g2_decompose_tangram_by_adjacency_and_size",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -158,7 +158,7 @@
   {
     "topicId": "cn_math_g2_classify_by_explicit_criterion",
     "capabilityAnchor": "cn_math_anchor_primary_statistics_probability_stage_1_data_classification_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "normal",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -170,7 +170,7 @@
   {
     "topicId": "cn_math_g2_refine_classification_by_second_criterion",
     "capabilityAnchor": "cn_math_anchor_primary_statistics_probability_stage_1_data_classification_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "normal",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -182,7 +182,7 @@
   {
     "topicId": "cn_math_g2_select_body_measure_for_length_estimation",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_2",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -194,7 +194,7 @@
   {
     "topicId": "cn_math_g2_measure_consistently_with_nonstandard_unit",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_2",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -206,7 +206,7 @@
   {
     "topicId": "cn_math_g1_classify_objects_by_explicit_feature",
     "capabilityAnchor": "cn_math_anchor_primary_statistics_probability_stage_1_data_classification_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "normal",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -218,7 +218,7 @@
   {
     "topicId": "cn_math_g1_compose_decompose_numbers_for_make_ten",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -230,7 +230,7 @@
   {
     "topicId": "cn_math_g1_calculate_addition_within_twenty_by_make_ten",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "normal",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -242,7 +242,7 @@
   {
     "topicId": "cn_math_g2_add_two_digit_numbers_with_regrouping",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "normal",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -254,7 +254,7 @@
   {
     "topicId": "cn_math_g2_subtract_two_digit_numbers_with_regrouping",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "normal",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -266,7 +266,7 @@
   {
     "topicId": "cn_math_g2_identify_reflection_symmetry_by_folding",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -278,7 +278,7 @@
   {
     "topicId": "cn_math_g3_add_three_digit_numbers_with_regrouping",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "normal",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -290,7 +290,7 @@
   {
     "topicId": "cn_math_g3_subtract_three_digit_numbers_with_regrouping",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "normal",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -302,7 +302,7 @@
   {
     "topicId": "cn_math_g3_model_multiplication_division_applications",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
-    "reviewType": "scope-expansion",
+    "reviewType": "page-confirmation",
     "priority": "high",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
@@ -330,7 +330,10 @@
     "priority": "normal",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "needs-additional-input",
+    "resolution": "当前五册未包含可确认的小数读写比较范围；需要后续册次或公开资源。",
+    "editionBLocator": "G1 fall-G3 fall final scope check",
+    "communityState": "closed-with-maintainer-evidence"
   },
   {
     "topicId": "cn_math_g3_collect_record_and_classify_data",
@@ -339,7 +342,10 @@
     "priority": "normal",
     "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
     "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
-    "status": "open"
+    "status": "needs-additional-input",
+    "resolution": "当前五册未包含可确认的数据收集整理范围；需要后续册次或公开资源。",
+    "editionBLocator": "G1 fall-G3 fall final scope check",
+    "communityState": "closed-with-maintainer-evidence"
   },
   {
     "topicId": "cn_math_g3_interpret_calendar_dates_and_intervals",
