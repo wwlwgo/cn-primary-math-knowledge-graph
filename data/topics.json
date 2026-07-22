@@ -6,12 +6,28 @@
     "domain": "数与代数",
     "name": "计算三个两位数的和",
     "description": "计算三个两位数的和，能使用分步计算或按数位拆分的方法，并说明所选算法。",
-    "gradeBands": ["G2"],
-    "evidence": ["能正确计算三个陌生两位数的和并保留计算过程。", "能比较两种计算顺序或表示方法并说明其中一种可行理由。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能正确计算三个陌生两位数的和并保留计算过程。",
+      "能比较两种计算顺序或表示方法并说明其中一种可行理由。"
+    ],
     "assessmentPrompt": "计算三个两位数的总和，并说明你怎样安排计算步骤以及这样安排的理由。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第2-3页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第2-3页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_compare_totals_in_three_round_context",
@@ -20,12 +36,28 @@
     "domain": "数与代数",
     "name": "根据三轮总量比较结果",
     "description": "将三轮得分或同类累积量求和后比较总量，并用数量关系说明判断。",
-    "gradeBands": ["G2"],
-    "evidence": ["能在新的三轮记录中列出总量并正确比较。", "能解释比较的是总量而不是某一轮的局部数值。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能在新的三轮记录中列出总量并正确比较。",
+      "能解释比较的是总量而不是某一轮的局部数值。"
+    ],
     "assessmentPrompt": "给出两方三轮数量记录，判断哪方更多，并解释为什么要比较总量。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第2-3页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第2-3页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_quantitative_relations_content_1",
+    "modelLayer": "implementation_evidence"
   },
   {
     "id": "cn_math_g2_subtract_two_parts_from_total",
@@ -34,12 +66,28 @@
     "domain": "数与代数",
     "name": "从总量中减去两部分",
     "description": "用连续减法或先合并后相减的方法，求从总量去掉两部分后的剩余量。",
-    "gradeBands": ["G2"],
-    "evidence": ["能对陌生总量和两个去除量正确求剩余。", "能说明连续减法与先合并后相减在该情境中的对应关系。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能对陌生总量和两个去除量正确求剩余。",
+      "能说明连续减法与先合并后相减在该情境中的对应关系。"
+    ],
     "assessmentPrompt": "一个总量先后去掉两部分，列出两种可行算式并说明它们各表示什么。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第4-5页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第4-5页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_model_remaining_capacity",
@@ -48,12 +96,28 @@
     "domain": "数与代数",
     "name": "建模剩余容量",
     "description": "从容量、已占用人数和剩余座位的关系中选择运算顺序，并解释答案在情境中的含义。",
-    "gradeBands": ["G2"],
-    "evidence": ["能把新的容量情境转成表示剩余量的算式或图示。", "能检查答案是否符合容量和人数的限制。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能把新的容量情境转成表示剩余量的算式或图示。",
+      "能检查答案是否符合容量和人数的限制。"
+    ],
     "assessmentPrompt": "给出容量和两组已占用数量，先画图或列式求剩余，并解释结果表示什么。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第4-5页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第4-5页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_quantitative_relations_content_1",
+    "modelLayer": "implementation_evidence"
   },
   {
     "id": "cn_math_g2_mixed_add_subtract_change",
@@ -62,12 +126,29 @@
     "domain": "数与代数",
     "name": "表示连续增减变化",
     "description": "用加减混合表示原有数量、减少数量和新增数量的连续变化，并求最终数量。",
-    "gradeBands": ["G2"],
-    "evidence": ["能把新的增减事件按时间顺序写成算式。", "能用最终结果与原数量比较，检查增减方向是否合理。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能把新的增减事件按时间顺序写成算式。",
+      "能用最终结果与原数量比较，检查增减方向是否合理。"
+    ],
     "assessmentPrompt": "一个数量先减少后增加，列式求最后数量，并说明每一步对应的事件。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4", "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第6-7页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4",
+      "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第6-7页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_compare_opposite_changes_before_calculation",
@@ -76,12 +157,28 @@
     "domain": "数与代数",
     "name": "计算前比较相反变化",
     "description": "在数量一增一减的情境中，先比较增加量和减少量，预测最终数量相对原数量的变化方向。",
-    "gradeBands": ["G2"],
-    "evidence": ["能在不完成全部计算前预测最终数量增加或减少。", "能说明预测依据是两个相反变化量的比较。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能在不完成全部计算前预测最终数量增加或减少。",
+      "能说明预测依据是两个相反变化量的比较。"
+    ],
     "assessmentPrompt": "给出一个数量增加和减少的事件，先预测最后比原来多还是少，再计算检验。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-6"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第6页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-6"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第6页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_6",
+    "modelLayer": "implementation_evidence"
   },
   {
     "id": "cn_math_g2_construct_prism_or_cylinder_from_paper",
@@ -90,12 +187,28 @@
     "domain": "图形与几何",
     "name": "用纸构造简单立体图形",
     "description": "根据平面纸张的分割、折叠或卷曲方式构造简单长方体、正方体或圆柱。",
-    "gradeBands": ["G2"],
-    "evidence": ["能用不同纸张操作构造指定的简单立体图形。", "能说明折叠或卷曲后哪些平面部分形成了立体的面。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能用不同纸张操作构造指定的简单立体图形。",
+      "能说明折叠或卷曲后哪些平面部分形成了立体的面。"
+    ],
     "assessmentPrompt": "提供不同形状纸张，选择一种构造指定立体，并说明你的折叠或卷曲方法。",
-    "standards": ["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第10-12页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第10-12页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_identify_faces_of_simple_solids",
@@ -104,12 +217,28 @@
     "domain": "图形与几何",
     "name": "识别简单立体图形的面",
     "description": "说明长方体、正方体和圆柱等简单立体图形的面与相应平面图形之间的关系。",
-    "gradeBands": ["G2"],
-    "evidence": ["能在实物或图片中指出简单立体的面。", "能把一个面与合适的平面图形联系并说明理由。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能在实物或图片中指出简单立体的面。",
+      "能把一个面与合适的平面图形联系并说明理由。"
+    ],
     "assessmentPrompt": "观察一个纸盒和一个圆柱物体，指出它们的面，并说出这些面像哪些平面图形。",
-    "standards": ["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第10-13页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第10-13页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_control_cylinder_shape_with_paper_strip",
@@ -118,12 +247,29 @@
     "domain": "图形与几何",
     "name": "用纸条控制圆柱形状",
     "description": "通过改变纸条长度或宽度，比较卷成圆柱的粗细和大小变化。",
-    "gradeBands": ["G2"],
-    "evidence": ["能用同类纸条卷出不同粗细的圆柱并比较。", "能解释改变纸条的哪个方向会影响观察到的圆柱特征。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能用同类纸条卷出不同粗细的圆柱并比较。",
+      "能解释改变纸条的哪个方向会影响观察到的圆柱特征。"
+    ],
     "assessmentPrompt": "用两张尺寸不同的纸条卷圆柱，比较结果并说明纸条尺寸如何影响形状。",
-    "standards": ["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1", "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第12-13页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1",
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第12-13页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "modelLayer": "implementation_evidence"
   },
   {
     "id": "cn_math_g2_recognize_solids_from_views",
@@ -132,12 +278,29 @@
     "domain": "图形与几何",
     "name": "从不同视角辨认简单立体",
     "description": "从不同方向的照片或直观图中辨认组成物体的简单立体图形。",
-    "gradeBands": ["G2"],
-    "evidence": ["能在不同视角图片中辨认相同的简单立体。", "能说明改变观察方向不会改变物体本身的组成。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能在不同视角图片中辨认相同的简单立体。",
+      "能说明改变观察方向不会改变物体本身的组成。"
+    ],
     "assessmentPrompt": "展示同一组积木的两个方向图片，指出其中有哪些简单立体并说明判断依据。",
-    "standards": ["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1", "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第13页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1",
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第13页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_unfold_and_reconstruct_cuboid",
@@ -146,12 +309,29 @@
     "domain": "图形与几何",
     "name": "展开并还原长方体",
     "description": "将长方体的面展开为平面布局，并根据布局还原成长方体。",
-    "gradeBands": ["G2"],
-    "evidence": ["能把简单长方体纸盒展开并识别相连的面。", "能根据给定的简单布局还原出长方体或判断不能还原的原因。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能把简单长方体纸盒展开并识别相连的面。",
+      "能根据给定的简单布局还原出长方体或判断不能还原的原因。"
+    ],
     "assessmentPrompt": "给出一个纸盒和一个平面布局，尝试展开或还原，并说明哪些面需要相邻。",
-    "standards": ["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1", "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第14-15页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1",
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第14-15页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_predict_faces_when_cuboid_rolls",
@@ -160,12 +340,29 @@
     "domain": "图形与几何",
     "name": "预测长方体滚动后的面",
     "description": "根据长方体相邻面的关系，预测沿指定方向滚动后会留下或朝上的面。",
-    "gradeBands": ["G2"],
-    "evidence": ["能用实物操作验证一次指定方向的滚动预测。", "能用相邻面关系解释预测而不是只报告结果。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能用实物操作验证一次指定方向的滚动预测。",
+      "能用相邻面关系解释预测而不是只报告结果。"
+    ],
     "assessmentPrompt": "在纸盒不同面做标记，预测向指定方向滚动一次后哪个面朝上，并操作检验。",
-    "standards": ["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1", "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第15页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1",
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第15页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_remainder_division_as_groups_and_leftover",
@@ -174,12 +371,28 @@
     "domain": "数与代数",
     "name": "理解有余数除法的分组意义",
     "description": "用每份若干或每若干个一组的操作解释有余数除法中各数和余数的意义。",
-    "gradeBands": ["G2"],
-    "evidence": ["能用实物或图示把不能均分完的数量分组。", "能指出商和余数各自在分组结果中表示什么。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能用实物或图示把不能均分完的数量分组。",
+      "能指出商和余数各自在分组结果中表示什么。"
+    ],
     "assessmentPrompt": "把一组不能正好分完的物品按固定数量分组，说出商和余数分别表示什么。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-5"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第16-17页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-5"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第16-17页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_5",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_calculate_division_with_remainder",
@@ -188,12 +401,28 @@
     "domain": "数与代数",
     "name": "计算有余数除法",
     "description": "对简单整数进行有余数除法计算，并以商和余数记录结果。",
-    "gradeBands": ["G2"],
-    "evidence": ["能正确计算新的简单有余数除法并写出商和余数。", "能用乘法关系或分组图检查计算结果。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能正确计算新的简单有余数除法并写出商和余数。",
+      "能用乘法关系或分组图检查计算结果。"
+    ],
     "assessmentPrompt": "计算一个有余数的除法，并用乘法和余数关系检查你的答案。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-5"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第16-21页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-5"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第16-21页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_5",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_remainder_less_than_divisor",
@@ -202,12 +431,28 @@
     "domain": "数与代数",
     "name": "解释余数小于除数",
     "description": "判断并解释有余数除法中余数必须小于除数。",
-    "gradeBands": ["G2"],
-    "evidence": ["能找出余数不符合条件的除法记录。", "能用还能否组成完整一组解释余数为何小于除数。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能找出余数不符合条件的除法记录。",
+      "能用还能否组成完整一组解释余数为何小于除数。"
+    ],
     "assessmentPrompt": "比较两条有余数除法记录，判断哪条不可能正确，并用分组解释原因。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-5"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第18-19页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-5"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第18-19页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_5",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_find_largest_multiplier_under_limit",
@@ -216,12 +461,29 @@
     "domain": "数与代数",
     "name": "确定限制下最大整数",
     "description": "在乘法不超过限制或具体分组情境中，确定满足限制的最大整数。",
-    "gradeBands": ["G2"],
-    "evidence": ["能找到不超过给定限制的最大整倍数。", "能说明再增加一个单位为何会超过限制。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能找到不超过给定限制的最大整倍数。",
+      "能说明再增加一个单位为何会超过限制。"
+    ],
     "assessmentPrompt": "在总量限制下确定最多能取几组，并说明下一个数为什么不符合限制。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-5", "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第20-21页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-5",
+      "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第20-21页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_5",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_round_up_quotient_for_minimum_groups",
@@ -230,12 +492,28 @@
     "domain": "数与代数",
     "name": "按余数求最少组数",
     "description": "在容量上限情境中，根据余数判断仍需增加一组，求至少需要的组数。",
-    "gradeBands": ["G2"],
-    "evidence": ["能在新的容量上限问题中把余数对应到额外一组。", "能解释不增加该组时哪些对象无法被容纳。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能在新的容量上限问题中把余数对应到额外一组。",
+      "能解释不增加该组时哪些对象无法被容纳。"
+    ],
     "assessmentPrompt": "给出人数和每组最多人数，求至少几组，并解释余数为什么要再增加一组。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第22-24页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第22-24页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_quantitative_relations_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_round_down_quotient_for_maximum_groups",
@@ -244,12 +522,28 @@
     "domain": "数与代数",
     "name": "按余数求最多组数",
     "description": "在资源限额情境中，根据余数判断不能再增加一组，求最多能完成的组数。",
-    "gradeBands": ["G2"],
-    "evidence": ["能在新的资源限制问题中保留完整组数。", "能解释余数为何不足以形成下一完整组。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能在新的资源限制问题中保留完整组数。",
+      "能解释余数为何不足以形成下一完整组。"
+    ],
     "assessmentPrompt": "给出总资源和每组所需资源，求最多完成几组，并说明余数为什么不能再组成一组。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第23-25页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第23-25页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_quantitative_relations_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_interpret_remainder_by_context",
@@ -258,12 +552,29 @@
     "domain": "数与代数",
     "name": "按情境解释余数",
     "description": "根据问题单位和限制，解释余数表示的剩余物、未满足人数或不可继续使用的资源。",
-    "gradeBands": ["G2"],
-    "evidence": ["能给有余数除法中的余数加上符合情境的单位。", "能比较两个不同情境中同一余数应如何处理。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能给有余数除法中的余数加上符合情境的单位。",
+      "能比较两个不同情境中同一余数应如何处理。"
+    ],
     "assessmentPrompt": "给出两道余数相同但单位不同的问题，分别解释余数代表什么以及是否保留。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-6", "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第16-27页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-6",
+      "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第16-27页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_6",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_count_to_ten_thousand_by_units",
@@ -272,12 +583,28 @@
     "domain": "数与代数",
     "name": "按单位数到万",
     "description": "以一、十、百、千等不同单位计数，并理解满十进一至万的进位关系。",
-    "gradeBands": ["G2"],
-    "evidence": ["能从指定单位起按规律继续计数到万以内。", "能用单位递进说明十个较小单位怎样组成一个较大单位。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能从指定单位起按规律继续计数到万以内。",
+      "能用单位递进说明十个较小单位怎样组成一个较大单位。"
+    ],
     "assessmentPrompt": "从指定的百或千开始计数，并说明十个这样的单位怎样换成更大的单位。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第32-38页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第32-38页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_place_value_within_ten_thousand",
@@ -286,12 +613,28 @@
     "domain": "数与代数",
     "name": "表征万以内数的位值",
     "description": "说明万以内数各数位数字表示的值，并用计数器、算盘或数位表表征。",
-    "gradeBands": ["G2"],
-    "evidence": ["能在数位表或计数器上表示指定的万以内数。", "能解释同一数字在不同数位所表示的不同值。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能在数位表或计数器上表示指定的万以内数。",
+      "能解释同一数字在不同数位所表示的不同值。"
+    ],
     "assessmentPrompt": "在数位表上表示一个四位数，说明其中两个相同数字分别表示多少。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第39-41页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第39-41页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_read_write_numbers_within_ten_thousand",
@@ -300,12 +643,28 @@
     "domain": "数与代数",
     "name": "读写万以内数",
     "description": "读写万以内数，并在文字、数位表和符号表示之间转换。",
-    "gradeBands": ["G2"],
-    "evidence": ["能把陌生万以内数在文字和符号之间正确转换。", "能依据数位表写数并解释零所在数位的含义。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能把陌生万以内数在文字和符号之间正确转换。",
+      "能依据数位表写数并解释零所在数位的含义。"
+    ],
     "assessmentPrompt": "给出数位表和一个文字数，分别写成符号并读出另一个数，说明零如何处理。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第39-41、50页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第39-41、50页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_compare_order_numbers_within_ten_thousand",
@@ -314,12 +673,28 @@
     "domain": "数与代数",
     "name": "比较并排序万以内数",
     "description": "按数位比较万以内数的大小，并将多个万以内数排序。",
-    "gradeBands": ["G2"],
-    "evidence": ["能比较一对万以内数并写出大小关系。", "能按从小到大排序多个数并说明先比较哪个数位。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能比较一对万以内数并写出大小关系。",
+      "能按从小到大排序多个数并说明先比较哪个数位。"
+    ],
     "assessmentPrompt": "比较并排序四个万以内数，选择一对说明你从哪个数位开始判断。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-2"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第42-44页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-2"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第42-44页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_2",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_locate_number_on_approximate_number_line",
@@ -328,12 +703,28 @@
     "domain": "数与代数",
     "name": "在数线上估计万以内数位置",
     "description": "根据数线刻度估计并标出万以内数的大致位置。",
-    "gradeBands": ["G2"],
-    "evidence": ["能在给定刻度范围内标出一个万以内数的大致位置。", "能说明该数靠近哪两个刻度并估计相对距离。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能在给定刻度范围内标出一个万以内数的大致位置。",
+      "能说明该数靠近哪两个刻度并估计相对距离。"
+    ],
     "assessmentPrompt": "在标有两个端点和中间刻度的数线上标出一个数，并说明你为什么放在这里。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-2"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第43-44、50页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-2"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第43-44、50页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_2",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_estimate_large_collections_using_benchmark",
@@ -342,12 +733,28 @@
     "domain": "数与代数",
     "name": "用基准估计大量数量",
     "description": "用可数的一组、行列或单位厚度等基准估计大量对象的数量或尺度，并说明估计方法。",
-    "gradeBands": ["G2"],
-    "evidence": ["能选择一个可数基准估计陌生大量对象。", "能说明估计值是如何由基准数量推得并评价其合理性。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能选择一个可数基准估计陌生大量对象。",
+      "能说明估计值是如何由基准数量推得并评价其合理性。"
+    ],
     "assessmentPrompt": "观察一组大量对象，选一个可数基准估计总数，并说明估计过程和可能误差。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-6"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第45-48、50-51页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-6"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第45-48、50-51页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_6",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_identify_parallelogram_by_features",
@@ -356,12 +763,28 @@
     "domain": "图形与几何",
     "name": "按特征辨认平行四边形",
     "description": "根据边和对边关系辨认平行四边形，并从复杂图中找出平行四边形。",
-    "gradeBands": ["G2"],
-    "evidence": ["能在不同方向和不同大小图形中辨认平行四边形。", "能说明判断使用的边或对边特征。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能在不同方向和不同大小图形中辨认平行四边形。",
+      "能说明判断使用的边或对边特征。"
+    ],
     "assessmentPrompt": "在一组混合四边形中找出平行四边形，并说明至少一个判断依据。",
-    "standards": ["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第52-55页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第52-55页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_construct_parallelogram_from_parts",
@@ -370,12 +793,28 @@
     "domain": "图形与几何",
     "name": "用图形拼搭平行四边形",
     "description": "用给定图形或纸片拼搭不同的平行四边形。",
-    "gradeBands": ["G2"],
-    "evidence": ["能用给定图形拼出一个平行四边形。", "能改变拼法得到不同形状，并辨认结果是否仍为平行四边形。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能用给定图形拼出一个平行四边形。",
+      "能改变拼法得到不同形状，并辨认结果是否仍为平行四边形。"
+    ],
     "assessmentPrompt": "用给定纸片拼出平行四边形，展示另一种拼法并说明如何确认两者符合要求。",
-    "standards": ["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第52-53页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第52-53页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_recognize_parallelogram_invariance_under_shear",
@@ -384,12 +823,29 @@
     "domain": "图形与几何",
     "name": "辨认拉动后的平行四边形不变量",
     "description": "观察长方形拉动为平行四边形时，区分变化的形状与不变的边长。",
-    "gradeBands": ["G2"],
-    "evidence": ["能描述图形拉动后外观发生的变化。", "能指出拉动前后保持不变的边长并用测量或重合检验。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能描述图形拉动后外观发生的变化。",
+      "能指出拉动前后保持不变的边长并用测量或重合检验。"
+    ],
     "assessmentPrompt": "观察一个长方形被拉动的过程，说出哪些地方变了、哪些边的长度没有变。",
-    "standards": ["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1", "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第54页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1",
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第54页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_compose_target_shapes_with_tangram",
@@ -398,12 +854,28 @@
     "domain": "图形与几何",
     "name": "用拼图组合目标图形",
     "description": "选择并组合七巧板或其他平面图形，拼出指定的长方形、平行四边形等目标图形。",
-    "gradeBands": ["G2"],
-    "evidence": ["能用指定拼图块组合出目标图形。", "能说明拼图块的边如何连接以形成目标轮廓。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能用指定拼图块组合出目标图形。",
+      "能说明拼图块的边如何连接以形成目标轮廓。"
+    ],
     "assessmentPrompt": "用给定的平面图形拼出指定目标，并用语言或画图说明各块怎样相接。",
-    "standards": ["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第56-59页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第56-59页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_decompose_tangram_by_adjacency_and_size",
@@ -412,12 +884,29 @@
     "domain": "图形与几何",
     "name": "按相邻和大小分析拼图",
     "description": "根据拼图块的边连接、大小和形状关系分析或复原平面拼图。",
-    "gradeBands": ["G2"],
-    "evidence": ["能根据已知轮廓判断某个拼图块可能的位置。", "能说明使用了边相邻、大小或形状中的哪种关系。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能根据已知轮廓判断某个拼图块可能的位置。",
+      "能说明使用了边相邻、大小或形状中的哪种关系。"
+    ],
     "assessmentPrompt": "给出未完成拼图和若干图形块，选择一个合适图形块并说明判断依据。",
-    "standards": ["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1", "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第56-57页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1",
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第56-57页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_add_subtract_hundreds_tens_by_place_value",
@@ -426,12 +915,28 @@
     "domain": "数与代数",
     "name": "按位值计算整百整十加减",
     "description": "基于百、十、个的位值，计算整百整十及相应数的加减。",
-    "gradeBands": ["G2"],
-    "evidence": ["能正确计算新的整百整十加减题。", "能用百、十、个的组成解释一种计算过程。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能正确计算新的整百整十加减题。",
+      "能用百、十、个的组成解释一种计算过程。"
+    ],
     "assessmentPrompt": "计算两道整百整十加减题，选择其中一道说明各数位怎样变化。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第62-63页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第62-63页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_align_place_values_in_column_addition_subtraction",
@@ -440,12 +945,28 @@
     "domain": "数与代数",
     "name": "竖式中按相同数位对齐",
     "description": "用竖式计算时按相同数位对齐，并将结果写在对应数位。",
-    "gradeBands": ["G2"],
-    "evidence": ["能把两个三位数按百十个位正确竖式对齐。", "能指出一份错位竖式的错误并说明应如何改正。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能把两个三位数按百十个位正确竖式对齐。",
+      "能指出一份错位竖式的错误并说明应如何改正。"
+    ],
     "assessmentPrompt": "把两个三位数写成竖式并检查数位对齐；再解释一份错位竖式哪里有问题。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第64-65、67-69页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第64-65、67-69页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_column_addition_with_regrouping",
@@ -454,12 +975,28 @@
     "domain": "数与代数",
     "name": "三位数进位竖式加法",
     "description": "计算需要进位的三位数加法，并处理连续进位。",
-    "gradeBands": ["G2"],
-    "evidence": ["能正确完成含一次或连续进位的三位数竖式加法。", "能解释满十进一在相邻数位中的含义。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能正确完成含一次或连续进位的三位数竖式加法。",
+      "能解释满十进一在相邻数位中的含义。"
+    ],
     "assessmentPrompt": "完成一道连续进位的三位数加法竖式，并说明一次进位表示什么。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第66-67页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第66-67页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_column_subtraction_with_regrouping",
@@ -468,12 +1005,28 @@
     "domain": "数与代数",
     "name": "三位数退位竖式减法",
     "description": "计算需要退位的三位数减法，包括被减数中间含零的情形。",
-    "gradeBands": ["G2"],
-    "evidence": ["能正确完成需要退位的三位数竖式减法。", "能用相邻数位的组成解释一次退位，或检查中间含零的处理。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能正确完成需要退位的三位数竖式减法。",
+      "能用相邻数位的组成解释一次退位，或检查中间含零的处理。"
+    ],
     "assessmentPrompt": "完成一道需要退位的三位数减法，并说明从高一位借来一个单位后发生了什么。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第68-74页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第68-74页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_explain_alternative_compensation_for_subtraction",
@@ -482,12 +1035,29 @@
     "domain": "数与代数",
     "name": "解释减法的补偿算法",
     "description": "用凑整、补偿或分步计算解释三位数减法的等价算法。",
-    "gradeBands": ["G2"],
-    "evidence": ["能用一种非竖式方法完成合适的三位数减法。", "能说明调整一个数后为何需要相应补偿。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能用一种非竖式方法完成合适的三位数减法。",
+      "能说明调整一个数后为何需要相应补偿。"
+    ],
     "assessmentPrompt": "选择凑整或补偿方法计算一道三位数减法，并解释怎样保证结果不变。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4", "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-6"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第69页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4",
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-6"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第69页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "modelLayer": "implementation_evidence"
   },
   {
     "id": "cn_math_g2_model_three_digit_add_subtract_word_problem",
@@ -496,12 +1066,28 @@
     "domain": "数与代数",
     "name": "建模三位数加减情境",
     "description": "从三位数量的实际情境中选择加法或减法，并解释结果。",
-    "gradeBands": ["G2"],
-    "evidence": ["能从新的三位数量情境中选择加法或减法并列式。", "能用原情境检查答案的单位和增减方向是否合理。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能从新的三位数量情境中选择加法或减法并列式。",
+      "能用原情境检查答案的单位和增减方向是否合理。"
+    ],
     "assessmentPrompt": "阅读一个三位数量的生活情境，先画图或列式，再说明为何选加法或减法。",
-    "standards": ["cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第62-74页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第62-74页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_quantitative_relations_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_convert_time_units_for_duration",
@@ -510,12 +1096,28 @@
     "domain": "综合与实践",
     "name": "转换时长单位",
     "description": "在时、分、秒之间转换，并用统一单位表示简单时长。",
-    "gradeBands": ["G2"],
-    "evidence": ["能把简单时长在时、分、秒之间正确转换。", "能为比较两个时长选择同一种单位并说明原因。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能把简单时长在时、分、秒之间正确转换。",
+      "能为比较两个时长选择同一种单位并说明原因。"
+    ],
     "assessmentPrompt": "把两个用不同单位表示的简单时长化成同一单位，再比较长短并说明做法。",
-    "standards": ["cn-math-2022:primary/integrated-practice/stage-1/thematic-activities/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第28-31页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/integrated-practice/stage-1/thematic-activities/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第28-31页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_integrated_practice_stage_1_thematic_activities_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_record_and_compare_event_durations",
@@ -524,12 +1126,28 @@
     "domain": "综合与实践",
     "name": "记录并比较活动时长",
     "description": "记录开始、结束和经过时间，比较或估计活动时长。",
-    "gradeBands": ["G2"],
-    "evidence": ["能记录一项活动的开始、结束和经过时间。", "能比较两项活动时长并说明使用的数据或单位。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能记录一项活动的开始、结束和经过时间。",
+      "能比较两项活动时长并说明使用的数据或单位。"
+    ],
     "assessmentPrompt": "给出两项活动的时间记录，求或比较经过时间，并说明怎样核对记录。",
-    "standards": ["cn-math-2022:primary/integrated-practice/stage-1/thematic-activities/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第28-31页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/integrated-practice/stage-1/thematic-activities/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第28-31页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_integrated_practice_stage_1_thematic_activities_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_solve_logic_grid_by_constraints",
@@ -538,12 +1156,28 @@
     "domain": "综合与实践",
     "name": "用条件表格排除推理",
     "description": "将不是、是和不同组等条件记录在表格中，逐步排除可能并确定匹配。",
-    "gradeBands": ["G2"],
-    "evidence": ["能把给定的排除条件记录在简单表格中。", "能根据已记录条件排除不可能匹配并说明一步推理。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能把给定的排除条件记录在简单表格中。",
+      "能根据已记录条件排除不可能匹配并说明一步推理。"
+    ],
     "assessmentPrompt": "给出三项对象和若干不是条件，用表格记录并确定一种匹配，说明关键排除步骤。",
-    "standards": ["cn-math-2022:primary/integrated-practice/stage-1/thematic-activities/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第60-61页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/integrated-practice/stage-1/thematic-activities/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第60-61页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_integrated_practice_stage_1_thematic_activities_content_1",
+    "modelLayer": "implementation_evidence"
   },
   {
     "id": "cn_math_g2_classify_by_explicit_criterion",
@@ -552,12 +1186,28 @@
     "domain": "统计与概率",
     "name": "按明确标准分类",
     "description": "根据一个明确标准将对象分组，统计并记录每组结果。",
-    "gradeBands": ["G2"],
-    "evidence": ["能按给定的一个标准把陌生对象完整分组。", "能记录每组结果并说明分类标准。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能按给定的一个标准把陌生对象完整分组。",
+      "能记录每组结果并说明分类标准。"
+    ],
     "assessmentPrompt": "给出一组对象和一个分类标准，完成分组、统计并用一句话说明标准。",
-    "standards": ["cn-math-2022:primary/statistics-probability/stage-1/data-classification/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第79-82页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/statistics-probability/stage-1/data-classification/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第79-82页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_statistics_probability_stage_1_data_classification_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_refine_classification_by_second_criterion",
@@ -566,12 +1216,28 @@
     "domain": "统计与概率",
     "name": "按第二标准细分分类",
     "description": "在初次分类后按第二标准继续分类，并比较不同分类方案的结果。",
-    "gradeBands": ["G2"],
-    "evidence": ["能在第一层分类结果内按第二标准继续分组。", "能比较两种分类方案并说明标准改变带来的分组变化。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能在第一层分类结果内按第二标准继续分组。",
+      "能比较两种分类方案并说明标准改变带来的分组变化。"
+    ],
     "assessmentPrompt": "先按一个标准给对象分类，再选第二标准细分，并说明两次分类有何不同。",
-    "standards": ["cn-math-2022:primary/statistics-probability/stage-1/data-classification/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第83-84页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/statistics-probability/stage-1/data-classification/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第83-84页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_statistics_probability_stage_1_data_classification_content_1",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_select_body_measure_for_length_estimation",
@@ -580,12 +1246,28 @@
     "domain": "图形与几何",
     "name": "选择身体尺度估测长度",
     "description": "在不方便使用标准尺的情境中，选择合适的身体长度作为非标准单位估测长度。",
-    "gradeBands": ["G2"],
-    "evidence": ["能为不同长度对象选择较合适的身体尺度作估测单位。", "能说明所选单位与被测长度之间的匹配理由。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能为不同长度对象选择较合适的身体尺度作估测单位。",
+      "能说明所选单位与被测长度之间的匹配理由。"
+    ],
     "assessmentPrompt": "没有尺子时要估测两个不同对象的长度，选择合适的身体尺度并说明理由。",
-    "standards": ["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-2"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第85-87页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-2"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第85-87页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_2",
+    "modelLayer": "diagnostic"
   },
   {
     "id": "cn_math_g2_measure_consistently_with_nonstandard_unit",
@@ -594,81 +1276,1431 @@
     "domain": "图形与几何",
     "name": "用非标准单位一致测量",
     "description": "用同一非标准单位重复测量并记录结果，反思如何提高测量准确性。",
-    "gradeBands": ["G2"],
-    "evidence": ["能用同一非标准单位首尾相接测量并记录结果。", "能指出单位不一致或有间隔重叠时造成的误差。"],
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能用同一非标准单位首尾相接测量并记录结果。",
+      "能指出单位不一致或有间隔重叠时造成的误差。"
+    ],
     "assessmentPrompt": "用指定的非标准单位测量一个物体，记录结果并说明怎样避免测量误差。",
-    "standards": ["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-2", "cn-math-2022:primary/integrated-practice/stage-1/thematic-activities/content-1"],
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第85-87页"}],
-    "reviewStatus": "reviewed"
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-2",
+      "cn-math-2022:primary/integrated-practice/stage-1/thematic-activities/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》",
+        "edition": "2024版",
+        "locator": "第85-87页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_2",
+    "modelLayer": "diagnostic"
   },
   {
-    "id": "cn_math_g1_count_and_represent_quantities_within_ten", "type": "REPRESENTATIONAL", "subject": "数学", "domain": "数与代数", "name": "表征10以内数量", "description": "对0到10的具体数量逐一计数，并在实物、图示和数字间建立对应。", "gradeBands": ["G1"], "evidence": ["能对陌生物品逐一计数并写出对应数字。", "能在图示和数字卡片之间完成数量匹配并说明方法。"], "assessmentPrompt": "给出一组不规则摆放的物品，数出数量并选出对应数字，说明如何避免重复或漏数。", "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-1"], "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》", "locator": "第12-28页"}], "reviewStatus": "reviewed"
+    "id": "cn_math_g1_count_and_represent_quantities_within_ten",
+    "type": "REPRESENTATIONAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "表征10以内数量",
+    "description": "对0到10的具体数量逐一计数，并在实物、图示和数字间建立对应。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能对陌生物品逐一计数并写出对应数字。",
+      "能在图示和数字卡片之间完成数量匹配并说明方法。"
+    ],
+    "assessmentPrompt": "给出一组不规则摆放的物品，数出数量并选出对应数字，说明如何避免重复或漏数。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》",
+        "locator": "第12-28页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_1",
+    "modelLayer": "diagnostic"
   },
   {
-    "id": "cn_math_g1_compare_quantities_within_ten", "type": "CONCEPTUAL", "subject": "数学", "domain": "数与代数", "name": "比较10以内数量", "description": "用一一对应、计数或数字比较0到10两个数量的多少或相等关系。", "gradeBands": ["G1"], "evidence": ["能比较两组不规则物品并判断多、少或同样多。", "能说明使用一一对应或计数作出判断的理由。"], "assessmentPrompt": "比较两组摆放方式不同的物品，判断哪组多或是否相等，并说明依据。", "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-2"], "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》", "locator": "第12-28页"}], "reviewStatus": "reviewed"
+    "id": "cn_math_g1_compare_quantities_within_ten",
+    "type": "CONCEPTUAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "比较10以内数量",
+    "description": "用一一对应、计数或数字比较0到10两个数量的多少或相等关系。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能比较两组不规则物品并判断多、少或同样多。",
+      "能说明使用一一对应或计数作出判断的理由。"
+    ],
+    "assessmentPrompt": "比较两组摆放方式不同的物品，判断哪组多或是否相等，并说明依据。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-2"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》",
+        "locator": "第12-28页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_2",
+    "modelLayer": "diagnostic"
   },
   {
-    "id": "cn_math_g1_compose_decompose_numbers_within_five", "type": "CONCEPTUAL", "subject": "数学", "domain": "数与代数", "name": "分解与合成5以内数", "description": "用实物或图示把5以内数分成两个部分，并由两部分合成整体。", "gradeBands": ["G1"], "evidence": ["能用不同方式把一个5以内数分为两个部分。", "能根据两部分数量说出整体并用图示解释。"], "assessmentPrompt": "把5以内一个数用两种不同方法分成两部分，画图或摆物说明每种分法。", "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3"], "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》", "locator": "第29-39页"}], "reviewStatus": "reviewed"
+    "id": "cn_math_g1_compose_decompose_numbers_within_five",
+    "type": "CONCEPTUAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "分解与合成5以内数",
+    "description": "用实物或图示把5以内数分成两个部分，并由两部分合成整体。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能用不同方式把一个5以内数分为两个部分。",
+      "能根据两部分数量说出整体并用图示解释。"
+    ],
+    "assessmentPrompt": "把5以内一个数用两种不同方法分成两部分，画图或摆物说明每种分法。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》",
+        "locator": "第29-39页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "modelLayer": "diagnostic"
   },
   {
-    "id": "cn_math_g1_model_addition_as_combining_within_five", "type": "REPRESENTATIONAL", "subject": "数学", "domain": "数与代数", "name": "建模5以内合并加法", "description": "将两个部分合并成整体的情境表示为5以内加法。", "gradeBands": ["G1"], "evidence": ["能从新的合并情境中找出两个部分和整体。", "能用算式或图示表示合并并解释加号含义。"], "assessmentPrompt": "给出两个部分合并的情境，画图或列式表示，并说明算式中每个数代表什么。", "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3", "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"], "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》", "locator": "第29-39页"}], "reviewStatus": "reviewed"
+    "id": "cn_math_g1_model_addition_as_combining_within_five",
+    "type": "REPRESENTATIONAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "建模5以内合并加法",
+    "description": "将两个部分合并成整体的情境表示为5以内加法。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能从新的合并情境中找出两个部分和整体。",
+      "能用算式或图示表示合并并解释加号含义。"
+    ],
+    "assessmentPrompt": "给出两个部分合并的情境，画图或列式表示，并说明算式中每个数代表什么。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3",
+      "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》",
+        "locator": "第29-39页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "modelLayer": "diagnostic"
   },
   {
-    "id": "cn_math_g1_model_subtraction_as_removal_within_five", "type": "REPRESENTATIONAL", "subject": "数学", "domain": "数与代数", "name": "建模5以内去除减法", "description": "将从整体去掉一部分的情境表示为5以内减法。", "gradeBands": ["G1"], "evidence": ["能从新的去除情境中识别原有量、去掉量和剩余量。", "能用减法算式或图示说明剩余关系。"], "assessmentPrompt": "给出从整体去掉一部分的情境，列出减法算式，并说明每个数和结果表示什么。", "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3", "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"], "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》", "locator": "第29-39页"}], "reviewStatus": "reviewed"
+    "id": "cn_math_g1_model_subtraction_as_removal_within_five",
+    "type": "REPRESENTATIONAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "建模5以内去除减法",
+    "description": "将从整体去掉一部分的情境表示为5以内减法。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能从新的去除情境中识别原有量、去掉量和剩余量。",
+      "能用减法算式或图示说明剩余关系。"
+    ],
+    "assessmentPrompt": "给出从整体去掉一部分的情境，列出减法算式，并说明每个数和结果表示什么。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3",
+      "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》",
+        "locator": "第29-39页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "modelLayer": "diagnostic"
   },
   {
-    "id": "cn_math_g1_calculate_add_subtract_within_five", "type": "PROCEDURAL", "subject": "数学", "domain": "数与代数", "name": "计算5以内加减法", "description": "借助数数、数的组成或图示计算5以内加减法。", "gradeBands": ["G1"], "evidence": ["能正确计算陌生的5以内加减法。", "能选择数数、图示或数的组成解释一次计算过程。"], "assessmentPrompt": "计算两道5以内加减法，任选一道说明你怎样得到结果。", "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"], "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》", "locator": "第29-39页"}], "reviewStatus": "reviewed"
+    "id": "cn_math_g1_calculate_add_subtract_within_five",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "计算5以内加减法",
+    "description": "借助数数、数的组成或图示计算5以内加减法。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能正确计算陌生的5以内加减法。",
+      "能选择数数、图示或数的组成解释一次计算过程。"
+    ],
+    "assessmentPrompt": "计算两道5以内加减法，任选一道说明你怎样得到结果。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》",
+        "locator": "第29-39页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "modelLayer": "diagnostic"
   },
   {
-    "id": "cn_math_g1_compose_decompose_numbers_within_ten", "type": "CONCEPTUAL", "subject": "数学", "domain": "数与代数", "name": "分解与合成10以内数", "description": "用数的组成、补足或图示解释10以内数的分解与合成。", "gradeBands": ["G1"], "evidence": ["能用两种方法分解一个10以内数。", "能根据一个部分求另一个部分并解释补足关系。"], "assessmentPrompt": "一个10以内数已知其中一部分，求另一部分，并用图或数的组成解释。", "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3"], "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》", "locator": "第48-69页"}], "reviewStatus": "reviewed"
+    "id": "cn_math_g1_compose_decompose_numbers_within_ten",
+    "type": "CONCEPTUAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "分解与合成10以内数",
+    "description": "用数的组成、补足或图示解释10以内数的分解与合成。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能用两种方法分解一个10以内数。",
+      "能根据一个部分求另一个部分并解释补足关系。"
+    ],
+    "assessmentPrompt": "一个10以内数已知其中一部分，求另一部分，并用图或数的组成解释。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》",
+        "locator": "第48-69页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "modelLayer": "diagnostic"
   },
   {
-    "id": "cn_math_g1_calculate_add_subtract_within_ten", "type": "PROCEDURAL", "subject": "数学", "domain": "数与代数", "name": "计算10以内加减法", "description": "使用数的组成、连续计数或图示计算10以内加减法。", "gradeBands": ["G1"], "evidence": ["能正确计算陌生的10以内加减法。", "能解释一项计算中使用的数的组成或图示关系。"], "assessmentPrompt": "计算两道10以内加减法，选择一道用分解或图示解释计算过程。", "standards": ["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"], "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》", "locator": "第48-69页"}], "reviewStatus": "reviewed"
+    "id": "cn_math_g1_calculate_add_subtract_within_ten",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "计算10以内加减法",
+    "description": "使用数的组成、连续计数或图示计算10以内加减法。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能正确计算陌生的10以内加减法。",
+      "能解释一项计算中使用的数的组成或图示关系。"
+    ],
+    "assessmentPrompt": "计算两道10以内加减法，选择一道用分解或图示解释计算过程。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》",
+        "locator": "第48-69页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "modelLayer": "diagnostic"
   },
   {
-    "id": "cn_math_g1_classify_objects_by_explicit_feature", "type": "PROCEDURAL", "subject": "数学", "domain": "统计与概率", "name": "按明确特征分类对象", "description": "按形状、用途或其他明确标准对对象分类，并说明使用的标准。", "gradeBands": ["G1"], "evidence": ["能按给定标准完整地把一组对象分组。", "能说明自己的分类标准并检查对象是否遗漏。"], "assessmentPrompt": "给出一组对象和分类标准，完成分组并用一句话说明标准。", "standards": ["cn-math-2022:primary/statistics-probability/stage-1/data-classification/content-1"], "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》", "locator": "第43-47页"}], "reviewStatus": "reviewed"
+    "id": "cn_math_g1_classify_objects_by_explicit_feature",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "统计与概率",
+    "name": "按明确特征分类对象",
+    "description": "按形状、用途或其他明确标准对对象分类，并说明使用的标准。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能按给定标准完整地把一组对象分组。",
+      "能说明自己的分类标准并检查对象是否遗漏。"
+    ],
+    "assessmentPrompt": "给出一组对象和分类标准，完成分组并用一句话说明标准。",
+    "standards": [
+      "cn-math-2022:primary/statistics-probability/stage-1/data-classification/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》",
+        "locator": "第43-47页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_statistics_probability_stage_1_data_classification_content_1",
+    "modelLayer": "diagnostic"
   },
   {
-    "id": "cn_math_g1_identify_simple_solids_by_observable_features", "type": "CONCEPTUAL", "subject": "数学", "domain": "图形与几何", "name": "按可见特征辨认简单立体", "description": "从实物或图中辨认长方体、正方体、圆柱和球等简单立体图形。", "gradeBands": ["G1"], "evidence": ["能从不同实物中辨认指定的简单立体。", "能用能否滚动或面形等可见特征说明分类理由。"], "assessmentPrompt": "给出若干日常物品，按长方体、正方体、圆柱和球分类，并说明一种判断特征。", "standards": ["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"], "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》", "locator": "第72-77页"}], "reviewStatus": "reviewed"
+    "id": "cn_math_g1_identify_simple_solids_by_observable_features",
+    "type": "CONCEPTUAL",
+    "subject": "数学",
+    "domain": "图形与几何",
+    "name": "按可见特征辨认简单立体",
+    "description": "从实物或图中辨认长方体、正方体、圆柱和球等简单立体图形。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能从不同实物中辨认指定的简单立体。",
+      "能用能否滚动或面形等可见特征说明分类理由。"
+    ],
+    "assessmentPrompt": "给出若干日常物品，按长方体、正方体、圆柱和球分类，并说明一种判断特征。",
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》",
+        "locator": "第72-77页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "modelLayer": "diagnostic"
   },
   {
-    "id": "cn_math_g1_order_events_within_a_day", "type": "REPRESENTATIONAL", "subject": "数学", "domain": "综合与实践", "name": "排列一天内事件顺序", "description": "根据日常活动的先后关系排列同一天内的事件。", "gradeBands": ["G1"], "evidence": ["能把给定的日常事件按先后排列。", "能说明一个事件在另一个事件之前或之后的依据。"], "assessmentPrompt": "给出四项一天内活动，按先后排序并说明其中一对的先后关系。", "standards": ["cn-math-2022:primary/integrated-practice/stage-1/thematic-activities/content-1"], "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》", "locator": "第78-80页"}], "reviewStatus": "reviewed"
+    "id": "cn_math_g1_order_events_within_a_day",
+    "type": "REPRESENTATIONAL",
+    "subject": "数学",
+    "domain": "综合与实践",
+    "name": "排列一天内事件顺序",
+    "description": "根据日常活动的先后关系排列同一天内的事件。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能把给定的日常事件按先后排列。",
+      "能说明一个事件在另一个事件之前或之后的依据。"
+    ],
+    "assessmentPrompt": "给出四项一天内活动，按先后排序并说明其中一对的先后关系。",
+    "standards": [
+      "cn-math-2022:primary/integrated-practice/stage-1/thematic-activities/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级上册》",
+        "locator": "第78-80页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_integrated_practice_stage_1_thematic_activities_content_1",
+    "modelLayer": "implementation_evidence"
   },
-  {"id":"cn_math_g1_count_and_represent_numbers_within_twenty","type":"REPRESENTATIONAL","subject":"数学","domain":"数与代数","name":"表征20以内数","description":"按一和十计数，在实物、十捆一和符号间表征20以内数。","gradeBands":["G1"],"evidence":["能用十和一表示指定的20以内数。","能在实物、图示和数字之间转换并说明十表示什么。"],"assessmentPrompt":"用十和一的图示表示一个20以内数，并写出数字说明组成。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-1"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 一年级下册》","locator":"第2-17页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g1_compose_decompose_numbers_for_make_ten","type":"CONCEPTUAL","subject":"数学","domain":"数与代数","name":"用凑十分解数","description":"将20以内数分解或补足到十，解释凑十计算中的数的组成。","gradeBands":["G1"],"evidence":["能把一个20以内数分解成十和剩余部分。","能为一个加数找出补足十所需的数并解释。"],"assessmentPrompt":"把一个20以内数分成十和几，并说明怎样用这个分解计算。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 一年级下册》","locator":"第2-17、27-43页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g1_calculate_addition_within_twenty_by_make_ten","type":"PROCEDURAL","subject":"数学","domain":"数与代数","name":"用凑十计算20以内加法","description":"用凑十、拆分或图示计算20以内进位加法。","gradeBands":["G1"],"evidence":["能正确完成陌生的20以内进位加法。","能用凑十或拆分解释一次计算过程。"],"assessmentPrompt":"计算一道20以内进位加法，用图或数的分解说明怎样凑十。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 一年级下册》","locator":"第2-17页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g1_construct_plane_shapes_by_trace_or_compose","type":"PROCEDURAL","subject":"数学","domain":"图形与几何","name":"描印或拼组平面图形","description":"通过描印、拼组或分割构造并辨认简单平面图形。","gradeBands":["G1"],"evidence":["能通过描印得到物体一个面的平面图形。","能用给定图形拼出指定的简单轮廓。"],"assessmentPrompt":"用一个日常物品描出平面图形，再用给定图形拼出一个目标轮廓。","standards":["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 一年级下册》","locator":"第18-23页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g1_model_subtraction_within_twenty","type":"REPRESENTATIONAL","subject":"数学","domain":"数与代数","name":"建模20以内减法","description":"将剩余、比较或求相差情境表示为20以内减法。","gradeBands":["G1"],"evidence":["能从陌生减法情境中找出已知量和未知量。","能用算式或图示表示剩余或相差关系。"],"assessmentPrompt":"阅读一个20以内减法情境，列式并说明结果表示剩余还是相差。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3","cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 一年级下册》","locator":"第27-43页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g1_calculate_subtraction_within_twenty_by_decomposition","type":"PROCEDURAL","subject":"数学","domain":"数与代数","name":"用分解计算20以内减法","description":"用拆分、凑十或图示计算20以内退位减法。","gradeBands":["G1"],"evidence":["能正确完成陌生的20以内退位减法。","能用拆分或凑十解释一次退位过程。"],"assessmentPrompt":"计算一道20以内退位减法，用拆分或图示解释怎样得到结果。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 一年级下册》","locator":"第27-43页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g1_count_by_ones_tens_and_fives_within_hundred","type":"PROCEDURAL","subject":"数学","domain":"数与代数","name":"按单位数100以内数","description":"在100以内按一、十或五等单位顺数和跳数。","gradeBands":["G1"],"evidence":["能从给定数开始按一或十继续数。","能用按五跳数解决新的计数任务并说明规律。"],"assessmentPrompt":"从指定数开始分别按一、五、十继续数，并说明每次增加多少。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-1"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 一年级下册》","locator":"第44-59页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g1_read_write_compare_numbers_within_hundred","type":"PROCEDURAL","subject":"数学","domain":"数与代数","name":"读写比较100以内数","description":"读写、比较和排序100以内数，并解释十位和个位的值。","gradeBands":["G1"],"evidence":["能读写陌生的两位数并说明十位和个位。","能比较或排序多个两位数并说明判断数位。"],"assessmentPrompt":"读写两个两位数并比较大小，说明从哪个数位开始判断。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-1","cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-2"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 一年级下册》","locator":"第44-59页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g1_locate_numbers_on_hundred_number_line","type":"REPRESENTATIONAL","subject":"数学","domain":"数与代数","name":"在百以内数线定位数","description":"在100以内数线或数表上定位数，并利用前后关系判断位置。","gradeBands":["G1"],"evidence":["能在给定数线上标出一个两位数。","能说明目标数前后相邻数或所处十数区间。"],"assessmentPrompt":"在百以内数线标出一个数，写出它前后各一个数并说明位置。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-2"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 一年级下册》","locator":"第44-59页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g1_add_subtract_tens_within_hundred","type":"PROCEDURAL","subject":"数学","domain":"数与代数","name":"计算百以内整十加减","description":"基于十位和个位的组成计算整十数加减。","gradeBands":["G1"],"evidence":["能正确计算新的整十加减题。","能用十的组成解释一次计算。"],"assessmentPrompt":"计算两道整十加减题，任选一道说明几个十怎样变化。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 一年级下册》","locator":"第62-75页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g1_add_subtract_two_digit_numbers_without_regrouping","type":"PROCEDURAL","subject":"数学","domain":"数与代数","name":"计算不进退位两位数加减","description":"按十位和个位分解计算不进位、不退位的两位数加减。","gradeBands":["G1"],"evidence":["能正确计算陌生的不进退位两位数加减。","能说明十位与个位分别如何相加或相减。"],"assessmentPrompt":"计算一道不进退位两位数加减题，并说明十位和个位怎样分别处理。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 一年级下册》","locator":"第62-75页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g1_identify_and_compose_basic_plane_shapes","type":"CONCEPTUAL","subject":"数学","domain":"图形与几何","name":"辨认并拼组基本平面图形","description":"辨认三角形、长方形、正方形和圆等基本平面图形，并通过拼组形成目标图形。","gradeBands":["G1"],"evidence":["能在不同方向和大小的图中辨认基本平面图形。","能用若干基本图形拼出指定的简单目标图形。"],"assessmentPrompt":"在混合图形中找出指定平面图形，再用给定图形拼出一个目标。","standards":["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 一年级下册》","locator":"第76-86页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g2_add_two_digit_numbers_with_regrouping","type":"PROCEDURAL","subject":"数学","domain":"数与代数","name":"计算进位两位数加法","description":"基于数位分解或凑整计算需要进位的两位数加法。","gradeBands":["G2"],"evidence":["能正确计算陌生的进位两位数加法。","能用数位分解或凑整解释一次进位。"],"assessmentPrompt":"计算一道进位两位数加法，并说明进位或凑整怎样发生。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 二年级上册》","locator":"第2-17页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g2_subtract_two_digit_numbers_with_regrouping","type":"PROCEDURAL","subject":"数学","domain":"数与代数","name":"计算退位两位数减法","description":"基于数位分解计算需要退位的两位数减法。","gradeBands":["G2"],"evidence":["能正确计算陌生的退位两位数减法。","能用十位和个位的组成解释一次退位。"],"assessmentPrompt":"计算一道退位两位数减法，并说明从十位拆出一个十后发生了什么。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 二年级上册》","locator":"第2-17页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g2_measure_length_with_standard_unit","type":"PROCEDURAL","subject":"数学","domain":"图形与几何","name":"用标准单位测量长度","description":"选择厘米、米等合适单位，使用量具测量长度并记录结果。","gradeBands":["G2"],"evidence":["能选择合适单位和工具测量指定物体。","能正确读取刻度并记录带单位的结果。"],"assessmentPrompt":"选择合适工具测量一个物体长度，记录结果并说明为什么选该单位。","standards":["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-2"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 二年级上册》","locator":"第20-29页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g2_represent_equal_groups","type":"REPRESENTATIONAL","subject":"数学","domain":"数与代数","name":"表征等量分组","description":"用实物、图示或表格表示每组相同数量的等量分组。","gradeBands":["G2"],"evidence":["能把一组对象按相同数量分组。","能用图或表格说明组数和每组数量。"],"assessmentPrompt":"把一组对象按每组相同数量整理，画图说明有几组、每组几个。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 二年级上册》","locator":"第30-42页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g2_interpret_multiplication_as_equal_groups","type":"CONCEPTUAL","subject":"数学","domain":"数与代数","name":"理解乘法表示等量分组","description":"将等量分组或阵列情境表示为乘法，并解释各因数含义。","gradeBands":["G2"],"evidence":["能从等量分组写出乘法算式。","能说明算式中两个因数分别表示什么。"],"assessmentPrompt":"给出等量分组图，列出乘法算式并解释每个数的含义。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 二年级上册》","locator":"第30-42页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g2_use_multiplication_facts_within_nine","type":"PROCEDURAL","subject":"数学","domain":"数与代数","name":"使用9以内乘法口诀","description":"使用1到9的乘法口诀或数组关系计算乘积。","gradeBands":["G2"],"evidence":["能正确计算陌生的表内乘法。","能用口诀或数组关系解释一个乘积。"],"assessmentPrompt":"计算两道表内乘法，任选一道说明使用的口诀或数组关系。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-5"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 二年级上册》","locator":"第43-52、77-86页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g2_represent_equal_sharing_and_grouping_division","type":"REPRESENTATIONAL","subject":"数学","domain":"数与代数","name":"表征平均分和按组分","description":"用操作、图示或算式表示平均分和按组分两类除法情境。","gradeBands":["G2"],"evidence":["能用图示表示把总量平均分给若干份。","能区分已知每份数与已知份数的分组问题。"],"assessmentPrompt":"给出两种分物情境，画图说明各自已知什么、要求什么。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3","cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-5"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 二年级上册》","locator":"第56-71页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g2_interpret_division_using_multiplication_relation","type":"PROCEDURAL","subject":"数学","domain":"数与代数","name":"用乘除关系计算整除","description":"用乘法口诀或乘除关系计算整除情境的商并解释含义。","gradeBands":["G2"],"evidence":["能用乘法口诀求出整除问题的商。","能说明商在分组情境中表示组数或每组数。"],"assessmentPrompt":"解决一道整除分组问题，用乘法口诀检查商并解释商的单位。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-5"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 二年级上册》","locator":"第56-71页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g2_model_multiplication_division_word_problems","type":"REPRESENTATIONAL","subject":"数学","domain":"数与代数","name":"建模乘除法情境","description":"从等量、倍数、平均分或按组分情境中选择乘法或除法算式。","gradeBands":["G2"],"evidence":["能从新情境中选择乘法或除法算式。","能用情境检查结果的单位和数量是否合理。"],"assessmentPrompt":"阅读一道等量或分组问题，列式并说明为何选择乘法或除法。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-6","cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 二年级上册》","locator":"第87-93页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g2_estimate_length_using_benchmark","type":"STRATEGIC","subject":"数学","domain":"图形与几何","name":"用基准估计长度","description":"选取熟悉长度作基准，估计物体长度并与测量结果比较。","gradeBands":["G2"],"evidence":["能选择合理长度基准估计陌生物体。","能比较估计与测量结果并说明差异。"],"assessmentPrompt":"先用熟悉物体估计目标长度，再实际测量并比较结果。","standards":["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-2","cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 二年级上册》","locator":"第20-29页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g2_identify_reflection_symmetry_by_folding","type":"CONCEPTUAL","subject":"数学","domain":"图形与几何","name":"通过折叠辨认轴对称","description":"通过折叠或对照辨认简单图形的轴对称特征。","gradeBands":["G2"],"evidence":["能用折叠检验简单图形是否对称。","能指出对称图形两侧重合的现象。"],"assessmentPrompt":"对两个简单图形折叠检验，判断是否对称并说明依据。","standards":["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1","cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 二年级上册》","locator":"第72-76页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g2_describe_simple_position_and_route","type":"REPRESENTATIONAL","subject":"数学","domain":"图形与几何","name":"描述简单位置和路线","description":"用方向、相对位置或路线图描述校园中的简单位置和路径。","gradeBands":["G2"],"evidence":["能依据简单路线图说出路径。","能使用相对位置或方向词解释路线。"],"assessmentPrompt":"给出简单路线图，描述从起点到终点的走法并说明一个相对位置。","standards":["cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 二年级上册》","locator":"第53-55页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g2_model_amount_relationships_in_shopping","type":"REPRESENTATIONAL","subject":"数学","domain":"数与代数","name":"建模购物数量关系","description":"在简单购物情境中关联单价、数量和总价，并检验结果是否合理。","gradeBands":["G2"],"evidence":["能提取单价、数量和总价。","能列式求总价并用情境检查结果。"],"assessmentPrompt":"给出商品价格和数量，列式求总价并说明怎样检查结果。","standards":["cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-6","cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 二年级上册》","locator":"第94-97页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g3_model_mixed_operations_from_context","type":"REPRESENTATIONAL","subject":"数学","domain":"数与代数","name":"建模混合运算情境","description":"将含加减与乘法的情境表示为分步或混合算式，并解释每一步。","gradeBands":["G3"],"evidence":["能从情境中列出分步或混合算式。","能说明每个运算步骤对应的数量关系。"],"assessmentPrompt":"阅读含加法和乘法的情境，列式并解释每一步表示什么。","standards":["cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-1","cn-math-2022:primary/number-algebra/stage-2/quantitative-relations/content-1"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 三年级上册》","locator":"第2-12页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g3_select_operation_order_in_mixed_expression","type":"PROCEDURAL","subject":"数学","domain":"数与代数","name":"确定混合算式运算顺序","description":"按括号和运算关系确定含加减乘法算式的计算顺序。","gradeBands":["G3"],"evidence":["能正确计算含加减乘法的简单算式。","能说明先算哪一步及其依据。"],"assessmentPrompt":"计算一道混合算式，标出每一步顺序并说明理由。","standards":["cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-1"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 三年级上册》","locator":"第2-12页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g3_convert_metric_length_units","type":"PROCEDURAL","subject":"数学","domain":"图形与几何","name":"转换长度单位","description":"在毫米、厘米、分米和米之间转换，并选择合适单位。","gradeBands":["G3"],"evidence":["能在相邻长度单位间正确转换。","能为测量对象选择合适长度单位并说明理由。"],"assessmentPrompt":"将若干长度化成指定单位，并说明一个物体为什么适合用该单位。","standards":["cn-math-2022:primary/geometry/stage-2/shape-recognition-and-measurement/content-requirements"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 三年级上册》","locator":"第13-23页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g3_measure_and_estimate_length_with_precision","type":"PROCEDURAL","subject":"数学","domain":"图形与几何","name":"精确测量和估计长度","description":"使用刻度工具读取长度，结合基准估计并说明测量精度。","gradeBands":["G3"],"evidence":["能读取含毫米刻度的长度。","能比较估计和测量结果并说明精度差异。"],"assessmentPrompt":"先估计再测量一个物体长度，记录结果并说明读数到什么单位。","standards":["cn-math-2022:primary/geometry/stage-2/shape-recognition-and-measurement/content-requirements"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 三年级上册》","locator":"第13-23页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g3_add_three_digit_numbers_with_regrouping","type":"PROCEDURAL","subject":"数学","domain":"数与代数","name":"计算三位数进位加法","description":"用按位竖式或等价分解计算三位数加法并处理进位。","gradeBands":["G3"],"evidence":["能正确计算陌生三位数进位加法。","能说明一次进位的位值含义。"],"assessmentPrompt":"完成一道三位数进位加法，并解释一次进位表示什么。","standards":["cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-1"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 三年级上册》","locator":"第28-40页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g3_subtract_three_digit_numbers_with_regrouping","type":"PROCEDURAL","subject":"数学","domain":"数与代数","name":"计算三位数退位减法","description":"用按位竖式或等价分解计算三位数减法并处理退位。","gradeBands":["G3"],"evidence":["能正确计算陌生三位数退位减法。","能说明一次退位的位值含义。"],"assessmentPrompt":"完成一道三位数退位减法，并解释从高位借来一个单位后发生什么。","standards":["cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-1"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 三年级上册》","locator":"第28-40页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g3_identify_angle_by_vertex_and_rays","type":"CONCEPTUAL","subject":"数学","domain":"图形与几何","name":"按顶点和边辨认角","description":"从实物或图形中辨认角的顶点和两边，并画出简单角。","gradeBands":["G3"],"evidence":["能指出图中一个角的顶点和两边。","能画出简单角并标明构成部分。"],"assessmentPrompt":"在给定图形中找角，标出顶点和边，再画出一个不同的角。","standards":["cn-math-2022:primary/geometry/stage-2/shape-recognition-and-measurement/content-requirements"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 三年级上册》","locator":"第49-61页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g3_model_multiplication_division_applications","type":"REPRESENTATIONAL","subject":"数学","domain":"数与代数","name":"建模多步乘除法应用","description":"从多步乘除法情境中选择运算并检查数量和单位是否合理。","gradeBands":["G3"],"evidence":["能把多步乘除法情境拆成可计算步骤。","能检查结果的单位和数量关系。"],"assessmentPrompt":"给出多步乘除法问题，列出步骤并说明最终结果是否合理。","standards":["cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-1","cn-math-2022:primary/number-algebra/stage-2/quantitative-relations/content-1"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 三年级上册》","locator":"第64-74页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g3_interpret_decimal_as_yuan_jiao_fen","type":"REPRESENTATIONAL","subject":"数学","domain":"数与代数","name":"用元角分解释小数","description":"在元、角、分情境中解释一位或两位小数的组成。","gradeBands":["G3"],"evidence":["能把元角分金额表示为简单小数。","能解释小数点后各位在金额情境中的含义。"],"assessmentPrompt":"把一笔元角分金额写成小数，并说明小数点后每一位表示什么。","standards":["cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-3"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 三年级上册》","locator":"第75-89页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g3_read_write_compare_simple_decimals","type":"PROCEDURAL","subject":"数学","domain":"数与代数","name":"读写比较简单小数","description":"读写、比较与表示一位或两位小数，并说明小数点的作用。","gradeBands":["G3"],"evidence":["能读写陌生的一位或两位小数。","能比较两个简单小数并说明判断。"],"assessmentPrompt":"读写两个简单小数并比较大小，说明小数点后数字的作用。","standards":["cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-3"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 三年级上册》","locator":"第75-89页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g3_collect_record_and_classify_data","type":"PROCEDURAL","subject":"数学","domain":"统计与概率","name":"收集分类并记录数据","description":"围绕明确问题收集、分类并以表格记录数据。","gradeBands":["G3"],"evidence":["能依据问题收集并按标准分类数据。","能以表格记录分类结果并说明表头。"],"assessmentPrompt":"围绕一个简单问题收集小组数据，分类后完成表格并说明分类标准。","standards":["cn-math-2022:primary/statistics-probability/stage-2/data-collection-organization-expression/content-requirements"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 三年级上册》","locator":"第90-94页"}],"reviewStatus":"reviewed"},
-  {"id":"cn_math_g3_interpret_calendar_dates_and_intervals","type":"REPRESENTATIONAL","subject":"数学","domain":"综合与实践","name":"解读日历日期和间隔","description":"使用月历或年历定位日期，并解释简单日期间隔。","gradeBands":["G3"],"evidence":["能在月历中定位指定日期。","能根据月历解释两个日期之间的简单间隔。"],"assessmentPrompt":"给出一张月历，找出指定日期并计算两个日期相隔几天，说明数法。","standards":["cn-math-2022:primary/integrated-practice/stage-2/thematic-activities/content-requirements"],"sources":[{"kind":"textbook","citation":"北京师范大学出版社《义务教育教科书 数学 三年级上册》","locator":"第95-98页"}],"reviewStatus":"reviewed"}
+  {
+    "id": "cn_math_g1_count_and_represent_numbers_within_twenty",
+    "type": "REPRESENTATIONAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "表征20以内数",
+    "description": "按一和十计数，在实物、十捆一和符号间表征20以内数。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能用十和一表示指定的20以内数。",
+      "能在实物、图示和数字之间转换并说明十表示什么。"
+    ],
+    "assessmentPrompt": "用十和一的图示表示一个20以内数，并写出数字说明组成。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级下册》",
+        "locator": "第2-17页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_1",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g1_compose_decompose_numbers_for_make_ten",
+    "type": "CONCEPTUAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "用凑十分解数",
+    "description": "将20以内数分解或补足到十，解释凑十计算中的数的组成。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能把一个20以内数分解成十和剩余部分。",
+      "能为一个加数找出补足十所需的数并解释。"
+    ],
+    "assessmentPrompt": "把一个20以内数分成十和几，并说明怎样用这个分解计算。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级下册》",
+        "locator": "第2-17、27-43页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g1_calculate_addition_within_twenty_by_make_ten",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "用凑十计算20以内加法",
+    "description": "用凑十、拆分或图示计算20以内进位加法。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能正确完成陌生的20以内进位加法。",
+      "能用凑十或拆分解释一次计算过程。"
+    ],
+    "assessmentPrompt": "计算一道20以内进位加法，用图或数的分解说明怎样凑十。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级下册》",
+        "locator": "第2-17页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g1_construct_plane_shapes_by_trace_or_compose",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "图形与几何",
+    "name": "描印或拼组平面图形",
+    "description": "通过描印、拼组或分割构造并辨认简单平面图形。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能通过描印得到物体一个面的平面图形。",
+      "能用给定图形拼出指定的简单轮廓。"
+    ],
+    "assessmentPrompt": "用一个日常物品描出平面图形，再用给定图形拼出一个目标轮廓。",
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级下册》",
+        "locator": "第18-23页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g1_model_subtraction_within_twenty",
+    "type": "REPRESENTATIONAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "建模20以内减法",
+    "description": "将剩余、比较或求相差情境表示为20以内减法。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能从陌生减法情境中找出已知量和未知量。",
+      "能用算式或图示表示剩余或相差关系。"
+    ],
+    "assessmentPrompt": "阅读一个20以内减法情境，列式并说明结果表示剩余还是相差。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3",
+      "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级下册》",
+        "locator": "第27-43页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g1_calculate_subtraction_within_twenty_by_decomposition",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "用分解计算20以内减法",
+    "description": "用拆分、凑十或图示计算20以内退位减法。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能正确完成陌生的20以内退位减法。",
+      "能用拆分或凑十解释一次退位过程。"
+    ],
+    "assessmentPrompt": "计算一道20以内退位减法，用拆分或图示解释怎样得到结果。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级下册》",
+        "locator": "第27-43页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g1_count_by_ones_tens_and_fives_within_hundred",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "按单位数100以内数",
+    "description": "在100以内按一、十或五等单位顺数和跳数。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能从给定数开始按一或十继续数。",
+      "能用按五跳数解决新的计数任务并说明规律。"
+    ],
+    "assessmentPrompt": "从指定数开始分别按一、五、十继续数，并说明每次增加多少。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级下册》",
+        "locator": "第44-59页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_1",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g1_read_write_compare_numbers_within_hundred",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "读写比较100以内数",
+    "description": "读写、比较和排序100以内数，并解释十位和个位的值。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能读写陌生的两位数并说明十位和个位。",
+      "能比较或排序多个两位数并说明判断数位。"
+    ],
+    "assessmentPrompt": "读写两个两位数并比较大小，说明从哪个数位开始判断。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-1",
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-2"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级下册》",
+        "locator": "第44-59页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_1",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g1_locate_numbers_on_hundred_number_line",
+    "type": "REPRESENTATIONAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "在百以内数线定位数",
+    "description": "在100以内数线或数表上定位数，并利用前后关系判断位置。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能在给定数线上标出一个两位数。",
+      "能说明目标数前后相邻数或所处十数区间。"
+    ],
+    "assessmentPrompt": "在百以内数线标出一个数，写出它前后各一个数并说明位置。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-2"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级下册》",
+        "locator": "第44-59页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_2",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g1_add_subtract_tens_within_hundred",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "计算百以内整十加减",
+    "description": "基于十位和个位的组成计算整十数加减。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能正确计算新的整十加减题。",
+      "能用十的组成解释一次计算。"
+    ],
+    "assessmentPrompt": "计算两道整十加减题，任选一道说明几个十怎样变化。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级下册》",
+        "locator": "第62-75页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g1_add_subtract_two_digit_numbers_without_regrouping",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "计算不进退位两位数加减",
+    "description": "按十位和个位分解计算不进位、不退位的两位数加减。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能正确计算陌生的不进退位两位数加减。",
+      "能说明十位与个位分别如何相加或相减。"
+    ],
+    "assessmentPrompt": "计算一道不进退位两位数加减题，并说明十位和个位怎样分别处理。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级下册》",
+        "locator": "第62-75页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g1_identify_and_compose_basic_plane_shapes",
+    "type": "CONCEPTUAL",
+    "subject": "数学",
+    "domain": "图形与几何",
+    "name": "辨认并拼组基本平面图形",
+    "description": "辨认三角形、长方形、正方形和圆等基本平面图形，并通过拼组形成目标图形。",
+    "gradeBands": [
+      "G1"
+    ],
+    "evidence": [
+      "能在不同方向和大小的图中辨认基本平面图形。",
+      "能用若干基本图形拼出指定的简单目标图形。"
+    ],
+    "assessmentPrompt": "在混合图形中找出指定平面图形，再用给定图形拼出一个目标。",
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 一年级下册》",
+        "locator": "第76-86页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g2_add_two_digit_numbers_with_regrouping",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "计算进位两位数加法",
+    "description": "基于数位分解或凑整计算需要进位的两位数加法。",
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能正确计算陌生的进位两位数加法。",
+      "能用数位分解或凑整解释一次进位。"
+    ],
+    "assessmentPrompt": "计算一道进位两位数加法，并说明进位或凑整怎样发生。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级上册》",
+        "locator": "第2-17页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g2_subtract_two_digit_numbers_with_regrouping",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "计算退位两位数减法",
+    "description": "基于数位分解计算需要退位的两位数减法。",
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能正确计算陌生的退位两位数减法。",
+      "能用十位和个位的组成解释一次退位。"
+    ],
+    "assessmentPrompt": "计算一道退位两位数减法，并说明从十位拆出一个十后发生了什么。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级上册》",
+        "locator": "第2-17页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g2_measure_length_with_standard_unit",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "图形与几何",
+    "name": "用标准单位测量长度",
+    "description": "选择厘米、米等合适单位，使用量具测量长度并记录结果。",
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能选择合适单位和工具测量指定物体。",
+      "能正确读取刻度并记录带单位的结果。"
+    ],
+    "assessmentPrompt": "选择合适工具测量一个物体长度，记录结果并说明为什么选该单位。",
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-2"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级上册》",
+        "locator": "第20-29页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_2",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g2_represent_equal_groups",
+    "type": "REPRESENTATIONAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "表征等量分组",
+    "description": "用实物、图示或表格表示每组相同数量的等量分组。",
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能把一组对象按相同数量分组。",
+      "能用图或表格说明组数和每组数量。"
+    ],
+    "assessmentPrompt": "把一组对象按每组相同数量整理，画图说明有几组、每组几个。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级上册》",
+        "locator": "第30-42页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g2_interpret_multiplication_as_equal_groups",
+    "type": "CONCEPTUAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "理解乘法表示等量分组",
+    "description": "将等量分组或阵列情境表示为乘法，并解释各因数含义。",
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能从等量分组写出乘法算式。",
+      "能说明算式中两个因数分别表示什么。"
+    ],
+    "assessmentPrompt": "给出等量分组图，列出乘法算式并解释每个数的含义。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级上册》",
+        "locator": "第30-42页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g2_use_multiplication_facts_within_nine",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "使用9以内乘法口诀",
+    "description": "使用1到9的乘法口诀或数组关系计算乘积。",
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能正确计算陌生的表内乘法。",
+      "能用口诀或数组关系解释一个乘积。"
+    ],
+    "assessmentPrompt": "计算两道表内乘法，任选一道说明使用的口诀或数组关系。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-5"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级上册》",
+        "locator": "第43-52、77-86页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_5",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g2_represent_equal_sharing_and_grouping_division",
+    "type": "REPRESENTATIONAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "表征平均分和按组分",
+    "description": "用操作、图示或算式表示平均分和按组分两类除法情境。",
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能用图示表示把总量平均分给若干份。",
+      "能区分已知每份数与已知份数的分组问题。"
+    ],
+    "assessmentPrompt": "给出两种分物情境，画图说明各自已知什么、要求什么。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3",
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-5"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级上册》",
+        "locator": "第56-71页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g2_interpret_division_using_multiplication_relation",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "用乘除关系计算整除",
+    "description": "用乘法口诀或乘除关系计算整除情境的商并解释含义。",
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能用乘法口诀求出整除问题的商。",
+      "能说明商在分组情境中表示组数或每组数。"
+    ],
+    "assessmentPrompt": "解决一道整除分组问题，用乘法口诀检查商并解释商的单位。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-5"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级上册》",
+        "locator": "第56-71页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_5",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g2_model_multiplication_division_word_problems",
+    "type": "REPRESENTATIONAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "建模乘除法情境",
+    "description": "从等量、倍数、平均分或按组分情境中选择乘法或除法算式。",
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能从新情境中选择乘法或除法算式。",
+      "能用情境检查结果的单位和数量是否合理。"
+    ],
+    "assessmentPrompt": "阅读一道等量或分组问题，列式并说明为何选择乘法或除法。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-6",
+      "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级上册》",
+        "locator": "第87-93页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_6",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g2_estimate_length_using_benchmark",
+    "type": "STRATEGIC",
+    "subject": "数学",
+    "domain": "图形与几何",
+    "name": "用基准估计长度",
+    "description": "选取熟悉长度作基准，估计物体长度并与测量结果比较。",
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能选择合理长度基准估计陌生物体。",
+      "能比较估计与测量结果并说明差异。"
+    ],
+    "assessmentPrompt": "先用熟悉物体估计目标长度，再实际测量并比较结果。",
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-2",
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级上册》",
+        "locator": "第20-29页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_2",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g2_identify_reflection_symmetry_by_folding",
+    "type": "CONCEPTUAL",
+    "subject": "数学",
+    "domain": "图形与几何",
+    "name": "通过折叠辨认轴对称",
+    "description": "通过折叠或对照辨认简单图形的轴对称特征。",
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能用折叠检验简单图形是否对称。",
+      "能指出对称图形两侧重合的现象。"
+    ],
+    "assessmentPrompt": "对两个简单图形折叠检验，判断是否对称并说明依据。",
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1",
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级上册》",
+        "locator": "第72-76页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g2_describe_simple_position_and_route",
+    "type": "REPRESENTATIONAL",
+    "subject": "数学",
+    "domain": "图形与几何",
+    "name": "描述简单位置和路线",
+    "description": "用方向、相对位置或路线图描述校园中的简单位置和路径。",
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能依据简单路线图说出路径。",
+      "能使用相对位置或方向词解释路线。"
+    ],
+    "assessmentPrompt": "给出简单路线图，描述从起点到终点的走法并说明一个相对位置。",
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级上册》",
+        "locator": "第53-55页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_3",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g2_model_amount_relationships_in_shopping",
+    "type": "REPRESENTATIONAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "建模购物数量关系",
+    "description": "在简单购物情境中关联单价、数量和总价，并检验结果是否合理。",
+    "gradeBands": [
+      "G2"
+    ],
+    "evidence": [
+      "能提取单价、数量和总价。",
+      "能列式求总价并用情境检查结果。"
+    ],
+    "assessmentPrompt": "给出商品价格和数量，列式求总价并说明怎样检查结果。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-6",
+      "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 二年级上册》",
+        "locator": "第94-97页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_6",
+    "modelLayer": "implementation_evidence"
+  },
+  {
+    "id": "cn_math_g3_model_mixed_operations_from_context",
+    "type": "REPRESENTATIONAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "建模混合运算情境",
+    "description": "将含加减与乘法的情境表示为分步或混合算式，并解释每一步。",
+    "gradeBands": [
+      "G3"
+    ],
+    "evidence": [
+      "能从情境中列出分步或混合算式。",
+      "能说明每个运算步骤对应的数量关系。"
+    ],
+    "assessmentPrompt": "阅读含加法和乘法的情境，列式并解释每一步表示什么。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-1",
+      "cn-math-2022:primary/number-algebra/stage-2/quantitative-relations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 三年级上册》",
+        "locator": "第2-12页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g3_select_operation_order_in_mixed_expression",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "确定混合算式运算顺序",
+    "description": "按括号和运算关系确定含加减乘法算式的计算顺序。",
+    "gradeBands": [
+      "G3"
+    ],
+    "evidence": [
+      "能正确计算含加减乘法的简单算式。",
+      "能说明先算哪一步及其依据。"
+    ],
+    "assessmentPrompt": "计算一道混合算式，标出每一步顺序并说明理由。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 三年级上册》",
+        "locator": "第2-12页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g3_convert_metric_length_units",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "图形与几何",
+    "name": "转换长度单位",
+    "description": "在毫米、厘米、分米和米之间转换，并选择合适单位。",
+    "gradeBands": [
+      "G3"
+    ],
+    "evidence": [
+      "能在相邻长度单位间正确转换。",
+      "能为测量对象选择合适长度单位并说明理由。"
+    ],
+    "assessmentPrompt": "将若干长度化成指定单位，并说明一个物体为什么适合用该单位。",
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-2/shape-recognition-and-measurement/content-requirements"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 三年级上册》",
+        "locator": "第13-23页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_2_shape_recognition_and_measurement_content_requirements",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g3_measure_and_estimate_length_with_precision",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "图形与几何",
+    "name": "精确测量和估计长度",
+    "description": "使用刻度工具读取长度，结合基准估计并说明测量精度。",
+    "gradeBands": [
+      "G3"
+    ],
+    "evidence": [
+      "能读取含毫米刻度的长度。",
+      "能比较估计和测量结果并说明精度差异。"
+    ],
+    "assessmentPrompt": "先估计再测量一个物体长度，记录结果并说明读数到什么单位。",
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-2/shape-recognition-and-measurement/content-requirements"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 三年级上册》",
+        "locator": "第13-23页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_2_shape_recognition_and_measurement_content_requirements",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g3_add_three_digit_numbers_with_regrouping",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "计算三位数进位加法",
+    "description": "用按位竖式或等价分解计算三位数加法并处理进位。",
+    "gradeBands": [
+      "G3"
+    ],
+    "evidence": [
+      "能正确计算陌生三位数进位加法。",
+      "能说明一次进位的位值含义。"
+    ],
+    "assessmentPrompt": "完成一道三位数进位加法，并解释一次进位表示什么。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 三年级上册》",
+        "locator": "第28-40页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g3_subtract_three_digit_numbers_with_regrouping",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "计算三位数退位减法",
+    "description": "用按位竖式或等价分解计算三位数减法并处理退位。",
+    "gradeBands": [
+      "G3"
+    ],
+    "evidence": [
+      "能正确计算陌生三位数退位减法。",
+      "能说明一次退位的位值含义。"
+    ],
+    "assessmentPrompt": "完成一道三位数退位减法，并解释从高位借来一个单位后发生什么。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 三年级上册》",
+        "locator": "第28-40页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g3_identify_angle_by_vertex_and_rays",
+    "type": "CONCEPTUAL",
+    "subject": "数学",
+    "domain": "图形与几何",
+    "name": "按顶点和边辨认角",
+    "description": "从实物或图形中辨认角的顶点和两边，并画出简单角。",
+    "gradeBands": [
+      "G3"
+    ],
+    "evidence": [
+      "能指出图中一个角的顶点和两边。",
+      "能画出简单角并标明构成部分。"
+    ],
+    "assessmentPrompt": "在给定图形中找角，标出顶点和边，再画出一个不同的角。",
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-2/shape-recognition-and-measurement/content-requirements"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 三年级上册》",
+        "locator": "第49-61页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_2_shape_recognition_and_measurement_content_requirements",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g3_model_multiplication_division_applications",
+    "type": "REPRESENTATIONAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "建模多步乘除法应用",
+    "description": "从多步乘除法情境中选择运算并检查数量和单位是否合理。",
+    "gradeBands": [
+      "G3"
+    ],
+    "evidence": [
+      "能把多步乘除法情境拆成可计算步骤。",
+      "能检查结果的单位和数量关系。"
+    ],
+    "assessmentPrompt": "给出多步乘除法问题，列出步骤并说明最终结果是否合理。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-1",
+      "cn-math-2022:primary/number-algebra/stage-2/quantitative-relations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 三年级上册》",
+        "locator": "第64-74页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g3_interpret_decimal_as_yuan_jiao_fen",
+    "type": "REPRESENTATIONAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "用元角分解释小数",
+    "description": "在元、角、分情境中解释一位或两位小数的组成。",
+    "gradeBands": [
+      "G3"
+    ],
+    "evidence": [
+      "能把元角分金额表示为简单小数。",
+      "能解释小数点后各位在金额情境中的含义。"
+    ],
+    "assessmentPrompt": "把一笔元角分金额写成小数，并说明小数点后每一位表示什么。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-3"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 三年级上册》",
+        "locator": "第75-89页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_3",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g3_read_write_compare_simple_decimals",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "读写比较简单小数",
+    "description": "读写、比较与表示一位或两位小数，并说明小数点的作用。",
+    "gradeBands": [
+      "G3"
+    ],
+    "evidence": [
+      "能读写陌生的一位或两位小数。",
+      "能比较两个简单小数并说明判断。"
+    ],
+    "assessmentPrompt": "读写两个简单小数并比较大小，说明小数点后数字的作用。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-3"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 三年级上册》",
+        "locator": "第75-89页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_3",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g3_collect_record_and_classify_data",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "统计与概率",
+    "name": "收集分类并记录数据",
+    "description": "围绕明确问题收集、分类并以表格记录数据。",
+    "gradeBands": [
+      "G3"
+    ],
+    "evidence": [
+      "能依据问题收集并按标准分类数据。",
+      "能以表格记录分类结果并说明表头。"
+    ],
+    "assessmentPrompt": "围绕一个简单问题收集小组数据，分类后完成表格并说明分类标准。",
+    "standards": [
+      "cn-math-2022:primary/statistics-probability/stage-2/data-collection-organization-expression/content-requirements"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 三年级上册》",
+        "locator": "第90-94页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_statistics_probability_stage_2_data_collection_organization_expression_content_requirements",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g3_interpret_calendar_dates_and_intervals",
+    "type": "REPRESENTATIONAL",
+    "subject": "数学",
+    "domain": "综合与实践",
+    "name": "解读日历日期和间隔",
+    "description": "使用月历或年历定位日期，并解释简单日期间隔。",
+    "gradeBands": [
+      "G3"
+    ],
+    "evidence": [
+      "能在月历中定位指定日期。",
+      "能根据月历解释两个日期之间的简单间隔。"
+    ],
+    "assessmentPrompt": "给出一张月历，找出指定日期并计算两个日期相隔几天，说明数法。",
+    "standards": [
+      "cn-math-2022:primary/integrated-practice/stage-2/thematic-activities/content-requirements"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 三年级上册》",
+        "locator": "第95-98页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_integrated_practice_stage_2_thematic_activities_content_requirements",
+    "modelLayer": "diagnostic"
+  }
 ]

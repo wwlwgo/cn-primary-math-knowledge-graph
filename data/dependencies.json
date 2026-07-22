@@ -1,13 +1,5 @@
 [
   {
-    "topicId": "cn_math_g2_compare_opposite_changes_before_calculation",
-    "prerequisiteId": "cn_math_g2_mixed_add_subtract_change",
-    "strength": "soft",
-    "reason": "能表示连续增减会帮助学生把增加量和减少量放在同一数量关系中比较，但也可通过图示或直接计算后判断。",
-    "sources": [{"kind": "textbook", "citation": "北京师范大学出版社《义务教育教科书 数学 二年级下册》", "edition": "2024版", "locator": "第6-7页"}],
-    "reviewStatus": "reviewed"
-  },
-  {
     "topicId": "cn_math_g2_locate_number_on_approximate_number_line",
     "prerequisiteId": "cn_math_g2_compare_order_numbers_within_ten_thousand",
     "strength": "soft",

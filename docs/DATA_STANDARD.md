@@ -12,6 +12,8 @@
 
 `standards` 是课程标准映射，不是教材页码。`sources` 至少包含一条可复查的定位记录；教材来源记录页码、版本和书目信息，标准来源记录章节/条目。
 
+`capabilityAnchor` 连接节点与课程标准导出的稳定能力锚点。`modelLayer` 为 `diagnostic` 时，节点可参与候选图谱与跨版本节点比较；为 `implementation_evidence` 时，节点仅保留为教材情境、操作或算法偏好的历史证据，不参与跨版本节点重合率，也不得作为依赖边端点。
+
 ## 依赖边
 
 边对象中 `topicId` 是目标，`prerequisiteId` 是前置。禁止自环和重复边。图必须是有向无环图。

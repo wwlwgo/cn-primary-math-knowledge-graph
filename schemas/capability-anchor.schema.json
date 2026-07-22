@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cn-primary-math-kg.org/schemas/capability-anchor.schema.json",
+  "title": "Curriculum Anchored Capability",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "standards", "scope"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^cn_math_anchor_[a-z0-9_]{3,120}$"},
+    "name": {"type": "string", "minLength": 4, "maxLength": 120},
+    "standards": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "pattern": "^cn-math-2022:"}},
+    "scope": {"enum": ["curriculum-capability"]}
+  }
+}

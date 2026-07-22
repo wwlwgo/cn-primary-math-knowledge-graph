@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
-FILES = ("topics.json", "dependencies.json", "standards.json")
+FILES = ("topics.json", "dependencies.json", "standards.json", "capability_anchors.json")
 
 
 def load(name: str):
@@ -24,10 +24,12 @@ def main() -> None:
     topics = load("topics.json")
     dependencies = load("dependencies.json")
     standards = load("standards.json")
+    anchors = load("capability_anchors.json")
     manifest["counts"] = {
         "topics": len(topics),
         "dependencies": len(dependencies),
         "standards": len(standards),
+        "capabilityAnchors": len(anchors),
     }
     manifest["files"] = {
         name: {"sha256": hashlib.sha256((DATA / name).read_bytes()).hexdigest()}

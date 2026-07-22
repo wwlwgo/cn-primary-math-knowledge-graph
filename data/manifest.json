@@ -10,19 +10,23 @@
   "standardsFile": "standards.json",
   "counts": {
     "topics": 91,
-    "dependencies": 19,
-    "standards": 56
+    "dependencies": 18,
+    "standards": 56,
+    "capabilityAnchors": 17
   },
   "sourcePolicy": "docs/SOURCE_POLICY.md",
   "files": {
     "topics.json": {
-      "sha256": "b00a884a1cba6d480167dc9ad9d9710f680b800688959401863478b465482786"
+      "sha256": "bf9eb1a9db6bf9a277c425607db8af9128503b6c5232dd328928785436b43604"
     },
     "dependencies.json": {
-      "sha256": "4159e545b7e46cc872df0a816eabfce74cc73e5e6cad2fbfef6c531283ac27e4"
+      "sha256": "6c65ce2cb92f81aad30b3e967e6da334ac2ba1115e7b788af0e1bea138d9135a"
     },
     "standards.json": {
       "sha256": "dec8ce3063768f4f2ffdb9943803415046a09ebb95854b12198873e11b19c099"
+    },
+    "capability_anchors.json": {
+      "sha256": "63b5719b7f323984c4178e8c86dcb0c6d96639e42db1de22607331879c0f482e"
     }
   }
 }

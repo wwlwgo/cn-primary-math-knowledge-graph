@@ -4,7 +4,7 @@
   "title": "China Primary Mathematics Knowledge Topic",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "type", "subject", "domain", "name", "description", "gradeBands", "evidence", "assessmentPrompt", "standards", "sources", "reviewStatus"],
+  "required": ["id", "type", "subject", "domain", "name", "description", "gradeBands", "evidence", "assessmentPrompt", "standards", "capabilityAnchor", "modelLayer", "sources", "reviewStatus"],
   "properties": {
     "id": {"type": "string", "pattern": "^cn_math_g[1-6]_[a-z][a-z0-9_]{2,80}$"},
     "type": {"enum": ["CONCEPTUAL", "PROCEDURAL", "REPRESENTATIONAL", "LANGUAGE", "STRATEGIC", "META"]},
@@ -16,6 +16,8 @@
     "evidence": {"type": "array", "minItems": 2, "items": {"type": "string", "minLength": 8, "maxLength": 240}},
     "assessmentPrompt": {"type": "string", "minLength": 10, "maxLength": 400},
     "standards": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^cn-math-2022:"}, "uniqueItems": true},
+    "capabilityAnchor": {"type": "string", "pattern": "^cn_math_anchor_[a-z0-9_]{3,120}$"},
+    "modelLayer": {"enum": ["diagnostic", "implementation_evidence"]},
     "sources": {"type": "array", "minItems": 1, "items": {"$ref": "source.schema.json"}},
     "reviewStatus": {"enum": ["draft", "reviewed", "approved"]}
   }

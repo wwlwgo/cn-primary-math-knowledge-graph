@@ -19,6 +19,7 @@ DOMAINS = {"数与代数", "图形与几何", "统计与概率", "综合与实�
 REVIEW_STATUSES = {"draft", "reviewed", "approved"}
 SOURCE_KINDS = {"curriculum_standard", "textbook", "teacher_guide", "expert_review", "research"}
 GRADE_BANDS = {"G1", "G2", "G3", "G4", "G5", "G6"}
+MODEL_LAYERS = {"diagnostic", "implementation_evidence"}
 
 
 def load_json(path: Path, errors: list[str]):
@@ -34,7 +35,7 @@ def validate_manifest_files(manifest: object, errors: list[str]) -> None:
     if not isinstance(manifest, dict):
         return
     files = manifest.get("files")
-    expected_files = {"topics.json", "dependencies.json", "standards.json"}
+    expected_files = {"topics.json", "dependencies.json", "standards.json", "capability_anchors.json"}
     if not isinstance(files, dict) or set(files) != expected_files:
         errors.append("data/manifest.json: files 必须列出 topics.json、dependencies.json、standards.json")
         return
@@ -76,7 +77,33 @@ def validate_sources(value: object, label: str, errors: list[str]) -> None:
             errors.append(f"{source_label}: url 必须是 http(s) URL")
 
 
-def validate_topics(topics: object, errors: list[str]) -> dict[str, dict]:
+def validate_anchors(anchors: object, standard_ids: set[str], errors: list[str]) -> set[str]:
+    if not isinstance(anchors, list):
+        errors.append("data/capability_anchors.json: 根元素必须是数组")
+        return set()
+    ids: set[str] = set()
+    for index, anchor in enumerate(anchors):
+        label = f"anchors[{index}]"
+        if not isinstance(anchor, dict) or set(anchor) != {"id", "name", "standards", "scope"}:
+            errors.append(f"{label}: 字段必须为 id、name、standards、scope")
+            continue
+        anchor_id = anchor["id"]
+        if not isinstance(anchor_id, str) or not re.fullmatch(r"cn_math_anchor_[a-z0-9_]{3,120}", anchor_id):
+            errors.append(f"{label}: id 格式无效")
+        elif anchor_id in ids:
+            errors.append(f"{label}: 重复 id {anchor_id}")
+        else:
+            ids.add(anchor_id)
+        if not isinstance(anchor["name"], str) or not 4 <= len(anchor["name"]) <= 120:
+            errors.append(f"{label}: name 长度无效")
+        if anchor["scope"] != "curriculum-capability":
+            errors.append(f"{label}: scope 无效")
+        if not isinstance(anchor["standards"], list) or not anchor["standards"] or any(item not in standard_ids for item in anchor["standards"]):
+            errors.append(f"{label}: standards 必须引用已登记课标")
+    return ids
+
+
+def validate_topics(topics: object, anchor_ids: set[str], errors: list[str]) -> dict[str, dict]:
     if not isinstance(topics, list):
         errors.append("data/topics.json: 根元素必须是数组")
         return {}
@@ -84,7 +111,7 @@ def validate_topics(topics: object, errors: list[str]) -> dict[str, dict]:
     by_id: dict[str, dict] = {}
     required = {
         "id", "type", "subject", "domain", "name", "description", "gradeBands",
-        "evidence", "assessmentPrompt", "standards", "sources", "reviewStatus",
+        "evidence", "assessmentPrompt", "standards", "capabilityAnchor", "modelLayer", "sources", "reviewStatus",
     }
     allowed = required
     for index, topic in enumerate(topics):
@@ -126,6 +153,10 @@ def validate_topics(topics: object, errors: list[str]) -> dict[str, dict]:
             errors.append(f"{label}: assessmentPrompt 长度无效")
         if not isinstance(topic["standards"], list) or not topic["standards"] or len(set(topic["standards"])) != len(topic["standards"]) or any(not isinstance(item, str) or not item.startswith("cn-math-2022:") for item in topic["standards"]):
             errors.append(f"{label}: standards 必须含有 cn-math-2022: 标识")
+        if topic["capabilityAnchor"] not in anchor_ids:
+            errors.append(f"{label}: capabilityAnchor 必须引用已登记锚点")
+        if topic["modelLayer"] not in MODEL_LAYERS:
+            errors.append(f"{label}: modelLayer 无效")
         validate_sources(topic["sources"], label, errors)
         if topic["reviewStatus"] not in REVIEW_STATUSES:
             errors.append(f"{label}: reviewStatus 无效")
@@ -190,6 +221,8 @@ def validate_dependencies(dependencies: object, topics: dict[str, dict], errors:
         if topic_id not in topics or prerequisite_id not in topics:
             errors.append(f"{label}: 边端点必须引用已存在的节点")
             continue
+        if topics[topic_id].get("modelLayer") != "diagnostic" or topics[prerequisite_id].get("modelLayer") != "diagnostic":
+            errors.append(f"{label}: 依赖边端点必须为 diagnostic 节点")
         if topic_id == prerequisite_id:
             errors.append(f"{label}: 不允许自环")
         edge = (topic_id, prerequisite_id)
@@ -253,13 +286,15 @@ def main() -> int:
     topics = load_json(DATA / "topics.json", errors)
     dependencies = load_json(DATA / "dependencies.json", errors)
     standards = load_json(DATA / "standards.json", errors)
-    if manifest is None or topics is None or dependencies is None or standards is None:
+    anchors = load_json(DATA / "capability_anchors.json", errors)
+    if manifest is None or topics is None or dependencies is None or standards is None or anchors is None:
         for error in errors:
             print(f"ERROR: {error}")
         return 1
 
     standard_ids = validate_standards(standards, errors)
-    topics_by_id = validate_topics(topics, errors)
+    anchor_ids = validate_anchors(anchors, standard_ids, errors)
+    topics_by_id = validate_topics(topics, anchor_ids, errors)
     for topic_id, topic in topics_by_id.items():
         for standard_id in topic.get("standards", []):
             if standard_id not in standard_ids:
@@ -269,14 +304,14 @@ def main() -> int:
     validate_candidate_policy(manifest, topics_by_id, dependencies, errors)
     validate_manifest_files(manifest, errors)
     counts = manifest.get("counts") if isinstance(manifest, dict) else None
-    if not isinstance(counts, dict) or counts.get("topics") != len(topics) or counts.get("dependencies") != len(dependencies) or counts.get("standards") != len(standards):
+    if not isinstance(counts, dict) or counts.get("topics") != len(topics) or counts.get("dependencies") != len(dependencies) or counts.get("standards") != len(standards) or counts.get("capabilityAnchors") != len(anchors):
         errors.append("data/manifest.json: counts 与数据文件实际数量不一致")
 
     if errors:
         for error in errors:
             print(f"ERROR: {error}")
         return 1
-    print(f"OK: {len(standards)} 条课标登记，{len(topics)} 个节点，{len(dependencies)} 条依赖，图无环。")
+    print(f"OK: {len(standards)} 条课标登记，{len(anchors)} 个能力锚点，{len(topics)} 个节点，{len(dependencies)} 条依赖，图无环。")
     return 0
 
 

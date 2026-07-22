@@ -1,0 +1,138 @@
+[
+  {
+    "id": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
+    "name": "第一学段：简单立体与平面图形的辨认、分类和拼组",
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-1"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
+    "id": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_2",
+    "name": "第一学段：长度单位、估测与测量",
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-2"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
+    "id": "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_3",
+    "name": "第一学段：图形认识与测量中的空间观念和量感",
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-1/shape-recognition-and-measurement/content-3"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
+    "id": "cn_math_anchor_primary_geometry_stage_2_shape_recognition_and_measurement_content_requirements",
+    "name": "第二学段：图形认识、测量、分类与周长面积",
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-2/shape-recognition-and-measurement/content-requirements"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
+    "id": "cn_math_anchor_primary_integrated_practice_stage_1_thematic_activities_content_1",
+    "name": "第一学段：联系生活的数学主题活动",
+    "standards": [
+      "cn-math-2022:primary/integrated-practice/stage-1/thematic-activities/content-1"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
+    "id": "cn_math_anchor_primary_integrated_practice_stage_2_thematic_activities_content_requirements",
+    "name": "第二学段：跨学科数学主题活动",
+    "standards": [
+      "cn-math-2022:primary/integrated-practice/stage-2/thematic-activities/content-requirements"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
+    "id": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_1",
+    "name": "第一学段：万以内数、数位与算盘表数",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-1"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
+    "id": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_2",
+    "name": "第一学段：万以内数的比较与相等、不等关系",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-2"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
+    "id": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_3",
+    "name": "第一学段：四则运算意义与运算关系",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-3"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
+    "id": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_4",
+    "name": "第一学段：整数加减法的算理与算法",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-4"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
+    "id": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_5",
+    "name": "第一学段：简单整数乘除法的算理与算法",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-5"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
+    "id": "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_6",
+    "name": "第一学段：生活问题中的数与运算应用",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/number-and-operations/content-6"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
+    "id": "cn_math_anchor_primary_number_algebra_stage_1_quantitative_relations_content_1",
+    "name": "第一学段：生活情境中的数与运算解决问题",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-1/quantitative-relations/content-1"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
+    "id": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "name": "第二学段：万以内数与多位数乘除法",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-1"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
+    "id": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_3",
+    "name": "第二学段：整数四则混合运算",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-3"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
+    "id": "cn_math_anchor_primary_statistics_probability_stage_1_data_classification_content_1",
+    "name": "第一学段：按标准分类并描述分类过程",
+    "standards": [
+      "cn-math-2022:primary/statistics-probability/stage-1/data-classification/content-1"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
+    "id": "cn_math_anchor_primary_statistics_probability_stage_2_data_collection_organization_expression_content_requirements",
+    "name": "第二学段：数据收集、整理、条形图与平均数应用",
+    "standards": [
+      "cn-math-2022:primary/statistics-probability/stage-2/data-collection-organization-expression/content-requirements"
+    ],
+    "scope": "curriculum-capability"
+  }
+]
