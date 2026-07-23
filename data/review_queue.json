@@ -358,5 +358,41 @@
     "resolution": "当前五册未包含可确认的日历间隔范围；需要后续册次或公开资源。",
     "editionBLocator": "G1 fall-G3 fall final scope check",
     "communityState": "closed-with-maintainer-evidence"
+  },
+  {
+    "topicId": "cn_math_g3_multiply_multidigit_by_one_digit",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "reviewType": "scope-expansion",
+    "priority": "normal",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
+    "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
+    "status": "open"
+  },
+  {
+    "topicId": "cn_math_g3_calculate_two_digit_division_by_one_digit",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "reviewType": "scope-expansion",
+    "priority": "normal",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
+    "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
+    "status": "open"
+  },
+  {
+    "topicId": "cn_math_g3_calculate_simple_shape_perimeter",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_2_shape_recognition_and_measurement_content_requirements",
+    "reviewType": "scope-expansion",
+    "priority": "high",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
+    "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
+    "status": "open"
+  },
+  {
+    "topicId": "cn_math_g3_preserve_order_when_adding_same_quantity",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_quantitative_relations_content_4",
+    "reviewType": "scope-expansion",
+    "priority": "high",
+    "question": "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
+    "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
+    "status": "open"
   }
 ]

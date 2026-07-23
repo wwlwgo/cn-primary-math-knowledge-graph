@@ -1,12 +1,13 @@
-# 阶段 5.3 关键页复核队列
+# 跨版本待复核队列
 
-本队列处理跨版本锚点已定位、但节点证据不足的项目。它不授权将教材内容提交到仓库；复核者只能提交独立判断、最小页码定位和不确定性。
+原五册范围的阶段 5.3 队列已闭环。当前队列同时保留既有待补输入项和版本 A 三年级下册扩展项；它不授权将教材内容提交到仓库，复核者只能提交独立判断、最小页码定位和不确定性。
 
 ## 总览
 
-- 开放项目：30。
+- 队列项目：34。
 - 关键页确认：26。
-- 范围扩展检索：4。
+- 范围扩展检索：8。
+- 当前开放项目：4。
 - 高优先级：空间表征、图形认识和概念边界项目。
 
 ## 复核规则
@@ -51,3 +52,7 @@
 | `cn_math_g3_read_write_compare_simple_decimals` | `cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_2` | scope-expansion | normal | 在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？ |
 | `cn_math_g3_collect_record_and_classify_data` | `cn_math_anchor_primary_statistics_probability_stage_2_data_collection_organization_expression_content_requirements` | scope-expansion | normal | 在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？ |
 | `cn_math_g3_interpret_calendar_dates_and_intervals` | `cn_math_anchor_primary_integrated_practice_stage_2_thematic_activities_content_requirements` | scope-expansion | high | 在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？ |
+| `cn_math_g3_multiply_multidigit_by_one_digit` | `cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1` | scope-expansion | normal | 在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？ |
+| `cn_math_g3_calculate_two_digit_division_by_one_digit` | `cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1` | scope-expansion | normal | 在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？ |
+| `cn_math_g3_calculate_simple_shape_perimeter` | `cn_math_anchor_primary_geometry_stage_2_shape_recognition_and_measurement_content_requirements` | scope-expansion | high | 在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？ |
+| `cn_math_g3_preserve_order_when_adding_same_quantity` | `cn_math_anchor_primary_number_algebra_stage_2_quantitative_relations_content_4` | scope-expansion | high | 在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？ |

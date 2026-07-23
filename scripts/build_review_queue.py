@@ -49,10 +49,10 @@ def main() -> None:
         by_anchor[item["capabilityAnchor"]].append(item)
     counts = Counter(item["reviewType"] for item in queue)
     lines = [
-        "# 阶段 5.3 关键页复核队列", "",
-        "本队列处理跨版本锚点已定位、但节点证据不足的项目。它不授权将教材内容提交到仓库；复核者只能提交独立判断、最小页码定位和不确定性。", "",
+        "# 跨版本待复核队列", "",
+        "原五册范围的阶段 5.3 队列已闭环。当前队列同时保留既有待补输入项和版本 A 三年级下册扩展项；它不授权将教材内容提交到仓库，复核者只能提交独立判断、最小页码定位和不确定性。", "",
         "## 总览", "",
-        f"- 开放项目：{len(queue)}。", f"- 关键页确认：{counts['page-confirmation']}。", f"- 范围扩展检索：{counts['scope-expansion']}。", "- 高优先级：空间表征、图形认识和概念边界项目。", "",
+        f"- 队列项目：{len(queue)}。", f"- 关键页确认：{counts['page-confirmation']}。", f"- 范围扩展检索：{counts['scope-expansion']}。", f"- 当前开放项目：{sum(item['status'] == 'open' for item in queue)}。", "- 高优先级：空间表征、图形认识和概念边界项目。", "",
         "## 复核规则", "",
         "1. 先确认目标是否是稳定可诊断能力，而非教材特有活动。",
         "2. 仅登记版本代号、册次、页码/章节定位和独立结论。",

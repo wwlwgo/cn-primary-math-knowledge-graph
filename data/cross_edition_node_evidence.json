@@ -722,5 +722,37 @@
     "note": "当前五册未包含可确认的日历间隔范围；需要后续册次或公开资源。",
     "editionBLocator": "G1 fall-G3 fall final scope check",
     "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
+  },
+  {
+    "topicId": "cn_math_g3_multiply_multidigit_by_one_digit",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "editionA": "located",
+    "editionB": "needs-additional-input",
+    "comparison": "one-sided-needs-review",
+    "note": "版本 B 目前未提供三年级下册输入，需补充同范围材料后再作节点级比较。"
+  },
+  {
+    "topicId": "cn_math_g3_calculate_two_digit_division_by_one_digit",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "editionA": "located",
+    "editionB": "needs-additional-input",
+    "comparison": "one-sided-needs-review",
+    "note": "版本 B 目前未提供三年级下册输入，需补充同范围材料后再作节点级比较。"
+  },
+  {
+    "topicId": "cn_math_g3_calculate_simple_shape_perimeter",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_2_shape_recognition_and_measurement_content_requirements",
+    "editionA": "located",
+    "editionB": "needs-additional-input",
+    "comparison": "one-sided-needs-review",
+    "note": "版本 B 目前未提供三年级下册输入，需补充同范围材料后再作节点级比较。"
+  },
+  {
+    "topicId": "cn_math_g3_preserve_order_when_adding_same_quantity",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_quantitative_relations_content_4",
+    "editionA": "located",
+    "editionB": "needs-additional-input",
+    "comparison": "one-sided-needs-review",
+    "note": "版本 B 目前未提供三年级下册输入，需补充同范围材料后再作节点级比较。"
   }
 ]

@@ -2702,5 +2702,125 @@
     "reviewStatus": "reviewed",
     "capabilityAnchor": "cn_math_anchor_primary_integrated_practice_stage_2_thematic_activities_content_requirements",
     "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g3_multiply_multidigit_by_one_digit",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "计算多位数乘一位数",
+    "description": "用按位分解、竖式或等价策略计算多位数乘一位数，并解释一次进位的位值含义。",
+    "gradeBands": [
+      "G3"
+    ],
+    "evidence": [
+      "能正确计算陌生的多位数乘一位数算式。",
+      "能说明一次进位在按位计算中表示的数量。"
+    ],
+    "assessmentPrompt": "完成一道多位数乘一位数计算，保留过程并解释一次进位表示什么。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 三年级下册》",
+        "edition": "2024版",
+        "locator": "第2-16页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g3_calculate_two_digit_division_by_one_digit",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "计算两位数除以一位数",
+    "description": "用分组、分解或竖式等价策略计算两位数除以一位数，并正确解释商和余数。",
+    "gradeBands": [
+      "G3"
+    ],
+    "evidence": [
+      "能正确计算陌生的两位数除以一位数并记录余数。",
+      "能用原数、除数、商和余数的关系检查结果。"
+    ],
+    "assessmentPrompt": "计算一道两位数除以一位数的题目，写出商和余数，并说明如何检验。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-2/number-and-operations/content-1"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 三年级下册》",
+        "edition": "2024版",
+        "locator": "第48-66页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g3_calculate_simple_shape_perimeter",
+    "type": "PROCEDURAL",
+    "subject": "数学",
+    "domain": "图形与几何",
+    "name": "计算简单图形的周长",
+    "description": "把简单平面图形边界的总长度表示为周长，并用边长信息计算其周长。",
+    "gradeBands": [
+      "G3"
+    ],
+    "evidence": [
+      "能指出图形周长对应的封闭边界而非内部区域。",
+      "能根据给出的边长正确计算简单图形的周长。"
+    ],
+    "assessmentPrompt": "给出一个简单平面图形及边长，标出应相加的边并计算周长，说明周长表示什么。",
+    "standards": [
+      "cn-math-2022:primary/geometry/stage-2/shape-recognition-and-measurement/content-requirements"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 三年级下册》",
+        "edition": "2024版",
+        "locator": "第33-45页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_2_shape_recognition_and_measurement_content_requirements",
+    "modelLayer": "diagnostic"
+  },
+  {
+    "id": "cn_math_g3_preserve_order_when_adding_same_quantity",
+    "type": "CONCEPTUAL",
+    "subject": "数学",
+    "domain": "数与代数",
+    "name": "利用同加数保持大小关系",
+    "description": "在两个数或式子分别加上同一个量时，利用原有大小关系判断新结果的大小关系。",
+    "gradeBands": [
+      "G3"
+    ],
+    "evidence": [
+      "能根据两个加数的大小比较含相同加数的两个和。",
+      "能用数量关系或图示说明比较结论的依据。"
+    ],
+    "assessmentPrompt": "给出两个大小不同的数和一个相同加数，比较两个和并说明为什么无需逐一计算。",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-2/quantitative-relations/content-4"
+    ],
+    "sources": [
+      {
+        "kind": "textbook",
+        "citation": "北京师范大学出版社《义务教育教科书 数学 三年级下册》",
+        "edition": "2024版",
+        "locator": "第74-79页"
+      }
+    ],
+    "reviewStatus": "reviewed",
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_quantitative_relations_content_4",
+    "modelLayer": "diagnostic"
   }
 ]

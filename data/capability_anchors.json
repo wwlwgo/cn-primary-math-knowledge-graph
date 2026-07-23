@@ -128,6 +128,14 @@
     "scope": "curriculum-capability"
   },
   {
+    "id": "cn_math_anchor_primary_number_algebra_stage_2_quantitative_relations_content_4",
+    "name": "第二学段：等量与等量关系",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-2/quantitative-relations/content-4"
+    ],
+    "scope": "curriculum-capability"
+  },
+  {
     "id": "cn_math_anchor_primary_statistics_probability_stage_1_data_classification_content_1",
     "name": "第一学段：按标准分类并描述分类过程",
     "standards": [

@@ -9,15 +9,15 @@
   "dependenciesFile": "dependencies.json",
   "standardsFile": "standards.json",
   "counts": {
-    "topics": 91,
+    "topics": 95,
     "dependencies": 18,
     "standards": 56,
-    "capabilityAnchors": 18
+    "capabilityAnchors": 19
   },
   "sourcePolicy": "docs/SOURCE_POLICY.md",
   "files": {
     "topics.json": {
-      "sha256": "3eb07292949e092a4392fcf266a93cd514b9d19c26c21f897f145370e9076ff0"
+      "sha256": "e74b217d22f1981f56dc8b49111315e105f9a0840f1939cfa825c9f5667ae9cb"
     },
     "dependencies.json": {
       "sha256": "6c65ce2cb92f81aad30b3e967e6da334ac2ba1115e7b788af0e1bea138d9135a"
@@ -26,16 +26,16 @@
       "sha256": "dec8ce3063768f4f2ffdb9943803415046a09ebb95854b12198873e11b19c099"
     },
     "capability_anchors.json": {
-      "sha256": "bd61763da9f8da1f3e09eac268a4e8f487c87689b1f38e624262177513e16d6c"
+      "sha256": "add12e0f33d7576c50bd732f3c258de6c0abc792c7d7fee69ad03b5628fd3f7f"
     },
     "cross_edition_anchor_evidence.json": {
-      "sha256": "05190fb3c09499c589ff6a566585443ab415ab30975cc350b66cadf743b03035"
+      "sha256": "198fd38c34ba7be4baa0287d87cb478d64dc2bb8f6502727d7ea214fcdac0feb"
     },
     "cross_edition_node_evidence.json": {
-      "sha256": "516c1597d9f63242f967587a58460b4f156e8fbf3c640a66cb7f8657c158f509"
+      "sha256": "04a22ba5ff7ffc038a133269fe99029bd99f870979135a3e4ad2bfbfa740acc9"
     },
     "review_queue.json": {
-      "sha256": "406084d0ac33bc0b7c7b0995f9869a2c85ac6fd6982852032aabb20ad14cf79d"
+      "sha256": "921047083b3b428a4cdb363eac3877fbb2960bfe2fd55bb5f365b7d13ef558ec"
     }
   }
 }

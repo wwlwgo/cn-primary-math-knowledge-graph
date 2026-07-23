@@ -6,7 +6,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "located",
@@ -23,7 +23,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "located",
@@ -40,7 +40,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "located",
@@ -57,7 +57,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "located",
@@ -74,7 +74,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "located",
@@ -91,7 +91,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "not-located-in-scope",
@@ -108,7 +108,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "located",
@@ -125,7 +125,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "located",
@@ -142,7 +142,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "located",
@@ -159,7 +159,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "located",
@@ -176,7 +176,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "located",
@@ -193,7 +193,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "located",
@@ -210,7 +210,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "located",
@@ -227,7 +227,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "located",
@@ -244,7 +244,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "not-located-in-scope",
@@ -261,7 +261,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "located",
@@ -272,13 +272,30 @@
     "uncertainty": "页级抽样不足时，锚点定位不应替代节点级确认。"
   },
   {
+    "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_quantitative_relations_content_4",
+    "standards": [
+      "cn-math-2022:primary/number-algebra/stage-2/quantitative-relations/content-4"
+    ],
+    "editionA": {
+      "status": "located",
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
+    },
+    "editionB": {
+      "status": "not-located-in-scope",
+      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+    },
+    "comparison": "one-sided-needs-review",
+    "note": "当前五册范围未确认第二版本的对应呈现；未定位不是反证。",
+    "uncertainty": "页级抽样不足时，锚点定位不应替代节点级确认。"
+  },
+  {
     "capabilityAnchor": "cn_math_anchor_primary_statistics_probability_stage_1_data_classification_content_1",
     "standards": [
       "cn-math-2022:primary/statistics-probability/stage-1/data-classification/content-1"
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "located",
@@ -295,7 +312,7 @@
     ],
     "editionA": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
       "status": "not-located-in-scope",
