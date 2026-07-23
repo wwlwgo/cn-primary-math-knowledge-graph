@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Recalculate cross-edition metrics from curriculum capability anchors.
 
-This deliberately compares the five-book private input ranges as a whole.
+This deliberately compares the six-book private input ranges as a whole.
 It does not compare same-named units or same-semester textbook structure.
 """
 
@@ -20,10 +20,7 @@ INPUT_AUDIT = ROOT / "docs/review/PHASE_5_2_INPUT_AUDIT.md"
 IMPACT = ROOT / "docs/review/PHASE_5_2_IMPACT.md"
 OLD_REPORTS = sorted((ROOT / "docs/review").glob("CROSS_EDITION_PEP_G*.md"))
 ONE_SIDED = {
-    "cn_math_anchor_primary_integrated_practice_stage_2_thematic_activities_content_requirements",
-    "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_2",
     "cn_math_anchor_primary_number_algebra_stage_2_quantitative_relations_content_4",
-    "cn_math_anchor_primary_statistics_probability_stage_2_data_collection_organization_expression_content_requirements",
 }
 IMPLEMENTATION_DIFFERENCES = {
     "cn_math_anchor_primary_geometry_stage_1_shape_recognition_and_measurement_content_1",
@@ -33,15 +30,17 @@ IMPLEMENTATION_DIFFERENCES = {
     "cn_math_anchor_primary_number_algebra_stage_1_number_and_operations_content_5",
     "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
 }
+RESOLVED_NOT_LOCATED = {
+    "cn_math_g3_preserve_order_when_adding_same_quantity": {
+        "editionBLocator": "G3 spring final scope check",
+        "note": "当前六册范围未确认同加数保持大小关系的独立呈现。",
+        "uncertainty": "未定位不是反证；后续册次或公开资源可继续核验。",
+    },
+}
 
 
 def percent(numerator: int, denominator: int) -> str:
     return f"{numerator / denominator * 100:.1f}%" if denominator else "N/A"
-
-
-def needs_edition_b_spring_input(topic: dict) -> bool:
-    """Edition B currently ends at G3 fall, while edition A now includes G3 spring."""
-    return any("三年级下册" in source.get("citation", "") for source in topic["sources"])
 
 
 def main() -> None:
@@ -53,7 +52,7 @@ def main() -> None:
         if one_sided:
             relation = "one-sided-needs-review"
             b_status = "not-located-in-scope"
-            note = "当前五册范围未确认第二版本的对应呈现；未定位不是反证。"
+            note = "当前六册范围未确认第二版本的对应呈现；未定位不是反证。"
         elif anchor["id"] in IMPLEMENTATION_DIFFERENCES:
             relation = "different-implementation"
             b_status = "located"
@@ -61,12 +60,12 @@ def main() -> None:
         else:
             relation = "both-supported"
             b_status = "located"
-            note = "两个版本的五册私有核验范围均确认该课标能力锚点。"
+            note = "两个版本的六册私有核验范围均确认该课标能力锚点。"
         records.append({
             "capabilityAnchor": anchor["id"],
             "standards": anchor["standards"],
             "editionA": {"status": "located", "locator": "私有六册范围（G1 fall 至 G3 spring）"},
-            "editionB": {"status": b_status, "locator": "私有五册范围（G1 fall 至 G3 fall）"},
+            "editionB": {"status": b_status, "locator": "私有六册范围（G1 fall 至 G3 spring）"},
             "comparison": relation,
             "note": note,
             "uncertainty": "页级抽样不足时，锚点定位不应替代节点级确认。",
@@ -89,18 +88,19 @@ def main() -> None:
     for topic in diagnostic:
         direct = topic["id"] in direct_support_ids
         anchor_located = topic["capabilityAnchor"] in both_anchors
-        needs_input = needs_edition_b_spring_input(topic)
         generated = {
             "topicId": topic["id"],
             "capabilityAnchor": topic["capabilityAnchor"],
             "editionA": "located",
-            "editionB": "located" if direct else ("needs-additional-input" if needs_input else ("likely-located-needs-page-check" if anchor_located else "not-located-in-scope")),
+            "editionB": "located" if direct else ("likely-located-needs-page-check" if anchor_located else "not-located-in-scope"),
             "comparison": "both-supported" if direct else "one-sided-needs-review",
-            "note": "已有直接节点证据。" if direct else "版本 B 目前未提供三年级下册输入，需补充同范围材料后再作节点级比较。" if needs_input else "锚点已定位但该节点尚缺第二版本的页级确认。" if anchor_located else "当前五册范围尚未确认第二版本节点证据。",
+            "note": "已有直接节点证据。" if direct else "锚点已定位但该节点尚缺第二版本的页级确认。" if anchor_located else "当前六册范围尚未确认第二版本节点证据。",
         }
         prior = existing_nodes.get(topic["id"])
-        if prior and ("editionBLocator" in prior or prior.get("editionB") not in {"likely-located-needs-page-check", "not-located-in-scope"}):
+        if not direct and prior and prior.get("editionB") in {"located", "not-located-in-scope"} and "editionBLocator" in prior:
             generated.update(prior)
+        if not direct and topic["id"] in RESOLVED_NOT_LOCATED:
+            generated.update(RESOLVED_NOT_LOCATED[topic["id"]])
         node_records.append(generated)
     (DATA / "cross_edition_node_evidence.json").write_text(
         json.dumps(node_records, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
@@ -118,8 +118,8 @@ def main() -> None:
         "",
         f"- 可比较能力锚点：{len(records)}。",
         f"- 可诊断节点：{len(diagnostic)}；教材实现证据节点：{len(topics) - len(diagnostic)}，不纳入节点重合率。",
-        "- 输入范围：版本 A 为一上至三下六册；版本 B 为一上至三上五册。比较允许跨册检索，但版本 B 尚未覆盖三下。",
-        "- 未定位仅表示当前五册范围未确认，不表示另一版本不存在该能力。",
+        "- 输入范围：两个版本均为一上至三下六册；允许跨册检索。",
+        "- 未定位仅表示当前六册范围未确认，不表示另一版本不存在该能力。",
         "",
         "## 指标",
         "",
@@ -142,7 +142,7 @@ def main() -> None:
         "## 限制",
         "",
         "- 该轮确认的是课标能力范围的跨版本呈现，不等同于微节点的专家确认。",
-        "- 单方待复核锚点涉及第二学段的小数、数据、综合实践和等量关系；需获得版本 B 后续册次或关键页证据后再判断。",
+        "- 单方待复核锚点当前仅涉及第二学段等量关系；后续可由其他册次或关键页证据继续检索。",
         "- 任何 `different-implementation` 均不触发 hard 边升级或节点拆分。",
     ]
     REPORT.write_text("\n".join(lines) + "\n", encoding="utf-8")
@@ -151,7 +151,7 @@ def main() -> None:
         f"- 能力锚点：{len(records)}，均关联已登记课程标准条目。\n"
         f"- 可诊断节点：{len(diagnostic)}；教材实现证据节点：{len(topics) - len(diagnostic)}，排除在严格节点统计外。\n"
         f"- 直接确认双版本节点：{len(both_nodes)}；锚点已定位但待页级确认节点：{len(anchor_covered_nodes) - len(both_nodes)}；当前范围未定位节点：{len(diagnostic) - len(anchor_covered_nodes)}。\n"
-        "- 结论：输入为版本 A 六册、版本 B 五册的非对称范围重算；未定位和待页级确认不解释为课程内容缺失。\n",
+        "- 结论：输入满足六册对六册重算；未定位和待页级确认不解释为课程内容缺失。\n",
         encoding="utf-8",
     )
     dependencies = json.loads((DATA / "dependencies.json").read_text(encoding="utf-8"))

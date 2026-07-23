@@ -23,6 +23,7 @@
 | `cn_math_g3_subtract_three_digit_numbers_with_regrouping` | not-located | 未在目录关键单元中定位 | 本册目录未单列三位数退位减法主题。 | 未定位不是反证。 |
 | `cn_math_g3_identify_angle_by_vertex_and_rays` | supports | 三上，第 61-72 页范围 | 线和角主题支持按顶点和边辨认角的候选目标。 | 具体角的分类粒度待抽样。 |
 | `cn_math_g3_model_multiplication_division_applications` | different-granularity | 三上，第 39-56 页范围 | 多位数乘一位数支持乘法程序和应用，但与“多步乘除法应用”目标的应用层粒度不完全等同。 | 需补充应用页抽样后决定是否拆分。 |
+| `cn_math_g3_multiply_multidigit_by_one_digit` | supports | 三上，第 39-56 页范围 | 多位数乘一位数主题直接支持该程序性候选目标。 | 支持不将教材算法版式写入节点定义。 |
 | `cn_math_g3_interpret_decimal_as_yuan_jiao_fen` | not-located | 未在目录关键单元中定位 | 本册目录未单列元角分或小数主题。 | 未定位不是反证。 |
 | `cn_math_g3_read_write_compare_simple_decimals` | not-located | 未在目录关键单元中定位 | 本册目录未单列小数读写比较主题。 | 未定位不是反证。 |
 | `cn_math_g3_collect_record_and_classify_data` | not-located | 未在目录关键单元中定位 | 本册目录未单列数据收集与分类主题。 | 未定位不是反证。 |

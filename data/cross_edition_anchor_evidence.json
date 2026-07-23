@@ -10,7 +10,7 @@
     },
     "editionB": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "comparison": "different-implementation",
     "note": "两版本均有能力呈现，但使用的表征或活动路径不同；不构成稳定能力冲突。",
@@ -27,7 +27,7 @@
     },
     "editionB": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "comparison": "different-implementation",
     "note": "两版本均有能力呈现，但使用的表征或活动路径不同；不构成稳定能力冲突。",
@@ -44,10 +44,10 @@
     },
     "editionB": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "comparison": "both-supported",
-    "note": "两个版本的五册私有核验范围均确认该课标能力锚点。",
+    "note": "两个版本的六册私有核验范围均确认该课标能力锚点。",
     "uncertainty": "页级抽样不足时，锚点定位不应替代节点级确认。"
   },
   {
@@ -61,10 +61,10 @@
     },
     "editionB": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "comparison": "both-supported",
-    "note": "两个版本的五册私有核验范围均确认该课标能力锚点。",
+    "note": "两个版本的六册私有核验范围均确认该课标能力锚点。",
     "uncertainty": "页级抽样不足时，锚点定位不应替代节点级确认。"
   },
   {
@@ -78,10 +78,10 @@
     },
     "editionB": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "comparison": "both-supported",
-    "note": "两个版本的五册私有核验范围均确认该课标能力锚点。",
+    "note": "两个版本的六册私有核验范围均确认该课标能力锚点。",
     "uncertainty": "页级抽样不足时，锚点定位不应替代节点级确认。"
   },
   {
@@ -94,11 +94,11 @@
       "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
-      "status": "not-located-in-scope",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "status": "located",
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
-    "comparison": "one-sided-needs-review",
-    "note": "当前五册范围未确认第二版本的对应呈现；未定位不是反证。",
+    "comparison": "both-supported",
+    "note": "两个版本的六册私有核验范围均确认该课标能力锚点。",
     "uncertainty": "页级抽样不足时，锚点定位不应替代节点级确认。"
   },
   {
@@ -112,10 +112,10 @@
     },
     "editionB": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "comparison": "both-supported",
-    "note": "两个版本的五册私有核验范围均确认该课标能力锚点。",
+    "note": "两个版本的六册私有核验范围均确认该课标能力锚点。",
     "uncertainty": "页级抽样不足时，锚点定位不应替代节点级确认。"
   },
   {
@@ -129,10 +129,10 @@
     },
     "editionB": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "comparison": "both-supported",
-    "note": "两个版本的五册私有核验范围均确认该课标能力锚点。",
+    "note": "两个版本的六册私有核验范围均确认该课标能力锚点。",
     "uncertainty": "页级抽样不足时，锚点定位不应替代节点级确认。"
   },
   {
@@ -146,7 +146,7 @@
     },
     "editionB": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "comparison": "different-implementation",
     "note": "两版本均有能力呈现，但使用的表征或活动路径不同；不构成稳定能力冲突。",
@@ -163,7 +163,7 @@
     },
     "editionB": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "comparison": "different-implementation",
     "note": "两版本均有能力呈现，但使用的表征或活动路径不同；不构成稳定能力冲突。",
@@ -180,7 +180,7 @@
     },
     "editionB": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "comparison": "different-implementation",
     "note": "两版本均有能力呈现，但使用的表征或活动路径不同；不构成稳定能力冲突。",
@@ -197,10 +197,10 @@
     },
     "editionB": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "comparison": "both-supported",
-    "note": "两个版本的五册私有核验范围均确认该课标能力锚点。",
+    "note": "两个版本的六册私有核验范围均确认该课标能力锚点。",
     "uncertainty": "页级抽样不足时，锚点定位不应替代节点级确认。"
   },
   {
@@ -214,10 +214,10 @@
     },
     "editionB": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "comparison": "both-supported",
-    "note": "两个版本的五册私有核验范围均确认该课标能力锚点。",
+    "note": "两个版本的六册私有核验范围均确认该课标能力锚点。",
     "uncertainty": "页级抽样不足时，锚点定位不应替代节点级确认。"
   },
   {
@@ -231,7 +231,7 @@
     },
     "editionB": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "comparison": "different-implementation",
     "note": "两版本均有能力呈现，但使用的表征或活动路径不同；不构成稳定能力冲突。",
@@ -247,11 +247,11 @@
       "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
-      "status": "not-located-in-scope",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "status": "located",
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
-    "comparison": "one-sided-needs-review",
-    "note": "当前五册范围未确认第二版本的对应呈现；未定位不是反证。",
+    "comparison": "both-supported",
+    "note": "两个版本的六册私有核验范围均确认该课标能力锚点。",
     "uncertainty": "页级抽样不足时，锚点定位不应替代节点级确认。"
   },
   {
@@ -265,10 +265,10 @@
     },
     "editionB": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "comparison": "both-supported",
-    "note": "两个版本的五册私有核验范围均确认该课标能力锚点。",
+    "note": "两个版本的六册私有核验范围均确认该课标能力锚点。",
     "uncertainty": "页级抽样不足时，锚点定位不应替代节点级确认。"
   },
   {
@@ -282,10 +282,10 @@
     },
     "editionB": {
       "status": "not-located-in-scope",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "comparison": "one-sided-needs-review",
-    "note": "当前五册范围未确认第二版本的对应呈现；未定位不是反证。",
+    "note": "当前六册范围未确认第二版本的对应呈现；未定位不是反证。",
     "uncertainty": "页级抽样不足时，锚点定位不应替代节点级确认。"
   },
   {
@@ -299,10 +299,10 @@
     },
     "editionB": {
       "status": "located",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "comparison": "both-supported",
-    "note": "两个版本的五册私有核验范围均确认该课标能力锚点。",
+    "note": "两个版本的六册私有核验范围均确认该课标能力锚点。",
     "uncertainty": "页级抽样不足时，锚点定位不应替代节点级确认。"
   },
   {
@@ -315,11 +315,11 @@
       "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
     "editionB": {
-      "status": "not-located-in-scope",
-      "locator": "私有五册范围（G1 fall 至 G3 fall）"
+      "status": "located",
+      "locator": "私有六册范围（G1 fall 至 G3 spring）"
     },
-    "comparison": "one-sided-needs-review",
-    "note": "当前五册范围未确认第二版本的对应呈现；未定位不是反证。",
+    "comparison": "both-supported",
+    "note": "两个版本的六册私有核验范围均确认该课标能力锚点。",
     "uncertainty": "页级抽样不足时，锚点定位不应替代节点级确认。"
   }
 ]

@@ -687,72 +687,66 @@
     "topicId": "cn_math_g3_interpret_decimal_as_yuan_jiao_fen",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_2",
     "editionA": "located",
-    "editionB": "needs-additional-input",
-    "comparison": "one-sided-needs-review",
-    "note": "当前五册未包含可确认的小数/货币解释范围；需要后续册次或公开资源。",
-    "editionBLocator": "G1 fall-G3 fall final scope check",
-    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
   },
   {
     "topicId": "cn_math_g3_read_write_compare_simple_decimals",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_2",
     "editionA": "located",
-    "editionB": "needs-additional-input",
-    "comparison": "one-sided-needs-review",
-    "note": "当前五册未包含可确认的小数读写比较范围；需要后续册次或公开资源。",
-    "editionBLocator": "G1 fall-G3 fall final scope check",
-    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
   },
   {
     "topicId": "cn_math_g3_collect_record_and_classify_data",
     "capabilityAnchor": "cn_math_anchor_primary_statistics_probability_stage_2_data_collection_organization_expression_content_requirements",
     "editionA": "located",
-    "editionB": "needs-additional-input",
-    "comparison": "one-sided-needs-review",
-    "note": "当前五册未包含可确认的数据收集整理范围；需要后续册次或公开资源。",
-    "editionBLocator": "G1 fall-G3 fall final scope check",
-    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
   },
   {
     "topicId": "cn_math_g3_interpret_calendar_dates_and_intervals",
     "capabilityAnchor": "cn_math_anchor_primary_integrated_practice_stage_2_thematic_activities_content_requirements",
     "editionA": "located",
-    "editionB": "needs-additional-input",
-    "comparison": "one-sided-needs-review",
-    "note": "当前五册未包含可确认的日历间隔范围；需要后续册次或公开资源。",
-    "editionBLocator": "G1 fall-G3 fall final scope check",
-    "uncertainty": "本结论限于五册私有输入范围，不构成专家审核。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
   },
   {
     "topicId": "cn_math_g3_multiply_multidigit_by_one_digit",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
     "editionA": "located",
-    "editionB": "needs-additional-input",
-    "comparison": "one-sided-needs-review",
-    "note": "版本 B 目前未提供三年级下册输入，需补充同范围材料后再作节点级比较。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
   },
   {
     "topicId": "cn_math_g3_calculate_two_digit_division_by_one_digit",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_number_and_operations_content_1",
     "editionA": "located",
-    "editionB": "needs-additional-input",
-    "comparison": "one-sided-needs-review",
-    "note": "版本 B 目前未提供三年级下册输入，需补充同范围材料后再作节点级比较。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
   },
   {
     "topicId": "cn_math_g3_calculate_simple_shape_perimeter",
     "capabilityAnchor": "cn_math_anchor_primary_geometry_stage_2_shape_recognition_and_measurement_content_requirements",
     "editionA": "located",
-    "editionB": "needs-additional-input",
-    "comparison": "one-sided-needs-review",
-    "note": "版本 B 目前未提供三年级下册输入，需补充同范围材料后再作节点级比较。"
+    "editionB": "located",
+    "comparison": "both-supported",
+    "note": "已有直接节点证据。"
   },
   {
     "topicId": "cn_math_g3_preserve_order_when_adding_same_quantity",
     "capabilityAnchor": "cn_math_anchor_primary_number_algebra_stage_2_quantitative_relations_content_4",
     "editionA": "located",
-    "editionB": "needs-additional-input",
+    "editionB": "not-located-in-scope",
     "comparison": "one-sided-needs-review",
-    "note": "版本 B 目前未提供三年级下册输入，需补充同范围材料后再作节点级比较。"
+    "note": "当前六册范围未确认同加数保持大小关系的独立呈现。",
+    "editionBLocator": "G3 spring final scope check",
+    "uncertainty": "未定位不是反证；后续册次或公开资源可继续核验。"
   }
 ]

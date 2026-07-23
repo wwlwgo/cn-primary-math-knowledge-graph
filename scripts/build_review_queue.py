@@ -33,14 +33,24 @@ def main() -> None:
             "capabilityAnchor": topic["capabilityAnchor"],
             "reviewType": review_type,
             "priority": priority,
-            "question": "在 edition-b 的五册私有范围内，是否存在可直接支持该可诊断目标的页面？" if review_type == "page-confirmation" else "在当前五册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
+            "question": "在 edition-b 的六册私有范围内，是否存在可直接支持该可诊断目标的页面？" if review_type == "page-confirmation" else "在当前六册范围外是否需要继续检索，或该节点是否应保持为单方候选？",
             "allowedEvidence": "只记录独立结论、最小页码定位和不确定性；不得复制教材原文、题目、答案、图片或 OCR。",
             "status": "open",
         }
-        # Preserve completed resolutions when rebuilding the deterministic queue.
+        if status == "not-located-in-scope" and item.get("editionBLocator"):
+            generated.update({
+                "status": "resolved",
+                "resolution": item.get("note", "当前六册范围未定位直接页级证据。"),
+                "editionBLocator": item["editionBLocator"],
+                "communityState": "closed-with-maintainer-evidence",
+            })
+        # Preserve completed resolutions when rebuilding the deterministic queue,
+        # but keep generated prompts current with the active input scope.
         prior = existing.get(topic["id"])
         if prior and prior.get("status") != "open":
-            generated.update(prior)
+            for key in ("status", "resolution", "editionBLocator", "communityState"):
+                if key in prior:
+                    generated[key] = prior[key]
             generated["reviewType"] = "scope-expansion" if status == "needs-additional-input" else "page-confirmation"
         queue.append(generated)
     (DATA / "review_queue.json").write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -50,7 +60,7 @@ def main() -> None:
     counts = Counter(item["reviewType"] for item in queue)
     lines = [
         "# 跨版本待复核队列", "",
-        "原五册范围的阶段 5.3 队列已闭环。当前队列同时保留既有待补输入项和版本 A 三年级下册扩展项；它不授权将教材内容提交到仓库，复核者只能提交独立判断、最小页码定位和不确定性。", "",
+        "阶段 5.3 的原五册队列和阶段 5.4 的三年级下册补充队列均已闭环。当前队列保留已完成的范围结论，便于后续新增册次时增量复查；它不授权将教材内容提交到仓库，复核者只能提交独立判断、最小页码定位和不确定性。", "",
         "## 总览", "",
         f"- 队列项目：{len(queue)}。", f"- 关键页确认：{counts['page-confirmation']}。", f"- 范围扩展检索：{counts['scope-expansion']}。", f"- 当前开放项目：{sum(item['status'] == 'open' for item in queue)}。", "- 高优先级：空间表征、图形认识和概念边界项目。", "",
         "## 复核规则", "",
