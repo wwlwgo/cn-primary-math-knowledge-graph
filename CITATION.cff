@@ -3,7 +3,7 @@ message: "If you use this dataset, please cite it as below."
 title: "中国小学数学知识图谱"
 abstract: "面向中国义务教育小学阶段的、可追溯的数学微知识点依赖数据集。"
 type: dataset
-version: "0.2.0-candidate.vertical"
+version: "0.3.0-candidate.cross-edition"
 license: "ODbL-1.0"
 authors:
   - name: "中国小学数学知识图谱贡献者"

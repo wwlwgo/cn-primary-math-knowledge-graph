@@ -6,7 +6,7 @@
 
 ## 项目状态
 
-项目处于 `0.x` 建设阶段。当前公开候选版本为 `candidate-0.2.0-vertical`，包含 91 个 `reviewed` 节点和 19 条 `soft` 依赖。该候选层使用国内小学数学教材的私有核验材料与课程标准建立，仓库不包含教材原件、原文、OCR 或逐页复刻，也不代表任何教材出版方的官方数据。完整来源记录仅用于维护者内部审计；公开数据保留必要的可追溯定位。审计见 [纵向候选骨架审计](docs/review/VERTICAL_CANDIDATE_AUDIT.md)。
+项目处于 `0.x` 建设阶段。当前公开候选版本为 `candidate-0.3.0-cross-edition`，包含 95 个 `reviewed` 节点、18 条 `soft` 依赖、19 个课程标准能力锚点和 56 条课程标准登记。该候选层使用国内小学数学教材的私有核验材料与课程标准建立，仓库不包含教材原件、原文、OCR 或逐页复刻，也不代表任何教材出版方的官方数据。完整来源记录仅用于维护者内部审计；公开数据保留必要的可追溯定位。审计见 [三年级下册扩展审计](docs/review/PHASE_5_4_G3_SPRING_AUDIT.md)。
 
 ## 设计原则
 
@@ -51,7 +51,7 @@ python3 scripts/query_dataset.py grade G2
 
 ## 首个里程碑
 
-当前公开候选版本为 `candidate-0.2.0-vertical`：它使用一组国内小学数学教材的私有定位作为主要核验输入，具有可追溯来源并通过自动校验，但仍待独立教育复核。该版本已发布，且不依赖专家校审。首个 `expert-verified` 版本在此基础上逐批升级，全部 `hard` 边须完成双人领域审核。后续将引入其他教材版本和合法引用的教辅材料进行交叉检验。
+当前公开候选版本为 `candidate-0.3.0-cross-edition`：它覆盖一上至三下六册范围的自动化候选数据，并完成双版本私有核验范围内的课标能力锚点重算。该版本具有可追溯来源并通过自动校验，但仍待独立教育复核。该版本不依赖专家校审。首个 `expert-verified` 版本在此基础上逐批升级，全部 `hard` 边须完成双人领域审核。后续将在四年级新版教材或合法引用资源到位后继续扩展。
 
 课程标准的规范性发布来源为教育部 `教材〔2022〕2号`，见中国政府网的[发布通知](https://www.gov.cn/zhengce/zhengceku/2022-04/21/content_5686535.htm)。项目内的稳定标识及来源记录见 [课标登记册](docs/STANDARDS_REGISTRY.md)。
 
@@ -73,4 +73,4 @@ python3 scripts/query_dataset.py grade G2
 
 本项目借鉴了 [Marble Skill Taxonomy](https://github.com/withmarbleapp/os-taxonomy) 的数据发布与校验治理方式，但不复制其数据或内容；审读结论见 [参考项目审读记录](docs/REFERENCE_REVIEW_MARBLE.md)。
 
-候选版本的范围、限制、许可和发布复现步骤见[发布说明](docs/releases/CANDIDATE_0.2.0_VERTICAL.md)与[发布准备审计](docs/releases/CANDIDATE_0.2.0_VERTICAL_RELEASE_AUDIT.md)。
+候选版本的范围、限制、许可和发布复现步骤见[发布说明](docs/releases/CANDIDATE_0.3.0_CROSS_EDITION.md)与[发布准备审计](docs/releases/CANDIDATE_0.3.0_CROSS_EDITION_RELEASE_AUDIT.md)。

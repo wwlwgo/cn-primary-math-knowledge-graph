@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "datasetVersion": "0.2.0-candidate.vertical",
+  "datasetVersion": "0.3.0-candidate.cross-edition",
   "status": "candidate-release-prepared",
   "databaseLicense": "ODbL-1.0",
   "authoredTextLicense": "CC-BY-SA-4.0",
