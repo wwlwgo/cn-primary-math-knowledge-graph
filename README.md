@@ -15,6 +15,7 @@
 - **区分必需与有益**：`hard` 表示学习所必需的前提，`soft` 表示显著有帮助但可替代的经验。
 - **教材版本无关**：教材是重要证据来源，不是唯一真相；同一概念可映射到多个版本与学期。
 - **数据先行**：核心数据为 JSON，验证工具只使用 Python 标准库，不要求运行服务。
+- **应用契约优先**：应用只依赖稳定 ID、能力锚点和版本化关系，不依赖教材页码、单元或具体表述。
 
 ## 仓库结构
 
@@ -63,6 +64,8 @@ python3 scripts/query_dataset.py grade G2
 从教材建立候选数据时遵循[教材抽取协议](docs/EXTRACTION_PROTOCOL.md)，确保候选推断与发布数据分离。
 
 候选发布、跨教材交叉检验、社区复核和专家确认的边界见[证据与复核框架](docs/EVIDENCE_AND_REVIEW_FRAMEWORK.md)。
+
+建设应用案例前请阅读[应用集成契约](docs/APPLICATION_INTEGRATION_CONTRACT.md)。
 
 ## 许可
 
